@@ -9,6 +9,7 @@ const ICONS = ROOT + 'assets/img/icons/';
 
 // Navbar links: [folder name, label]
 const PAGES = [
+  ['home', 'Home'],
   ['introduction', 'Introduction'],
   ['executive-summary', 'Executive Summary'],
   ['axis-1', '1. Transitioning Energy, Industry, and Transport'],
@@ -22,9 +23,11 @@ const PAGES = [
 class YbNavbar extends HTMLElement {
   connectedCallback() {
     const active = this.getAttribute('active');
-    const links = PAGES.map(([page, label]) =>
-      `<li><a class="navbar__link t-nav" href="${ROOT}${page}/"${page === active ? ' aria-current="page"' : ''}>${label}</a></li>`
-    ).join('');
+    const links = PAGES.map(([page, label]) => {
+    const href = page === 'home' ? ROOT : `${ROOT}${page}/`;   // Home = site root
+    const current = page === active ? ' aria-current="page"' : '';
+      return `<li><a class="navbar__link t-nav" href="${href}"${current}>${label}</a></li>`;
+    }).join('');
 
     this.innerHTML = `
       <nav class="navbar" aria-label="Yearbook">
@@ -33,7 +36,7 @@ class YbNavbar extends HTMLElement {
             <a href="https://unfccc.int">
               <img src="${ICONS}logo-unfccc.svg" width="180" height="40" alt="United Nations Climate Change">
             </a>
-            <a href="#" class="btn btn--primary">
+            <a href="${ROOT}executive-summary/?print" class="btn btn--primary" data-print-summary>
               <img src="${ICONS}download.svg" width="24" height="24" alt="">
               Download the Executive Summary
             </a>

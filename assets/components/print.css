@@ -1,0 +1,71 @@
+/* =========================================================
+   PRINT.CSS – how pages look when printed / saved as PDF
+   (used by "Download the Executive Summary" in the navbar)
+   ========================================================= */
+
+@page { size: A4; margin: 14mm 12mm; }
+
+/* Anything with class "print-only" is hidden on the website, shown in the PDF */
+.print-only { display: none; }
+
+@media print {
+  /* Keep background colours (card headers, grey rows, coloured bars) */
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Hide website-only parts */
+  yb-navbar, yb-footer { display: none !important; }
+
+  /* Slightly smaller text on paper */
+  body { font-size: 14px; line-height: 22px; }
+  .axis-summary__indicators { font-size: 14px; line-height: 22px; padding-block: var(--spacing-10); }
+  .axis-summary__list { font-size: 13px; line-height: 19px; }
+  .axis-summary__header { padding-block: var(--spacing-12); }
+  .axis-summary__cell { padding: var(--spacing-16) var(--spacing-24); gap: var(--spacing-8); }
+
+  .t-eyebrow-hero {
+    font: 700 var(--font-size-20) / var(--line-height-24) }
+   .t-display {
+    font: 400 var(--font-size-48) / var(--line-height-64) var(--font-family-heading); }
+
+  /* Full width of the paper */
+  .container { max-width: none; padding-inline: 0; }
+
+  /* Compact page header */
+  .page-header { height: 200px; }
+  .page-header__content { padding-inline: var(--spacing-48); gap: var(--spacing-8); }
+
+  /* Tighter sections. Flex is switched off on paper because
+     browsers ignore "don't cut this card" rules inside flex layouts */
+  .section, .section__content { display: block; padding: var(--spacing-24); }
+  .section-heading__title { padding: 0 var(--spacing-24); }
+  .section__content { padding-block: 0; }
+  .section > * + *, .section__content > * + * { margin-top: var(--spacing-16); }
+
+  /* No shadows on paper */
+  .axis-summary, .figure__image, .card-accent, .chart { box-shadow: none; }
+
+  /* Never cut a card, figure or heading across two pages */
+  .axis-summary, .figure, .chart, .callout, .card-accent { break-inside: avoid; }
+  h2, h3, h4, .section-heading { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+
+  .figure { padding: var(--spacing-8 0); }
+
+  /* Axis summaries start on a new page */
+  .axis-summaries { break-before: page; padding-top: 0; padding-bottom: 0; }
+
+  /* Links: no blue on paper */
+  a { color: inherit; }
+
+  /* No animations while printing */
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+
+    /* Print-only blocks become visible */
+  .print-only { display: block; }
+
+  /* Link boxes at the end of the PDF */
+  .print-links { break-inside: avoid; padding: var(--spacing-32); }
+  .print-links .card-link { min-height: 0; padding: var(--spacing-16) var(--spacing-24); }
+  .print-links .card-link__meta { font-size: 12px; line-height: 18px; letter-spacing: 0; }
+  .print-links .card-link__title { font: 700 var(--font-size-16) / var(--line-height-24) var(--font-family-body); }
+}

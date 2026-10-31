@@ -25,3 +25,6 @@
 
 /* 5. Page-specific styles */
 @import './pages/home.css';
+
+/* 6. Print / Save as PDF */
+@import './components/print.css';

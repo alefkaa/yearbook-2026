@@ -25,6 +25,7 @@ Every page loads just two files:
 | `components/tabs.css` | Axis tabs |
 | `components/accordion.css` | Accordion, search field, filter chips, CCI list |
 | `pages/home.css` | Homepage only: hero, intro, axis grid |
+| `components/print.css` | Print / Save as PDF: A4 pages, hides navbar & footer, keeps cards whole |
 
 ## Scripts
 
@@ -36,6 +37,7 @@ Every page loads just two files:
 | `components/footer.js` | `<yb-footer>` – footer |
 | `components/tabs.js` | Any `data-tabs` block |
 | `components/accordion.js` | Any `data-accordion` block + the CCI list (search, filters, show all) |
+| `components/print.js` | Purple navbar button: opens the print window on the Executive Summary |
 
 ## Content & media
 

@@ -11,3 +11,6 @@ import './components/footer.js';
 // Interactive components
 import './components/tabs.js';
 import './components/accordion.js';
+
+// Print / Save as PDF
+import './components/print.js';
