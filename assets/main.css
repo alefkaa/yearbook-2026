@@ -12,6 +12,7 @@
 @import './components/callouts.css';
 @import './components/cards.css';
 @import './components/charts.css';
+@import './components/axis-summary.css';
 
 /* 3. Site frame (same on every page) */
 @import './components/navbar.css';

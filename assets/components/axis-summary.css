@@ -1,0 +1,87 @@
+/* =========================================================
+   AXIS SUMMARY CARD (Executive Summary page)
+   Figma: Card / Axis Summary
+   header → indicators line → Global Progress | Remaining Gaps
+                            → NAZCA | PAS (grey row)
+   ========================================================= */
+
+.axis-summaries { padding-top: var(--spacing-0); padding-bottom: var(--spacing-92); }
+
+.axis-summary {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px 4px rgba(25, 25, 112, 0.08);
+  overflow: hidden;
+}
+
+/* --- Header: axis icon + title --- */
+.axis-summary__header {
+  display: flex; align-items: center; gap: var(--spacing-16);
+  padding: 20px var(--spacing-32);
+  background: var(--color-bg-section-blue);
+}
+.axis-summary__icon { width: 54px; height: 54px; flex-shrink: 0; }
+.axis-summary__title {
+  font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body);
+  color: var(--color-text-nav);
+}
+
+/* --- Indicators line --- */
+.axis-summary__indicators {
+  padding: var(--spacing-16) var(--spacing-32);
+  border-bottom: 1px solid var(--color-border-default);
+}
+.axis-summary__indicators strong { color: var(--color-accent-teal); }
+
+/* --- Rows of two cells --- */
+.axis-summary__row { display: grid; grid-template-columns: 1fr 1fr; }
+.axis-summary__row--muted {
+  background: var(--color-gray-50);
+  border-top: 1px solid var(--color-border-default);
+}
+.axis-summary__cell {
+  --marker: var(--color-text-brand);
+  display: flex; flex-direction: column; gap: var(--spacing-12);
+  padding: var(--spacing-24) var(--spacing-32);
+}
+.axis-summary__cell + .axis-summary__cell { border-left: 1px solid var(--color-border-default); }
+
+/* Cell heading with a small coloured bar in front */
+.axis-summary__heading {
+  display: flex; align-items: center; gap: var(--spacing-8);
+  font: 700 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+}
+.axis-summary__heading::before {
+  content: ""; flex-shrink: 0;
+  width: 4px; height: 20px; border-radius: 2px;
+  background: var(--marker);
+}
+
+/* Bullet list */
+.axis-summary__list {
+  padding-left: var(--spacing-24);
+  font: 400 var(--font-size-16)/var(--line-height-26) var(--font-family-body);
+}
+
+/* Colours per cell type */
+.axis-summary__cell--progress { --marker: var(--color-accent-teal); }
+.axis-summary__cell--gaps     { --marker: var(--color-accent-orange); }
+.axis-summary__cell--progress strong { color: var(--color-accent-teal); }
+.axis-summary__cell--gaps strong     { color: var(--color-accent-orange); }
+.axis-summary__cell--nazca .axis-summary__heading,
+.axis-summary__cell--pas .axis-summary__heading { color: var(--color-text-brand); }
+
+/* Underlined term (e.g. "CCI function") */
+.term {
+  text-decoration: underline;
+  text-decoration-color: var(--color-icon-neutral);
+  text-underline-offset: 3px;
+}
+
+/* --- Small screens: cells stack --- */
+@media (max-width: 800px) {
+  .axis-summary__header, .axis-summary__indicators, .axis-summary__cell { padding-inline: var(--spacing-16); }
+  .axis-summary__row { grid-template-columns: 1fr; }
+  .axis-summary__cell + .axis-summary__cell { border-left: 0; border-top: 1px solid var(--color-border-default); }
+}

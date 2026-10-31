@@ -24,3 +24,18 @@
   .chart__scroll { overflow-x: auto; }
   .chart__scroll .chart__image { min-width: 700px; }
 }
+
+/* ---------------------------------------------------------
+   FIGURE – image with a title (e.g. Executive Summary diagram)
+   --------------------------------------------------------- */
+.figure { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-32); padding: var(--spacing-24); }
+.figure__title {
+  width: 100%; text-align: center;
+  font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body);
+  color: var(--color-text-brand);
+}
+.figure__image {
+  width: 100%; max-width: 920px; height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px 4px rgba(25, 25, 112, 0.08);
+}
