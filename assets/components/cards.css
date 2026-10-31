@@ -336,3 +336,7 @@
 /* AXIS4-ADDED */
 /* Self-tracking card without a status tag (grey progress bar) */
 .card-tracking--neutral { --status: var(--color-gray-400, #9a9a9a); }
+
+/* AXIS6-ADDED */
+/* Case study card: no grey box when there is no target / contribution text */
+.card-case__meta:not(:has(*)) { display: none; }

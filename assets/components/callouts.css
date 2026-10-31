@@ -70,3 +70,7 @@
   .nps-snapshot { padding: var(--spacing-24); }
   .nps-snapshot__lists { flex-direction: column; }
 }
+
+/* AXIS5-ADDED */
+/* NPS snapshot – regular intro sentence above a list (instead of a bold list title) */
+.nps-snapshot__list-intro { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }

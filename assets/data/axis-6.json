@@ -1,0 +1,476 @@
+{
+  "_about": "Axis 6 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less | done",
+  "gsi": {
+    "20": [
+      {
+        "indicator": "Global total climate finance",
+        "trend": "progress",
+        "baseline": {
+          "value": "1891 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        },
+        "latest": {
+          "value": "2008 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        }
+      },
+      {
+        "indicator": "Global public climate finance",
+        "trend": "progress",
+        "baseline": {
+          "value": "719 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        },
+        "latest": {
+          "value": "763 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        }
+      },
+      {
+        "indicator": "Global private climate finance",
+        "trend": "progress",
+        "baseline": {
+          "value": "1172 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        },
+        "latest": {
+          "value": "1200 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        }
+      },
+      {
+        "indicator": "Finance mobilized globally for adaptation",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "81.5 Billion USD",
+          "year": "2022",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        },
+        "latest": {
+          "value": "64.1 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        }
+      },
+      {
+        "indicator": "Climate finance to the waste sector",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "10.06 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatepolicyinitiative.org/wp-content/uploads/2026/06/Global-Landscape-of-Climate-Finance-2026.pdf\" target=\"_blank\" rel=\"noopener\">CPI</a>"
+        }
+      }
+    ],
+    "21": [
+      {
+        "indicator": "Number of companies in the world's largest 2,000 publicly listed companies (by annual revenue) with any emissions reduction end target (absolute, intensity, vs BAU, net zero, etc.)",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "1610 companies (of 2,079 tracked)",
+          "year": "2026",
+          "source": "<a href=\"https://zerotracker.net/\" target=\"_blank\" rel=\"noopener\">Net Zero Tracker</a>, DDL"
+        }
+      },
+      {
+        "indicator": "Number of companies in the world's largest 2,000 publicly listed companies (by annual revenue) with a net zero end target",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "947 companies (of 2,079 tracked)",
+          "year": "2026",
+          "source": "<a href=\"https://zerotracker.net/\" target=\"_blank\" rel=\"noopener\">Net Zero Tracker</a>, DDL"
+        }
+      }
+    ],
+    "22": [
+      {
+        "indicator": "Countries with national green public procurement frameworks",
+        "trend": "progress",
+        "baseline": {
+          "value": "49 countries",
+          "year": "2022",
+          "source": "<a href=\"https://unstats.un.org/sdgs/report/2026/extended-report/Extended-Report-2026_Goal-12.pdf\" target=\"_blank\" rel=\"noopener\">UNEP</a>"
+        },
+        "latest": {
+          "value": "54 countries",
+          "year": "2025",
+          "source": "<a href=\"https://unstats.un.org/sdgs/report/2026/extended-report/Extended-Report-2026_Goal-12.pdf\" target=\"_blank\" rel=\"noopener\">UNEP</a>"
+        }
+      }
+    ],
+    "23": [
+      {
+        "indicator": "Revenue from carbon pricing mechanisms",
+        "trend": "progress",
+        "baseline": {
+          "value": "103 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://carbonpricingdashboard.worldbank.org/\" target=\"_blank\" rel=\"noopener\">World Bank</a>"
+        },
+        "latest": {
+          "value": "107.6 Billion USD",
+          "year": "2025",
+          "source": "<a href=\"https://carbonpricingdashboard.worldbank.org/\" target=\"_blank\" rel=\"noopener\">World Bank</a>"
+        }
+      }
+    ],
+    "24": [
+      {
+        "indicator": "Fossil fuel consumption subsidies",
+        "trend": "progress",
+        "baseline": {
+          "value": "636 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/data-product/fossil-fuel-subsidies-database#data-sets\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "598.5 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/data-product/fossil-fuel-subsidies-database#data-sets\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      }
+    ],
+    "25": [
+      {
+        "indicator": "Oil & gas methane emissions",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "72.3 Mt CH4/year",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Methane emissions from the fossil fuel supply chain",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "124 Mt CH4/year",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "124 Mt CH4/year",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2026/key-findings\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Energy sector methane emissions (total)",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "144 Mt CH4/year",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "144 Mt CH4/year",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Agricultural N₂O emissions",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "7.46 Mt N₂O/year",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        },
+        "latest": {
+          "value": "7.57 Mt N₂O/year",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/%20https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      }
+    ],
+    "26": [
+      {
+        "indicator": "Developing countries receiving capacity building for NAP preparation and implementation",
+        "trend": "progress",
+        "baseline": {
+          "value": "89UNFCCC] countries",
+          "year": "2024",
+          "source": "<a href=\"https://unfccc.int/sites/default/files/resource/sbi2024_23.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        },
+        "latest": {
+          "value": "92 countries",
+          "year": "2026",
+          "source": "<a href=\"https://unfccc.int/sites/default/files/resource/sbi2024_23.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        }
+      },
+      {
+        "indicator": "Value of Readiness Support Programmes committed to enhancing developing countries' access to finance from International Climate Funds (ICFs)",
+        "trend": "progress",
+        "baseline": {
+          "value": "641.58 Million USD",
+          "year": "2024",
+          "source": "<a href=\"https://unfccc.int/sites/default/files/resource/cp2024_03a01.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        },
+        "latest": {
+          "value": "749 Million USD",
+          "year": "2025",
+          "source": "<a href=\"https://unfccc.int/sites/default/files/resource/cp2025_07a01.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        }
+      },
+      {
+        "indicator": "NDCs explicitly including circular economy",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "56% of new NDCs",
+          "year": "2025",
+          "source": "<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2025-08/undp_ndc_insights_series_july_2025.pdf\" target=\"_blank\" rel=\"noopener\">UNDP</a>"
+        }
+      }
+    ],
+    "27": [
+      {
+        "indicator": "Number of countries cooperating on Digital Public Infrastructure and Digital Public Goods",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "",
+          "source": ""
+        },
+        "latest": {
+          "value": "32 countries",
+          "year": "2026",
+          "source": "<a href=\"https://www.digitalpublicgoods.net/2025-DPG-Ecosystem-Report\" target=\"_blank\" rel=\"noopener\">DPGA</a>"
+        }
+      },
+      {
+        "indicator": "Access to information and communication technologies",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "74% of people with access",
+          "year": "2025",
+          "source": "<a href=\"https://data.worldbank.org/indicator/IT.NET.USER.ZS\" target=\"_blank\" rel=\"noopener\">World Bank</a>, SCL"
+        }
+      }
+    ],
+    "28": [
+      {
+        "indicator": "Government support for agricultural research, education and technical assistance",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "35 billion USD",
+          "year": "2025",
+          "source": "<a href=\"https://www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/\" target=\"_blank\" rel=\"noopener\">OECD</a>, <a href=\"https://openknowledge.worldbank.org/entities/publication/7eef73a7-c4f6-590b-8e31-3a4051d875a9\" target=\"_blank\" rel=\"noopener\">Malins; Searchinger. et al</a> , SCL"
+        }
+      }
+    ],
+    "29": [
+      {
+        "indicator": "No global indicator currently tracks this objective",
+        "trend": "progress",
+        "baseline": {
+          "value": "—",
+          "year": "—",
+          "source": "IRENA, SCL"
+        },
+        "latest": {
+          "value": "—",
+          "year": "—",
+          "source": "IRENA, SCL"
+        }
+      }
+    ],
+    "30": [
+      {
+        "indicator": "Countries adopting UN Information Integrity Principles",
+        "trend": "progress",
+        "baseline": {
+          "value": "8 countries",
+          "year": "2024",
+          "source": "<a href=\"https://www.un.org/en/climatechange/information-integrity\" target=\"_blank\" rel=\"noopener\">UNESCO</a>"
+        },
+        "latest": {
+          "value": "28 countries",
+          "year": "2026",
+          "source": "<a href=\"https://www.unesco.org/en/information-integrity-climate-change/cop30declaration?hub=780\" target=\"_blank\" rel=\"noopener\">UNESCO</a>"
+        }
+      }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Global Shield against Climate Risks",
+      "description": "The Global Shield provides and facilitates more and better pre-arranged protection against climate- and disaster-related risks for vulnerable people and countries, enabling greater financial protection and faster, more reliable preparedness and response to loss and damage.",
+      "indicator": "More Countries/Regions with Pre-Arranged Protection Against Climate and Disaster-Related Risks",
+      "value": "4",
+      "unit": "countries",
+      "reported": "Reported 2026",
+      "progress": 10,
+      "baseline": "Baseline: 3 (2025)",
+      "target": "Target: 14 (2030)",
+      "findings": "By the end of 2025, the Global Shield In-Country Process had been carried out in 14 countries. Through its financing vehicles, Global Shield Financing Facility enabled 17 countries to access financial protection, directly protecting 4.2 million people, including 2.3 million women, while Global Shield Solutions Platform reported 4.8 million vulnerable people protected under its global and regional thematic windows."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Net-Zero Export Credit Agencies Alliance (NZECA)",
+      "description": "The member-led and UN-convened Net-Zero Export Credit Agencies Alliance (NZECA) unites leading public trade finance institutions committed to delivering net-zero economies by 2050 by supporting the decarbonisation of trade and facilitating joint action from public and private finance.",
+      "indicator": "Number of members with publicly available intermediate and net-zero by 2050",
+      "value": "5",
+      "unit": "members",
+      "reported": "Reported 2026",
+      "progress": 40,
+      "baseline": "Baseline: 0 (2023)",
+      "target": "Target: 12 (2030)",
+      "findings": "Five full members set and publicly disclosed an intermediate science-based target for 2030 or sooner, consistent with a pathway to net zero by 2050 at the latest."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "done",
+      "statusLabel": "Accomplished",
+      "name": "Sustainable Business COP",
+      "description": "A permanent business platform with representatives from more than 120 countries and territories, reaching over 55 million companies. It mobilizes the private sector to implement the Paris Agreement and deliver the 1.5°C goal across the six axes of the Global Climate Action Agenda.",
+      "indicator": "Permanent business platform at UNFCCC COPs",
+      "value": "120",
+      "unit": "countries represented",
+      "reported": "Reported 2026",
+      "progress": 100,
+      "baseline": "Baseline: 0 (2025)",
+      "target": "Target: 100 (2030)",
+      "findings": "Sustainable Business COP reached representatives from more than 120 countries and territories by August 2026, up from more than 60 in September 2025, surpassing the target of 100."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Strengthening institutional capacity for climate and disaster risk finance",
+      "initiative": "by the Global Shield against Climate Risks",
+      "target": "Related CCI target: More Countries/Regions with Pre-Arranged Protection Against Climate and Disaster-Related Risks",
+      "contribution": "This action is reported as contributing to Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance, and Objective 26. Governance, state capacities and institutional strengthening for climate action, planning and preparedness (under Axis 6).",
+      "body": [
+        "The Global Shield strengthens the technical and institutional capacity needed to develop and implement effective Climate and Disaster Risk Finance and Insurance (CDRFI) solutions. Through the Global Shield Solutions Platform (GSSP), partner countries and regional actors receive capacity-development support linked to climate risk analysis, research and education, and the design and implementation of financial protection solutions. GSSP also promotes knowledge exchange and collaboration among CDRFI practitioners and regional risk pools. The Global Shield Financing Facility (GSFF) complements this work through country and regional training, workshops and knowledge exchanges that strengthen government and stakeholder capabilities in areas including CDRFI analytics, risk modelling, financial protection and shock-responsive systems.",
+        "These activities contribute to the Global Shield's goal of closing financial protection gaps by strengthening the knowledge, technical expertise and institutional capabilities required to make informed risk-financing decisions and implement CDRFI solutions. Building these capabilities supports more sustained country and regional ownership of financial protection approaches and strengthens the enabling conditions for CDRFI solutions to be designed, implemented and maintained over time.",
+        "In 2025, GSSP convened 64 experts at the third Climate Risk Finance Forum, supporting technical exchange on sustainable premium and capital support, and GSFF conducted 25 workshops, trainings and exchanges reaching 585 participants across multiple regions. Activities covered areas including CDRFI analytics, flood modelling, digital disaster risk management platforms and de-risking livestock value chains, alongside regional workshops and knowledge exchanges supporting peer learning and collaboration. GSFF also produced and disseminated 42 CDRFI knowledge and analytical products to strengthen the evidence base available to governments and practitioners."
+      ]
+    },
+    {
+      "title": "Systematizing Export Credit Agencies’ GHG Accounting Practices",
+      "initiative": "by the Net-Zero Export Credit Agencies Alliance (NZECA)",
+      "target": "Related CCI target: Number of members with publicly available intermediate and net-zero by 2050",
+      "contribution": "",
+      "body": [
+        "The initiative advances GHG accounting methodologies for Export Credit Agencies (ECAs) by convening online workshops with NZECA members. Insights generated will contribute to an internal white paper and support the evolution of future Partnership for Carbon Accounting Financials (PCAF) standards that more accurately reflect the activities and financing structures of ECAs.",
+        "Through the development of practical and applicable GHG accounting practices for ECAs, combined with annual reporting of individual and collective progress, this initiative strengthens transparency and accountability in the sector. The resulting insights and disclosures support enhanced transparency frameworks and help align ECA activities with long-term low-GHG development strategies and the climate policy objectives of their home countries and the Paris Agreement."
+      ]
+    },
+    {
+      "title": "Sustainable Business COP Awards",
+      "initiative": "by Sustainable Business COP",
+      "target": "",
+      "contribution": "",
+      "body": [
+        "Sustainable Business COP is a strategic initiative backed by 40+ countries. It mobilizes the private sector to deliver the 1.5°C goal, focusing on eight priority areas for a just, resilient, and regenerative economy, including Energy, Bioeconomy, Green Skills, and Transition Finance.",
+        "Sustainable Business COP ran a global public call for private sector climate solutions across its eight thematic areas. More than 1,400 submissions were received from organizations worldwide, covering a portfolio of 670 initiatives.",
+        "The Working Groups assessed submissions on scale of impact, feasibility within five years, economic viability, innovation and alignment with Sustainable Business COP priorities. The 48 selected cases from +13 countries, announced in October 2025 and awarded around COP 30 in Belém, showcased private sector implementation aligned with the Global Stocktake outcomes and the objectives of the Global Climate Action Agenda.",
+        "These cases show that scalable private sector climate solutions already exist across sectors and regions. They inform Sustainable Business COP recommendations and give COP Presidencies and partners a portfolio of proven solutions for replication and scale."
+      ]
+    }
+  ],
+  "pas": {
+    "20": [
+      "Transition Plans for Financial Institutions",
+      "Financing of Clean Industrial Projects",
+      "Super taxonomy",
+      "Methodologies for Climate Spending in Public Budgets",
+      "Credit Enhancement for Private Capital Mobilization",
+      "Closing the Data Gap: Innovating Finance for Systematic Observation",
+      "Transaction Hub",
+      "FX EDGE: Foreign Capital Mobilization and FX Hedge Program",
+      "Driving a smarter and more coordinated approach to adaptation and resilience through philanthropy",
+      "Fostering Investable National Adaptation &amp; Resilience Planning and Implementation",
+      "National Adaptation Plan (NAP) Implementation Alliance (NIA)",
+      "Country Platforms for Climate and Nature Finance",
+      "Financial Instruments for Ready and Resilient Response (FIRRe)"
+    ],
+    "22": [
+      "Harnessing public procurement in high-impact sectors to drive climate action and a just transition"
+    ],
+    "23": [
+      "Plan to harmonize carbon markets through shared guidance, tools, interoperable registries, and coordinated capacity-building",
+      "Plan to Grow Carbon Markets",
+      "Plan to Harmonize Global Carbon Accounting Standards",
+      "Narrowing the ambition gap by financing high-integrity Article 6 action beyond NDCs"
+    ],
+    "24": [
+      "Harnessing Trade Policy for NDCs, Low-Carbon Economic Diversification and Climate Resilience"
+    ],
+    "25": [
+      "Climate and Clean Air Coalition Technology and Economic Assessment Panel (TEAP)",
+      "World Bank’s Global Methane Reduction Platform for Development (CH4D)",
+      "Super pollutant country accelerator",
+      "Oil and gas operational decarbonization (OGCI, OGDC and industry collaboration)"
+    ],
+    "26": [
+      "Protection of Environmental Defenders in the context of the climate crisis and just transition",
+      "Comprehensive Risk Management",
+      "Protocol for Promoting Women’s and Girls’ Agency in Climate Emergencies and Disasters",
+      "Scaling Sectoral Business Coalitions for Climate Action"
+    ],
+    "27": [
+      "Bridging NAZCA and the Yearbook of Climate Action through KPIs for the Global Stocktake",
+      "AI for Power Innovation Platform for the Global South (powered by ElectronVibe)",
+      "Digital Decarbonization",
+      "DPI and DPGs to Accelerate Climate Action"
+    ],
+    "28": [
+      "Building a thriving Global South climate tech startup ecosystem",
+      "Promising avenues to streamline climate finance and support for startups and SMES in developing countries",
+      "Global South Cleantech Entrepreneurship Alliance - GSCEA"
+    ],
+    "29": [
+      "Pipeline aggregation and bioeconomy finance &amp; investments",
+      "Bioeconomy Challenge: A Global Roadmap for Transformative Bioeconomy Action"
+    ],
+    "30": [
+      "Plan to Accelerate the Promotion of Information Integrity on Climate Change"
+    ]
+  }
+}

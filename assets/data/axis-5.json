@@ -1,0 +1,278 @@
+{
+  "_about": "Axis 5 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less | done",
+  "gsi": {
+    "16": [
+      {
+        "indicator": "Health institutions committed to net zero",
+        "trend": "progress",
+        "baseline": {
+          "value": "70 institutions",
+          "year": "2024",
+          "source": "<a href=\"https://healthcareclimateaction.org/racetozero\" target=\"_blank\" rel=\"noopener\">Health Care Without Harm</a>"
+        },
+        "latest": {
+          "value": "100 institutions",
+          "year": "2026",
+          "source": "<a href=\"https://healthcareclimateaction.org/racetozero\" target=\"_blank\" rel=\"noopener\">Health Care Without Harm</a>"
+        }
+      },
+      {
+        "indicator": "Countries with a Health National Adaptation Plan (HNAP)",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "54 countries",
+          "year": "2024",
+          "source": "<a href=\"https://www.atachcommunity.com/our-impact/progress-tracker/\" target=\"_blank\" rel=\"noopener\">ATACH</a>"
+        }
+      }
+    ],
+    "17": [
+      {
+        "indicator": "Number of people living in extreme poverty",
+        "trend": "progress",
+        "baseline": {
+          "value": "831 Million people",
+          "year": "2025",
+          "source": "<a href=\"https://thedocs.worldbank.org/en/doc/229ff18129687a785f08af7cfb28e5e1-0350012025/original/WBG-Poverty-and-Inequality-Update-Fall-2025.pdf\" target=\"_blank\" rel=\"noopener\">World Bank</a>"
+        },
+        "latest": {
+          "value": "811 Million people",
+          "year": "2026",
+          "source": "<a href=\"https://pip.worldbank.org/home\" target=\"_blank\" rel=\"noopener\">World Bank</a>"
+        }
+      },
+      {
+        "indicator": "Number of developing countries with updated NAPs",
+        "trend": "progress",
+        "baseline": {
+          "value": "59 developing countries",
+          "year": "2024",
+          "source": "<a href=\"https://unfccc.int/sites/default/files/resource/NAP_Progress_Report_2024.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        },
+        "latest": {
+          "value": "81 developing countries",
+          "year": "2026",
+          "source": "<a href=\"https://napcentral.org/submitted-NAPs\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
+        }
+      },
+      {
+        "indicator": "Number of people facing hunger",
+        "trend": "progress",
+        "baseline": {
+          "value": "673 Million people",
+          "year": "2024",
+          "source": "<a href=\"https://www.who.int/news/item/28-07-2025-global-hunger-declines-but-rises-in-africa-and-western-asia-un-report\" target=\"_blank\" rel=\"noopener\">FAO, IFAD, UNICEF, WFP and WHO</a>"
+        },
+        "latest": {
+          "value": "645 Million people",
+          "year": "2025",
+          "source": "<a href=\"https://www.fao.org/newsroom/detail/sofi-2026--hunger-not-inevitable--fao-says-as-global-hunger-report-shows-progress/en\" target=\"_blank\" rel=\"noopener\">FAO, IFAD, UNICEF, WFP and WHO</a>"
+        }
+      },
+      {
+        "indicator": "Disaster-related deaths and missing persons per 100,000 population",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "0.75 Deaths per 100,000 population",
+          "year": "2016–2025",
+          "source": "<a href=\"https://www.undrr.org/news/sendai-framework-data-shows-progress-and-persistent-gaps-reducing-disaster-risk\" target=\"_blank\" rel=\"noopener\">UNDRR</a>"
+        }
+      }
+    ],
+    "18": [
+      {
+        "indicator": "Jobs in renewable energy",
+        "trend": "progress",
+        "baseline": {
+          "value": "16.2 Million jobs",
+          "year": "2023",
+          "source": "[<a href=\"https://www.irena.org/Publications/2024/Oct/Renewable-energy-and-jobs-Annual-review-2024\" target=\"_blank\" rel=\"noopener\">IRENA</a>, <a href=\"https://systemschangelab.org/sites/default/files/2025-10/SoCA%20Report_Final_10.21.2025.pdf\" target=\"_blank\" rel=\"noopener\">SCL</a>"
+        },
+        "latest": {
+          "value": "16.6 Million Jobs",
+          "year": "2024",
+          "source": "<a href=\"https://www.irena.org/Publications/2026/Jan/Renewable-energy-and-jobs-Annual-review-2025\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        }
+      },
+      {
+        "indicator": "Integration of environment, sustainability and climate change in national curricula",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "40 (score from 0 (worst) to 100 (best), average across 110 countries)",
+          "year": "2024",
+          "source": "<a href=\"https://world-education-blog.org/2025/11/14/get-to-know-the-greening-curriculum-indicator-part-of-sdg-global-indicator-4-7-1/\" target=\"_blank\" rel=\"noopener\">UNESCO</a>"
+        }
+      },
+      {
+        "indicator": "Students whose schooling was disrupted by climate hazards",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "171 Million students",
+          "year": "2025",
+          "source": "<a href=\"https://www.unicef.org/press-releases/more-171-million-students-had-their-schooling-disrupted-climate-hazards-2025-unicef\" target=\"_blank\" rel=\"noopener\">UNICEF</a>"
+        }
+      },
+      {
+        "indicator": "Women in renewable energy jobs",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "32%",
+          "year": "2024",
+          "source": "<a href=\"https://www.irena.org/Publications/2019/Jan/Renewable-Energy-A-Gender-Perspective\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        },
+        "latest": {
+          "value": "32%",
+          "year": "2025",
+          "source": ""
+        }
+      }
+    ],
+    "19": [
+      {
+        "indicator": "No global indicator currently tracks this objective",
+        "trend": "progress",
+        "baseline": {
+          "value": "—",
+          "year": "—",
+          "source": "IRENA, SCL"
+        },
+        "latest": {
+          "value": "—",
+          "year": "—",
+          "source": "IRENA, SCL"
+        }
+      }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Children and Climate Initiative",
+      "description": "The Children and Climate Initiative is working to protect and enhance the health and education of children and young people facing climate change, especially in vulnerable communities.",
+      "indicator": "Domestic policy development",
+      "value": "0",
+      "unit": "references in domestic policy",
+      "reported": "Reported 2026",
+      "progress": 0,
+      "baseline": "Baseline: 0 (2024)",
+      "target": "Target: 8 (2027)",
+      "findings": "Processes for influencing domestic policy are still underway, with the aim to have more significant progress by the end of 2027."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Preserving Legacies",
+      "description": "Preserving Legacies is on a mission to safeguard the world’s heritage places and practices from the impacts of climate change by supporting local change makers with training, tools, and connections to equitably adapt what their communities cherish most and build a more just and thriving future.",
+      "indicator": "Risk Assessment and Adaptation Planing for Heritage Places",
+      "value": "15",
+      "unit": "specific heritage places",
+      "reported": "Reported 2026",
+      "progress": 20,
+      "baseline": "Baseline: 0 (2022)",
+      "target": "Target: 70 (2030)",
+      "findings": "Custodians of these heritage places have now mapped relevant rightsholders and stakeholders and engaged them in a locally led climate change risk assessment and adaptation planning process for their heritage place and are in the process of disseminating the results. These heritage places include Petra Archaeology Park (Jordan), the Historic Mosque City of Bagerhat (Bangladesh), Payo'n Binoltan - Ifugao Rice Terraces (Philippines) and Nelson’s Dockyard National Park (Antigua and Barbuda)."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Preserving Legacies",
+      "description": "Preserving Legacies is on a mission to safeguard the world’s heritage places and practices from the impacts of climate change by supporting local change makers with training, tools, and connections to equitably adapt what their communities cherish most and build a more just and thriving future.",
+      "indicator": "Growing a Community of Action to Scale Locally Led Adaptation Action for Culture and Heritage",
+      "value": "124",
+      "unit": "distinct organizations",
+      "reported": "Reported 2026",
+      "progress": 40,
+      "baseline": "Baseline: 0 (2026)",
+      "target": "Target: 300 (2028)",
+      "findings": "11 global networks have been recruited to be leadership partners of Heritage Adapts! including Center for Indigenous Peoples' Research and Development (CIPRED), Climate Heritage Network, ICOMOS, Julie’s Bicycle, Heritage Management Organization, Europa Nostra, International Federation of Library Associations, National Geographic Society, Shadona, World Monuments Fund, and UNESCO ICH NGO Forum. Another 113 Supporting Partners and Services Providers have been recruited."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Children and Climate Initiative",
+      "description": "The Children and Climate Initiative is working to protect and enhance the health and education of children and young people facing climate change, especially in vulnerable communities.",
+      "indicator": "International awareness raising",
+      "value": "1",
+      "unit": "references in international policy",
+      "reported": "Reported 2026",
+      "progress": 50,
+      "baseline": "Baseline: 0 (2024)",
+      "target": "Target: 2 (2027)",
+      "findings": "Cooperation has taken place in the UNFCCC processes to raise the issue of ECD and climate change at the international level. This has resulted in children being identified as a uniquely vulnerable population in the Belém Health Action Plan. Work will continue with these processes to seek further opportunities to raise the topic and to support countries in making domestic adaptation policies."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Contribution to Belem Health Action Plan",
+      "initiative": "by the Children and Climate Initiative",
+      "target": "Related CCI targets: Domestic policy development; International awareness raising",
+      "contribution": "This action is reported as contributing to Objective 16. Promoting resilient health systems.",
+      "body": [
+        "The Children and Climate Initiative collaborated with the Brazilian Health Ministry to provide evidence and refined wording to ensure children were identified as a uniquely vulnerable demographic in the Belem Health Action Plan (BHAP). The resulting document requires signatories to design adaptive health policy which accurately reflects their needs.",
+        "Subsequently, the CCI was invited to join Action Group 16 on resilient health systems and WHO's ATACH community. Signatory countries must now address children as a uniquely vulnerable group and shape their health sector adaptation plans to fit their needs.",
+        "The Initiative’s overall goals include awareness raising and facilitating policy change to reflect the interests of children – this outcome is specifically related to achieving this goal."
+      ]
+    },
+    {
+      "title": "Onboarding 2026 Cohort of Heritage Custodians",
+      "initiative": "by Preserving Legacies",
+      "target": "",
+      "contribution": "",
+      "body": [
+        "Preserving Legacies is on a mission to safeguard the world’s heritage places and practices from the impacts of climate change by supporting local change makers with training, tools, and connections to equitably adapt what their communities cherish most and build a more just and thriving future.",
+        "Preserving Legacies is welcoming the custodians of seven new heritage places and practices to the Preserving Legacies climate adaptation program, each bringing their distinct histories, perspectives, skills, and relationships to the shared challenge of climate change: Engaresero GIAHS Site (Ngorongoro District, Tanzania); Kci-peskiyak (Sipayik, Maine, USA); Lahemaa National Park (Estonia); Lamu Old Town (Lamu Island, Kenya); Mount Wutai (Shanxi, China); Mosi-Oa-Tunya / Victoria Falls (Livingstone, Zambia); Palestine: Land of Olives and Vines – Cultural Landscape of Southern Jerusalem – Battir (Battir, Bethlehem, Palestine).",
+        "As Foundation Sites, this cohort will spend their first year strengthening climate and cultural literacy, preparing for values-based risk assessments, and building the groundwork for long-term adaptation action.",
+        "They are joining 30 heritage places and practices in different phases of the initiative’s flagship three-year climate adaptation cohort program, which supports local custodians with the tools, training, and networks needed to design and implement values-based climate adaptation strategies. Grounded in principles that are community-led, values-driven, science-informed, and open-access, the program supports communities to protect what they value most."
+      ]
+    }
+  ],
+  "pas": {
+    "16": [
+      "The Belém Health Action Plan for the Adaptation of the Health Sector to Climate Change"
+    ],
+    "17": [
+      "Belém Declaration on Hunger, Poverty and Human-Centred Climate Action Implementation Plan",
+      "Just solutions for climate mobility",
+      "Advancing people-centred Resilience",
+      "Locally-Led Adaptation"
+    ],
+    "18": [
+      "New Skills Development for the Future: Empowering Women and Youth for a Just Transition - A Global Multi-Stakeholder Partnership",
+      "Strengthening Higher Education for Accelerated Climate Action",
+      "Africa-Brazil-LAC Network on Education and Youth Policies for Climate Sustainability and Resilience",
+      "The Engagement Community On Jobs &amp; Skills for the New Economy"
+    ],
+    "19": [
+      "Heritage Adapts",
+      "Accelerate the integration of Cultural Heritage considerations into National Adaptation Plans (NAPs)",
+      "Narratives and storytelling as catalysts for climate action",
+      "Heritage-Informed Building Decarbonization",
+      "Storming the Apocalypse: Disaster Risk Reduction &amp; Cultural Infrastructure."
+    ]
+  }
+}
