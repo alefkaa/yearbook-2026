@@ -127,6 +127,7 @@
 
 .objective-card {
   display: flex; align-items: center; gap: var(--spacing-16);
+  min-height: 92px;
   padding: var(--spacing-12) var(--spacing-16);
   background: var(--color-bg-surface);
   border-radius: var(--radius-md);

@@ -102,7 +102,7 @@
   object-fit: contain; padding: 4px;
 }
 .cci-row__text { display: flex; flex-direction: column; gap: var(--spacing-4); }
-.cci-row__name { font: 400 var(--font-size-12)/var(--line-height-22) var(--font-family-body); }
+.cci-row__name { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
 .cci-row__tags { display: flex; flex-wrap: wrap; gap: var(--spacing-8); }
 
 .cci-empty { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); color: var(--color-text-secondary); }

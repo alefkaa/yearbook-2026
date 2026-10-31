@@ -104,7 +104,8 @@
   --spacing-0: 0;
   --spacing-2: 2px;  --spacing-4: 4px;  --spacing-6: 6px;  --spacing-8: 8px;
   --spacing-10: 10px; --spacing-12: 12px; --spacing-16: 16px; --spacing-24: 24px;
-  --spacing-32: 32px; --spacing-48: 48px; --spacing-92: 92px; --spacing-120: 120px;
+  --spacing-32: 32px; --spacing-48: 48px; --spacing-54: 64px; --spacing-92: 92px; 
+  --spacing-120: 120px;
 
   /* Radius, borders, shadow */
   --radius-sm: 4px; --radius-md: 8px; --radius-full: 9999px;
@@ -173,7 +174,7 @@ a { color: var(--color-text-link); }
 
 /* One section = heading + content */
 .section { display: flex; flex-direction: column; gap: var(--spacing-32); padding-block: var(--spacing-48); }
-.section__content { display: flex; flex-direction: column; gap: var(--spacing-24); }
+.section__content { display: flex; flex-direction: column; gap: var(--spacing-32); }
 
 /* Groups of paragraphs: one blank line (28px) between them */
 .prose p + p { margin-top: var(--line-height-28); }

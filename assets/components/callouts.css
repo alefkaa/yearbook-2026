@@ -4,7 +4,7 @@
    ========================================================= */
 
 .callout {
-  display: flex; flex-direction: column; gap: var(--spacing-8);
+  display: flex; flex-direction: column; gap: var(--spacing-16);
   background: var(--color-bg-section-blue);
   padding: var(--spacing-32);
 }
@@ -12,7 +12,7 @@
   font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
   letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
 }
-.callout__inner { padding: var(--spacing-10); display: flex; flex-direction: column; gap: var(--spacing-16); }
+.callout__inner { display: flex; flex-direction: column; gap: var(--spacing-16); }
 
 /* Big Lora quote (callout with no body text) */
 .callout__lead { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
@@ -22,5 +22,5 @@
   background: var(--color-bg-surface);
   border-radius: 6px;
   padding: var(--spacing-16);
-  font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading);
+  font: 600 var(--font-size-20)/var(--line-height-32) var(--font-family-heading);
 }

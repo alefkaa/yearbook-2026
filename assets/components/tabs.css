@@ -42,7 +42,7 @@
 }
 .tabs__label {
   display: block;
-  font: 700 var(--font-size-12)/var(--line-height-22) var(--font-family-body);
+  font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body);
 }
 
 .tabs__panels { background: var(--color-bg-tab-active); padding: var(--spacing-24); }
