@@ -1,0 +1,263 @@
+{
+  "_about": "Axis 3 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less | done",
+  "gsi": {
+    "8": [
+      {
+        "indicator": "GHG emissions intensity of enteric fermentation",
+        "trend": "progress",
+        "baseline": {
+          "value": "3100 gCO₂e/1,000 kcal",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "3000 gCO₂e/1,000 kcal",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        }
+      },
+      {
+        "indicator": "GHG emissions intensity of manure management",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "650 gCO₂e/1,000 kcal",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "670 gCO₂e/1,000 kcal",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      },
+      {
+        "indicator": "GHG emissions intensity of soil fertilization",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "68 gCO₂e/1,000 kcal",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "68 gCO2e/1,000 kcal",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      },
+      {
+        "indicator": "GHG emissions intensity of rice cultivation",
+        "trend": "progress",
+        "baseline": {
+          "value": "380 gCO₂e/1,000 kcal",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "370 gCO₂e/1,000 kcal",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Crop yields",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "6.8 T/Ha",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "6.8 T/Ha",
+          "year": "2024",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Ruminant meat productivity",
+        "trend": "progress",
+        "baseline": {
+          "value": "30 Kg/Ha",
+          "year": "2022",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "31 Kg/Ha",
+          "year": "2024",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      }
+    ],
+    "9": [
+      {
+        "indicator": "Share of food production lost",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "13%",
+          "year": "2021",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/SDGB\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "13%",
+          "year": "2023",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/SDGB\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>, SCL"
+        }
+      }
+    ],
+    "10": [
+      {
+        "indicator": "Countries legally recognizing land tenure rights for Indigenous Peoples and Local Communities",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "79% of countries",
+          "year": "2020",
+          "source": "<a href=\"https://rightsandresources.org/who-owns-the-worlds-land-2nd-ed/\" target=\"_blank\" rel=\"noopener\">Rights and Resources Initiative</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Population with undernourishment",
+        "trend": "progress",
+        "baseline": {
+          "value": "9.1% of population",
+          "year": "2023",
+          "source": "<a href=\"https://unstats.un.org/sdgs/dataportal/database\" target=\"_blank\" rel=\"noopener\">UNSTAT</a>, SCL"
+        },
+        "latest": {
+          "value": "7.8% of population",
+          "year": "2025",
+          "source": "<a href=\"https://unstats.un.org/sdgs/dataportal/database\" target=\"_blank\" rel=\"noopener\">UNSTAT</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Percent of Population unable to afford healthy diet",
+        "trend": "progress",
+        "baseline": {
+          "value": "37.4% of population",
+          "year": "2021",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/CAHD\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        },
+        "latest": {
+          "value": "32.7% of population",
+          "year": "2025",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/CAHD\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Food Waste Breakthrough",
+      "description": "Halving global food waste by 2030, in line with SDG 12.3, by keeping food out of landfills, and reducing consequent global methane emissions, supporting the achievement of the Global Methane Pledge.",
+      "indicator": "Halving global food waste per capita by 2030 and reducing consequent methane emissions",
+      "value": "79",
+      "unit": "kg/capita/year",
+      "reported": "Reported 2026",
+      "progress": 0,
+      "baseline": "Baseline: 79 (2025)",
+      "target": "Target: 39 (2030)",
+      "findings": "This value reflects findings from the latest Food Waste Index Report, published in 2024. Achievement of the target will be updated when the new Food Waste Index Report is published in 2027."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "International '4per1000' Initiative - Soils for Food Security and Climate",
+      "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
+      "indicator": "Multi-stakeholder engagement",
+      "value": "19",
+      "unit": "multi-stakeholder events convened",
+      "reported": "Reported 2026",
+      "progress": 50,
+      "baseline": "Baseline: 0 (2015)",
+      "target": "Target: 40 (2030)",
+      "findings": "The Initiative has organized or co-organized at least 19 documented multi-stakeholder events, including global, regional and thematic convenings on soil health, soil organic carbon and sustainable land management. Additional events, including virtual fairs, workshops and COP-related events, remain under review. Each qualifying event is counted once, with no automatic double counting of individual sessions within larger events."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "International \"4per1000\" Initiative - Soils for Food Security and Climate",
+      "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
+      "indicator": "Science-based knowledge and tools",
+      "value": "35",
+      "unit": "knowledge products/tools",
+      "reported": "Reported 2026",
+      "progress": 70,
+      "baseline": "Baseline: 0 (2015)",
+      "target": "Target: 50 (2030)",
+      "findings": "The Initiative has developed, co-developed or substantively supported 35 qualifying science-based knowledge products, tools and methodologies, including scientific publications, technical resources, MRV-related tools and STC scientific webinars. This represents a conservative documented minimum. Additional audiovisual resources remain under review and will only be included where they qualify as distinct, substantive knowledge products."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "International \"4per1000\" Initiative - Soils for Food Security and Climate",
+      "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
+      "indicator": "Scientific and technical support for soil-health initiatives",
+      "value": "46",
+      "unit": "projects and initiatives supported",
+      "reported": "Reported 2026",
+      "progress": 70,
+      "baseline": "Baseline: 0 (2015)",
+      "target": "Target: 65 (2030)",
+      "findings": "The Initiative has documented support for 46 distinct projects or initiatives, including 45 completed formative scientific assessments by its Scientific and Technical Committee and one additional project-development initiative. Pending submissions and ongoing assessments are excluded. Each underlying project or initiative is counted only once, regardless of the number or type of support activities received. This represents the current documented working figure."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Convening global, regional and virtual multi-stakeholder events",
+      "initiative": "by the 4per1000 Initiative - Soils for Food Security and Climate",
+      "target": "Related CCI target: Multi-stakeholder engagement",
+      "contribution": "This action is reported as contributing to Objective 8. Land restoration and sustainable agriculture, and Objective 9. More resilient, adaptive, sustainable, and circular food systems.",
+      "body": [
+        "The “4 per 1000” Initiative convenes global, regional, thematic and virtual multi-stakeholder events to facilitate dialogue, knowledge exchange and collaboration on soil health, soil organic carbon, sustainable land management and climate-resilient agriculture. These events bring together participants from governments and public authorities, research institutions, farmers and farmers organizations, civil society, international organizations and the private sector. Global formats such as the Forum of Partners or the virtual partners’ fair are complemented by regional and thematic meetings and conferences that allow discussions to reflect different agricultural, climatic and socio-economic contexts. Through these convenings, the Initiative provides spaces for stakeholders to exchange scientific evidence, practical experience, policy perspectives and implementation approaches and to identify opportunities for cooperation and follow-up activities and support partners to engage in follow up projects.",
+        "By convening stakeholders from different sectors, regions and levels of decision-making, the Initiative strengthens opportunities for knowledge exchange, collaboration and partnership-building around soil health, soil organic carbon and sustainable land management. The events connect scientific evidence with practical experience and policy perspectives and enable farmers and agricultural organizations, researchers, public authorities, civil society, international organizations and private-sector actors to identify common challenges and exchange on potential solutions.",
+        "Regional activities have included convenings in Africa, Asia, North America, the Mediterranean, Latin America and the Caribbean, as well as meetings focused on temperate-climate regions. The meetings have covered a broad range of topics related to soil health and sustainable land management, including soil organic carbon sequestration, agroecology, climate-change mitigation, carbon markets, public policy, agricultural transition, financing, monitoring approaches and the adaptation of soil-health strategies to different regional contexts.",
+        "Regional conferences have also been used to develop region-specific follow-up roadmaps and recommendations. In the Mediterranean, the regional conference concluded with the development of a six-year roadmap for 2025–2030, which was subsequently presented at the 12th CIHEAM Ministerial Meeting in Rabat. The roadmap addresses advocacy, network development, financing of agricultural transitions and improved monitoring tools."
+      ]
+    },
+    {
+      "title": "Brazil–Japan Technical Exchange on SDG 12.3",
+      "initiative": "by the Food Waste Breakthrough",
+      "target": "",
+      "contribution": "",
+      "body": [
+        "In 2026, the Food Waste Breakthrough facilitated a bilateral technical exchange between Japan and Brazil to strengthen cooperation on food-waste prevention and implementation of Sustainable Development Goal 12.3. Japan and Brazil co-developed a joint Roadmap that identified shared priorities and established a framework for continued technical exchange and policy dialogue.",
+        "During the First Meeting of the Intersectoral Strategy for Reducing Food Loss and Waste, Japan shared its policy experience with representatives of the Brazilian federal and subnational governments and other stakeholders. The collaboration also supported the preparation of a funding proposal designed to mobilize resources and scale up implementation. The process connected national policy development, subnational engagement, technical knowledge exchange and resource mobilization within a single bilateral cooperation model.",
+        "The action strengthened the enabling environment for achieving the Food Waste Breakthrough’s goal of halving food waste by 2030. It connected both countries around a shared implementation framework and enabled practical learning between countries with different policy and governance contexts. By linking national policy dialogue with subnational participation, technical exchange and resource mobilization, the collaboration can accelerate the adoption of proven approaches and reduce duplication of effort. The joint Roadmap also provides continuity beyond a single event by defining shared priorities and a basis for follow-up. Its replicability also creates a pathway for the Food Waste Breakthrough to facilitate similar cooperation among additional countries.",
+        "The action established a structured channel for bilateral cooperation on food loss and waste between Japan and Brazil."
+      ]
+    }
+  ],
+  "pas": {
+    "8": [
+      "Resilient Agriculture Investment for Net Zero Land Degradation (RAIZ)",
+      "Accelerating Actions on Land Restoration &amp; Sustainable Agriculture in the Global South",
+      "Private Sector and Subnational Government Actions to Restore Degraded Landscapes",
+      "Fertiliser Solutions",
+      "Carbon Removals in Agriculture",
+      "Integrating Agricultural Development and Methane Mitigation"
+    ],
+    "9": [
+      "Access to Finance for Agrifood Systems Transformation",
+      "Enabling and Showcasing Delivery of Ambitious National Commitments on Food Systems Transformation",
+      "TERRA - Together for the Expansion of Resilient and Restorative Agroecology and Agroforestry",
+      "Aquatic Food Systems as Climate Solutions",
+      "Multiple Benefits of Algae Aquaculture",
+      "Digital Information Solutions for Agriculture",
+      "Regenerative Agriculture for Healthy Soil and Healthy Diets"
+    ],
+    "10": [
+      "Advancing Food Security and Nutrition through Food Recovery and Food Loss &amp; Waste Reduction",
+      "Healthy &amp; Sustainable Diets for All",
+      "Convergence and Coherence of Public Policies for Climate Action and Food Systems Transformation"
+    ]
+  }
+}
