@@ -1,0 +1,115 @@
+/* =========================================================
+   CONTENT COMPONENTS (static, HTML lives in the page)
+   ========================================================= */
+
+/* --- Button --- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: var(--spacing-6); padding: var(--spacing-8) var(--spacing-16);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font: 400 var(--font-size-16)/var(--line-height-22) var(--font-family-body);
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease),
+              border-color var(--duration-fast) var(--ease),
+              box-shadow var(--duration-fast) var(--ease);
+}
+.btn:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: 2px; }
+
+.btn--primary { background: var(--color-button-primary-bg); color: var(--color-button-primary-text); }
+.btn--primary:hover  { background: var(--color-button-primary-bg-hover); }
+.btn--primary:active { background: var(--color-button-primary-bg-pressed); }
+
+.btn--secondary { background: var(--color-button-secondary-bg); color: var(--color-button-secondary-text); border-color: var(--color-button-secondary-border); }
+.btn--secondary:hover  { background: var(--color-button-secondary-bg-hover); }
+.btn--secondary:active { background: var(--color-button-secondary-bg-pressed); }
+
+.btn--tertiary { background: var(--color-button-secondary-bg); color: var(--color-button-tertiary-text); border-color: var(--color-button-tertiary-border); }
+.btn--tertiary:hover  { background: var(--color-button-secondary-bg-hover); }
+.btn--tertiary:active { background: var(--color-button-secondary-bg-pressed); }
+
+.btn--medium { padding: var(--spacing-6) var(--spacing-12); font-size: var(--font-size-14); line-height: 20px; }
+
+.btn:disabled, .btn[aria-disabled="true"] {
+  background: var(--color-button-disabled-bg); color: var(--color-button-disabled-text);
+  border-color: transparent; cursor: not-allowed;
+}
+
+/* --- Section Heading --- */
+.section-heading { display: flex; flex-direction: column; gap: var(--spacing-10); }
+.section-heading__eyebrow {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.section-heading__title {
+  font: 400 var(--font-size-32)/var(--line-height-48) var(--font-family-heading);
+  color: var(--color-text-primary);
+}
+
+/* --- Card / Accent ---
+   Default: 18px caps title (priority / info cards)
+   --stat : 24px caps title (key figures, "At a glance") */
+.card-accent {
+  --accent: var(--color-accent-indigo);
+  background: var(--color-bg-surface);
+  border-left: var(--border-width-accent) solid var(--accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-24);
+  display: flex; flex-direction: column; gap: var(--spacing-8);
+}
+.card-accent__title {
+  font: 700 var(--font-size-18)/var(--line-height-24) var(--font-family-body);
+  text-transform: uppercase; color: var(--accent);
+}
+.card-accent__text { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+
+.card-accent--stat { gap: var(--spacing-4); }
+.card-accent--stat .card-accent__title { font-size: var(--font-size-24); line-height: var(--line-height-32); }
+
+.card-accent--indigo { --accent: var(--color-accent-indigo); }
+.card-accent--teal   { --accent: var(--color-accent-teal); }
+.card-accent--blue   { --accent: var(--color-accent-blue); }
+.card-accent--orange { --accent: var(--color-accent-orange); }
+.card-accent--purple { --accent: var(--color-accent-purple); }
+
+/* --- Callout / Explainer --- */
+.callout { background: var(--color-bg-section-blue); padding: var(--spacing-32); }
+.callout__inner { padding: var(--spacing-10); display: flex; flex-direction: column; gap: var(--spacing-16); }
+.callout__lead { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
+
+/* --- COP 31 Priority (green header above a group of objectives) --- */
+.priority {
+  display: flex; align-items: center; gap: var(--spacing-12);
+  padding: var(--spacing-12) 20px;
+  background: var(--color-bg-table-header-green);
+  border-left: 4px solid var(--color-border-strong);
+  border-radius: 6px;
+}
+.priority__title { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
+
+/* --- Card / Key Objective --- */
+.objective-card {
+  display: flex; align-items: center; gap: var(--spacing-16);
+  padding: var(--spacing-12) var(--spacing-16);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+.objective-card img { flex-shrink: 0; }
+.objective-card__label {
+  font: 400 var(--font-size-14)/var(--line-height-24) var(--font-family-body);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.objective-card__text { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
+
+/* --- Groups of objectives --- */
+.objective-groups { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-24); align-items: start; }
+.objective-groups--single { grid-template-columns: 1fr; }
+.objective-group { display: flex; flex-direction: column; gap: var(--spacing-12); }
+.objective-list { display: flex; flex-direction: column; gap: var(--spacing-16); }
+.objective-list--2col { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-16); align-items: start; }
+
+@media (max-width: 900px) {
+  .objective-groups, .objective-list--2col { grid-template-columns: 1fr; }
+}
