@@ -204,3 +204,17 @@ a { color: var(--color-text-link); }
     animation-duration: 0.01ms !important;
   }
 }
+
+/* AXIS-PAGES-ADDED */
+/* ---------------------------------------------------------
+   BANDS – full-width coloured background behind a section
+   <div class="band band--blue"><section class="section container">…
+   --------------------------------------------------------- */
+.band--blue { background: var(--color-bg-section-blue); }
+.band--blue .section { padding-bottom: var(--spacing-92); }
+
+/* Text colour helper */
+.text-brand { color: var(--color-text-brand); }
+
+/* Paragraphs with a smaller gap (16px instead of a blank line) */
+.prose--tight p + p { margin-top: var(--spacing-16); }

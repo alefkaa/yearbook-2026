@@ -1,0 +1,51 @@
+/* =========================================================
+   SIDEBAR – section navigator on the left of long pages
+   <yb-sidebar></yb-sidebar>
+   One line per section with data-sidebar-label="…".
+   The line of the section you're reading is purple.
+   Only shown on wide screens (there's no room on smaller ones).
+   ========================================================= */
+
+yb-sidebar {
+  position: fixed; left: 30px; top: 220px; z-index: 50;
+  display: none;
+}
+@media (min-width: 1360px) { yb-sidebar { display: block; } }
+yb-sidebar { transition: opacity var(--duration-base) var(--ease); }
+yb-sidebar.is-hidden { opacity: 0; pointer-events: none; }
+
+.sidebar {
+  list-style: none; margin: 0; padding: 10px 0;
+  width: 46px;
+  background: var(--color-bg-subtle);
+  border-radius: 16px;
+}
+.sidebar__link {
+  position: relative;
+  display: flex; align-items: center;
+  height: 46px; padding-inline: 10px;
+}
+/* the line */
+.sidebar__link::before {
+  content: ""; width: 26px; height: 2px;
+  background: var(--color-icon-default);
+  transition: background-color var(--duration-base) var(--ease), height var(--duration-base) var(--ease);
+}
+.sidebar__link:hover::before { background: var(--color-text-nav); }
+.sidebar__link[aria-current="true"]::before { height: 3px; background: var(--color-accent-purple); }
+
+/* the label, shown on hover / keyboard focus */
+.sidebar__label {
+  position: absolute; left: 52px; top: 50%;
+  transform: translate(-4px, -50%);
+  padding: var(--spacing-4) var(--spacing-12);
+  background: var(--color-brand-navy); color: var(--color-text-inverse);
+  border-radius: var(--radius-sm);
+  font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body);
+  white-space: nowrap;
+  opacity: 0; pointer-events: none;
+  transition: opacity var(--duration-fast) var(--ease), transform var(--duration-fast) var(--ease);
+}
+.sidebar__link:hover .sidebar__label,
+.sidebar__link:focus-visible .sidebar__label { opacity: 1; transform: translate(0, -50%); }
+.sidebar__link:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: -2px; border-radius: var(--radius-sm); }

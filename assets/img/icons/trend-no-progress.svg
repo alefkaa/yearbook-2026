@@ -1,0 +1,15 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" fill="#E5E5E5"/>
+<g id="Base Components">
+<rect width="1368" height="4341" transform="translate(-395 -2827)" fill="white"/>
+<g id="Trend Progress">
+<rect x="-334.5" y="-20.5" width="433" height="103" rx="4.5" stroke="#8A38F5" stroke-dasharray="10 5"/>
+<g id="State=No Progress">
+<g id="icon">
+<circle id="circle" cx="18" cy="18" r="17.5" fill="white" stroke="#7E4DA8" stroke-dasharray="6 6"/>
+<path id="Vector (Stroke)" d="M23.3636 11.964C23.7151 11.6126 24.2848 11.6126 24.6363 11.964C24.9877 12.3155 24.9877 12.8852 24.6363 13.2367L19.5726 18.3004L24.6363 23.364C24.9877 23.7155 24.9877 24.2852 24.6363 24.6367C24.2848 24.9882 23.7151 24.9882 23.3636 24.6367L18.2999 19.573L13.2363 24.6367C12.8848 24.9882 12.3151 24.9882 11.9636 24.6367C11.6121 24.2852 11.6121 23.7155 11.9636 23.364L17.0273 18.3004L11.9636 13.2367C11.6121 12.8852 11.6121 12.3155 11.9636 11.964C12.3151 11.6126 12.8848 11.6126 13.2363 11.964L18.2999 17.0277L23.3636 11.964Z" fill="#7E4DA8"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

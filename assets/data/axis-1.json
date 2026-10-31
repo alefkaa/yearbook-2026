@@ -1,0 +1,377 @@
+{
+  "_about": "Axis 1 data. gsi = Section II tables, one list per key objective. trend: progress | no-progress | insufficient-data",
+  "gsi": {
+    "1": [
+      {
+        "indicator": "Renewable Energy Capacity",
+        "trend": "progress",
+        "baseline": {
+          "value": "4400 GW",
+          "year": "2024",
+          "source": "<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Mar/IRENA_DAT_RE_Capacity_Statistics_2025.pdf\" target=\"_blank\" rel=\"noopener\">IRENA</a>, SCL"
+        },
+        "latest": {
+          "value": "5149 GW",
+          "year": "2025",
+          "source": "<a href=\"https://www.irena.org/Publications/2026/Mar/Renewable-capacity-statistics-2026\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        }
+      },
+      {
+        "indicator": "Rate of Improvement of energy intensity",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "1%",
+          "year": "2023",
+          "source": "<a href=\"https://www.iea.org/reports/energy-efficiency-2024\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        },
+        "latest": {
+          "value": "1%",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/news/global-progress-on-energy-efficiency-picks-up-in-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Share of solar and wind in electricity generation",
+        "trend": "progress",
+        "baseline": {
+          "value": "15%",
+          "year": "2024",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        },
+        "latest": {
+          "value": "17.3%",
+          "year": "2025",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/?mode=combined&amp;metric=pct_share&amp;fuel=wind_and_solar\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Share of zero-carbon sources in electricity generation",
+        "trend": "progress",
+        "baseline": {
+          "value": "41%",
+          "year": "2024",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        },
+        "latest": {
+          "value": "42.6%",
+          "year": "2025",
+          "source": "<a href=\"https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Renewables power generation per capita",
+        "trend": "progress",
+        "baseline": {
+          "value": "478 watts per capita",
+          "year": "2023",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/SDG7-Report2025-0804-V11.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        },
+        "latest": {
+          "value": "544 watts per capita",
+          "year": "2024",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/Chapter3-Renewables.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        }
+      },
+      {
+        "indicator": "Electricity as % of total final energy consumption",
+        "trend": "progress",
+        "baseline": {
+          "value": "21%",
+          "year": "2022",
+          "source": "<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Oct/IRENA_COP30_GRA_Tracking_the_UAE_Consensus_2025.pdf\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        },
+        "latest": {
+          "value": "23%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/world-energy-outlook-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        }
+      }
+    ],
+    "2": [
+      {
+        "indicator": "Sustainable Aviation Fuels (SAF) share",
+        "trend": "progress",
+        "baseline": {
+          "value": "0.6%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/\" target=\"_blank\" rel=\"noopener\">IATA</a>, SCL"
+        },
+        "latest": {
+          "value": "0.8% (projected)",
+          "year": "2026",
+          "source": "<a href=\"https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/\" target=\"_blank\" rel=\"noopener\">IATA</a>"
+        }
+      },
+      {
+        "indicator": "Use of zero-emissions fuels in maritime shipping fuel supply",
+        "trend": "progress",
+        "baseline": {
+          "value": "0 EJ",
+          "year": "2024",
+          "source": "SCL,<a href=\"https://assets.ctfassets.net/gk3lrimlph5v/3InjQiz6GbF7LZQsWkvDTs/5822cca783cfb117a12b755b483eb4c7/Climate_action_in_Shipping_-_Progress_towards_shipping-s_2030_breakthrough_2025.pdf\" target=\"_blank\" rel=\"noopener\">UCL Energy Institute, Getting to Zero Coalition, CHCL</a>"
+        },
+        "latest": {
+          "value": "0.005–0.016 EJ",
+          "year": "2026",
+          "source": "<a href=\"https://assets.ctfassets.net/gk3lrimlph5v/69BWQav4yU60SweQ4cinSz/01cc1121c9ae8bc7b5f59f30d683a120/Climate_action_in_shipping_2026.pdf\" target=\"_blank\" rel=\"noopener\">UCL Energy Institute, Getting to Zero Coalition</a>"
+        }
+      },
+      {
+        "indicator": "Carbon intensity of global steel production",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "1.92 tonnes CO2/ tonne of crude steel",
+          "year": "2023",
+          "source": "<a href=\"https://worldsteel.org/wp-content/uploads/Sustainability-Indicators-publication-2025_Feb-2026-1.pdf\" target=\"_blank\" rel=\"noopener\">Worldsteel</a>"
+        },
+        "latest": {
+          "value": "1.92 tonnes CO2/ tonne of crude steel",
+          "year": "2024",
+          "source": "<a href=\"https://worldsteel.org/wp-content/uploads/Sustainability-Indicators-publication-2025_Feb-2026-1.pdf\" target=\"_blank\" rel=\"noopener\">Worldsteel</a>"
+        }
+      },
+      {
+        "indicator": "Share of renewable energy in transport final energy consumption",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "4.8%",
+          "year": "2022",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-consumption-in-transport-by-fuel-in-the-net-zero-scenario-1975-2030\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "4.3%",
+          "year": "2023",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/Chapter3-Renewables.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        }
+      },
+      {
+        "indicator": "Number of public charging stations",
+        "trend": "progress",
+        "baseline": {
+          "value": "5.4 Million",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        },
+        "latest": {
+          "value": ">7 Million",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-charging-chap-6-and-10\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Share of electric vehicles in light-duty vehicle sales",
+        "trend": "progress",
+        "baseline": {
+          "value": "22%",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        },
+        "latest": {
+          "value": "25%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Share of electric vehicles in the light-duty vehicle fleet",
+        "trend": "progress",
+        "baseline": {
+          "value": "4.5%",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        },
+        "latest": {
+          "value": "5%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Heavy goods vehicle sales that are ZEV",
+        "trend": "progress",
+        "baseline": {
+          "value": "1.8%",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        },
+        "latest": {
+          "value": "9%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-ev-outlook-2026/trends-in-other-ev-modes\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        }
+      }
+    ],
+    "3": [
+      {
+        "indicator": "People without access to electricity",
+        "trend": "progress",
+        "baseline": {
+          "value": "666.4 Million people",
+          "year": "2023",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/SDG7-Report2025-0804-V11.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>, SCL"
+        },
+        "latest": {
+          "value": "655 Million people",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/reports/tracking-sdg7-the-energy-progress-report-2026\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        }
+      },
+      {
+        "indicator": "People without access to clean cooking",
+        "trend": "progress",
+        "baseline": {
+          "value": "2077.65 Million people",
+          "year": "2023",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/SDG7-Report2025-0804-V11.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        },
+        "latest": {
+          "value": "2000 Million people",
+          "year": "2024",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/Chapter2-AccessToCleanCooking.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        }
+      },
+      {
+        "indicator": "USD to developing countries for clean energy",
+        "trend": "progress",
+        "baseline": {
+          "value": "24.4 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/Chapter5-InternPublicFInancialFlows.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        },
+        "latest": {
+          "value": "24.6 Billion USD",
+          "year": "2024",
+          "source": "<a href=\"https://trackingsdg7.esmap.org/sites/default/files/download-documents/Chapter5-InternPublicFInancialFlows.pdf\" target=\"_blank\" rel=\"noopener\">IEA, IRENA, UNSD, World Bank, WHO</a>"
+        }
+      },
+      {
+        "indicator": "New renewable capacity cheaper than fossil fuel",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "91%",
+          "year": "2024",
+          "source": "<a href=\"https://www.irena.org/News/pressreleases/2025/Jul/91-Percent-of-New-Renewable-Projects-Now-Cheaper-Than-Fossil-Fuels-Alternatives\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        },
+        "latest": {
+          "value": ">90%",
+          "year": "2025",
+          "source": "<a href=\"https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+        }
+      }
+    ],
+    "4": [
+      {
+        "indicator": "Share of coal in electricity generation",
+        "trend": "progress",
+        "baseline": {
+          "value": "34%",
+          "year": "2024",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        },
+        "latest": {
+          "value": "33%",
+          "year": "2025",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+        }
+      },
+      {
+        "indicator": "Share of fossil gas in electricity generation",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "22%",
+          "year": "2024",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/\" target=\"_blank\" rel=\"noopener\">Ember</a>, SCL"
+        },
+        "latest": {
+          "value": "21.8%",
+          "year": "2025",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+        }
+      },
+      {
+        "indicator": "Fossil-based power as % of generation",
+        "trend": "progress",
+        "baseline": {
+          "value": "61%",
+          "year": "2022",
+          "source": "<a href=\"https://ember-energy.org/latest-insights/global-electricity-review-2023/global-electricity-trends/\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+        },
+        "latest": {
+          "value": "57.4%",
+          "year": "2025",
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+        }
+      },
+      {
+        "indicator": "Oil & gas methane emissions",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "71.5 Mt CH4/year",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "72.3 Mt CH4/year",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Energy sector methane emissions (total)",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "144 Mt CH4/year",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "144 Mt CH4/year",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Methane abatement potential (fossil fuels)",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "~70%",
+          "year": "2023",
+          "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "~70% of emissions",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2026/key-findings\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Oil and gas production covered by methane pledges",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "80%",
+          "year": "2024",
+          "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        },
+        "latest": {
+          "value": "~75%",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2026/key-findings\" target=\"_blank\" rel=\"noopener\">IEA</a>"
+        }
+      },
+      {
+        "indicator": "Explicit fossil fuel subsidies",
+        "trend": "progress",
+        "baseline": {
+          "value": "1.4 Trillion USD",
+          "year": "2022",
+          "source": "<a href=\"https://www.imf.org/en/topics/climate-change/energy-subsidies\" target=\"_blank\" rel=\"noopener\">IMF</a>, SCL"
+        },
+        "latest": {
+          "value": "0.725 Trillion USD",
+          "year": "2024",
+          "source": "<a href=\"https://www.imf.org/en/publications/wp/issues/2025/12/20/underpriced-and-overused-fossil-fuel-subsidies-data-2025-update-572729\" target=\"_blank\" rel=\"noopener\">IMF</a>"
+        }
+      }
+    ]
+  }
+}

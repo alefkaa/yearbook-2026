@@ -1,0 +1,58 @@
+/* =========================================================
+   TABLES
+   GSI table (Axis pages, Section II): indicator | trend | baseline | latest
+   Figma: Table / Header Cell, Table / Cell, Trend Progress
+   ========================================================= */
+
+.table-scroll { overflow-x: auto; }
+
+.gsi-table {
+  width: 100%;
+  border-collapse: separate; border-spacing: 0;
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body);
+}
+
+/* Header */
+.gsi-table th {
+  padding: var(--spacing-8) var(--spacing-16);
+  background: var(--color-border-tab-active);
+  font-weight: 700; text-align: center; white-space: nowrap;
+}
+.gsi-table th:first-child { text-align: left; }
+
+/* Cells */
+.gsi-table td {
+  padding: var(--spacing-8) var(--spacing-16);
+  border-top: 1px solid var(--color-border-default);
+  text-align: center; vertical-align: middle;
+}
+.gsi-table td:first-child { text-align: left; }
+
+/* Column widths + vertical lines (as in Figma) */
+.gsi-table .gsi-table__trend  { width: 140px; border-inline: 1px solid var(--color-border-default); }
+.gsi-table .gsi-table__value  { width: 180px; }
+.gsi-table .gsi-table__latest { width: 190px; border-left: 1px solid var(--color-border-default); }
+
+/* Value cell: value / year / source */
+.gsi-value { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.gsi-value__number { font-size: var(--font-size-14); line-height: var(--line-height-24); }
+.gsi-value__year   { font-size: var(--font-size-12); line-height: 18px; color: var(--color-text-brand); }
+.gsi-value__source { font-size: var(--font-size-12); line-height: 18px; color: var(--color-text-brand); }
+
+/* Trend: icon + label */
+.trend {
+  display: flex; flex-direction: column; align-items: center; gap: var(--spacing-4);
+  font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body);
+}
+.trend img { width: 36px; height: 36px; }
+.trend--progress    { color: var(--color-accent-teal); }
+.trend--no-progress { color: var(--color-accent-purple); }
+.trend--insufficient-data { color: var(--color-text-secondary); }
+
+@media (max-width: 900px) {
+  .gsi-table { min-width: 720px; }
+}

@@ -57,3 +57,21 @@
   .tabs__list { overflow-x: auto; }
   .tabs__tab { flex: 0 0 160px; }
 }
+
+/* AXIS-PAGES-ADDED */
+/* ---------------------------------------------------------
+   KEY OBJECTIVE TABS (axis pages, above the GSI tables)
+   Icon on the left, text on the right
+   --------------------------------------------------------- */
+.tabs--objectives .tabs__tab {
+  flex-direction: row; align-items: center; gap: var(--spacing-10);
+  min-height: 133px; padding: var(--spacing-16);
+  text-align: left;
+}
+.tabs--objectives .tabs__text { display: flex; flex-direction: column; }
+.tabs--objectives .tabs__eyebrow { letter-spacing: .1em; }
+.tabs--objectives .tabs__label { font-size: var(--font-size-14); line-height: var(--line-height-22); }
+
+@media (max-width: 900px) {
+  .tabs--objectives .tabs__tab { flex: 0 0 260px; }
+}

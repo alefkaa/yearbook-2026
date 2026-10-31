@@ -27,4 +27,7 @@
 @import './pages/home.css';
 
 /* 6. Print / Save as PDF */
+@import './components/tables.css';
+@import './components/sidebar.css';
+
 @import './components/print.css';

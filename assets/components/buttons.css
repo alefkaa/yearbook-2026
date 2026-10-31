@@ -46,3 +46,11 @@
 }
 .tag--green   { background: var(--color-tag-green-bg); border-color: var(--color-tag-green-border); color: var(--color-tag-green-text); }
 .tag--neutral { background: var(--color-gray-50); border-color: var(--color-icon-neutral); color: var(--color-icon-neutral); }
+
+/* AXIS-PAGES-ADDED */
+/* --- Blue tag (e.g. "CW3" on Climate Week cards) --- */
+.tag--blue {
+  min-height: 24px;
+  background: #ebf3fc; border-color: var(--color-accent-blue); color: var(--color-accent-blue);
+  font-size: 13px; line-height: var(--line-height-16);
+}

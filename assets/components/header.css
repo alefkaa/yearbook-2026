@@ -14,3 +14,7 @@ yb-header { display: block; }
   display: flex; flex-direction: column; gap: var(--spacing-24);
   color: var(--color-text-inverse);
 }
+
+/* AXIS-PAGES-ADDED */
+/* Large version (axis pages): bigger eyebrow */
+.page-header--large .page-header__eyebrow { font-size: var(--font-size-32); letter-spacing: .2em; }

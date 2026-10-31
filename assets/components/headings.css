@@ -24,3 +24,10 @@
 @media (max-width: 600px) {
   .section-heading--large .section-heading__title { font-size: 36px; line-height: 44px; }
 }
+
+/* AXIS-PAGES-ADDED */
+/* --- Small grey label above a group ("KEY OBJECTIVES", "INDICATORS AT A GLANCE") --- */
+.subheading-eyebrow {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+}
