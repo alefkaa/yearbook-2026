@@ -12,7 +12,7 @@ const ICONS = ROOT + 'assets/img/icons/';
 const TRENDS = {
   'progress':          { label: 'Progress',          icon: 'trend-progress.svg' },
   'no-progress':       { label: 'No Progress',       icon: 'trend-no-progress.svg' },
-  'insufficient-data': { label: 'Insufficient data', icon: 'trend-insufficient-data.svg' }
+  'insufficient-data': { label: 'Insufficient Data', icon: 'trend-insufficient-data.svg' }
 };
 
 const cache = {};   // each JSON file is loaded once, even with several tables
@@ -25,8 +25,8 @@ function valueCell(v) {
   return `
     <div class="gsi-value">
       <span class="gsi-value__number">${v.value}</span>
-      <span class="gsi-value__year">${v.year}</span>
-      <span class="gsi-value__source">${v.source}</span>
+      ${v.year ? `<span class="gsi-value__year">${v.year}</span>` : ''}
+      ${v.source ? `<span class="gsi-value__source">${v.source}</span>` : ''}
     </div>`;
 }
 

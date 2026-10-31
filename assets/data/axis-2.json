@@ -1,0 +1,274 @@
+{
+  "_about": "Axis 2 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less | done",
+  "gsi": {
+    "5": [
+      {
+        "indicator": "Deforestation rate (annual rate of gross tree cover losses that are likely permanent in nature)",
+        "trend": "progress",
+        "baseline": {
+          "value": "8.1 Mha/yr",
+          "year": "2024",
+          "source": "<a href=\"https://systemschangelab.org/sites/default/files/2025-10/SoCA%20Report_Final_10.21.2025.pdf\" target=\"_blank\" rel=\"noopener\">Schumer, C., S. Boehm, J. Jaeger, Y. Kirana, K. Levin et al.</a>, SCL"
+        },
+        "latest": {
+          "value": "7 Mha/yr",
+          "year": "2025",
+          "source": "<a href=\"https://globalnaturewatch.org/\" target=\"_blank\" rel=\"noopener\">Global Nature Watch</a>, <a href=\"https://www.science.org/doi/10.1126/science.1244693\" target=\"_blank\" rel=\"noopener\">Hansen et al</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Forest degradation (transition to lower integrity)",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "63 Mha",
+          "year": "2022",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2024\" target=\"_blank\" rel=\"noopener\">FDA</a>, SCL"
+        },
+        "latest": {
+          "value": "65.4 Mha",
+          "year": "2024",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2026\" target=\"_blank\" rel=\"noopener\">FDA</a>"
+        }
+      },
+      {
+        "indicator": "Forest degradation (humid tropical)",
+        "trend": "progress",
+        "baseline": {
+          "value": "~5.3 Mha/year",
+          "year": "2024",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2026\" target=\"_blank\" rel=\"noopener\">FDA</a>"
+        },
+        "latest": {
+          "value": "3.5 Mha/year",
+          "year": "2025",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2026\" target=\"_blank\" rel=\"noopener\">FDA</a>"
+        }
+      },
+      {
+        "indicator": "Financial institutions in deforestation engagement",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "USD 8T AUM per year from 34 institutions",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatechampions.net/media/cnjfuueq/fsda-progress-report-june-2024.pdf\" target=\"_blank\" rel=\"noopener\">FSDA</a>"
+        },
+        "latest": {
+          "value": "USD 7.5T AUM per year from 30 institutions",
+          "year": "2025",
+          "source": "<a href=\"https://www.iigcc.org/media-centre/fsda-marks-milestones-ahead-of-transition-to-dig\" target=\"_blank\" rel=\"noopener\">FSDA</a>"
+        }
+      }
+    ],
+    "6": [
+      {
+        "indicator": "Terrestrial area protected and conserved (land and inland waters)",
+        "trend": "progress",
+        "baseline": {
+          "value": "17.6% of land and inland waters",
+          "year": "2024",
+          "source": "<a href=\"https://digitalreport.protectedplanet.net/\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC & IUCN</a>"
+        },
+        "latest": {
+          "value": "18.7% of land and inland waters",
+          "year": "2026",
+          "source": "<a href=\"https://www.protectedplanet.net/en\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC & IUCN</a>"
+        }
+      },
+      {
+        "indicator": "Area of degraded ecosystems under restoration (Mha)",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "124.3 Mha",
+          "year": "2015–2025",
+          "source": "<a href=\"https://iucn.org/sites/default/files/2026-08/Restoration%20Achivements%20Database%202026.pdf\" target=\"_blank\" rel=\"noopener\">IUCN</a>"
+        }
+      },
+      {
+        "indicator": "Annual finance flows to nature-based solutions",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "220 Billion USD",
+          "year": "2023",
+          "source": "<a href=\"https://www.unep.org/resources/report/state-finance-nature-2026\" target=\"_blank\" rel=\"noopener\">UNEP</a>"
+        }
+      },
+      {
+        "indicator": "Forest restoration area with projects",
+        "trend": "progress",
+        "baseline": {
+          "value": "10.6 Mha",
+          "year": "2024",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2025/\" target=\"_blank\" rel=\"noopener\">FDA</a>"
+        },
+        "latest": {
+          "value": "11.8 Mha",
+          "year": "2026",
+          "source": "<a href=\"https://forestdeclaration.org/resources/forest-declaration-assessment-2026\" target=\"_blank\" rel=\"noopener\">FDA</a>"
+        }
+      }
+    ],
+    "7": [
+      {
+        "indicator": "Share of marine environment in MPA or OECM",
+        "trend": "progress",
+        "baseline": {
+          "value": "8.5%",
+          "year": "2024",
+          "source": "<a href=\"https://www.unep.org/resources/report/protected-planet-report-2024\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC and IUCN</a>, SCL"
+        },
+        "latest": {
+          "value": "10%",
+          "year": "2025",
+          "source": "<a href=\"https://www.protectedplanet.net/en\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC and IUCN</a>"
+        }
+      },
+      {
+        "indicator": "Global mangrove extent · methodology changed",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "46,809 km²",
+          "year": "2024",
+          "source": "<a href=\"https://www.globalmangrovewatch.org/\" target=\"_blank\" rel=\"noopener\">Global Mangrove Watch</a>"
+        },
+        "latest": {
+          "value": "147,284 km²",
+          "year": "2025",
+          "source": "<a href=\"https://www.globalmangrovewatch.org/\" target=\"_blank\" rel=\"noopener\">Global Mangrove Watch</a>"
+        }
+      },
+      {
+        "indicator": "Global average hard coral cover",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "25.8%",
+          "year": "2024",
+          "source": "<a href=\"https://gcrmn.net/2025-report\" target=\"_blank\" rel=\"noopener\">GCRMN</a>"
+        }
+      }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
+      "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
+      "indicator": "80% of global coral reefs under political commitment",
+      "value": "40%",
+      "unit": "of global reef area",
+      "reported": "Reported 2026",
+      "progress": 50,
+      "baseline": "Baseline: 0% (2025)",
+      "target": "Target: 80% (2026)",
+      "findings": "This figure is a provisional estimate based on the reef area within the exclusive economic zones of current signatories. The Commitment will conduct a detailed assessment of coral reef coverage across signatory jurisdictions ahead of COP 31, drawing on the best available reef extent data, and will report a verified figure at that point."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
+      "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
+      "indicator": "31 signatory governments by COP 31",
+      "value": "22",
+      "unit": "signatories",
+      "reported": "Reported 2026",
+      "progress": 70,
+      "baseline": "Baseline: 0 (2025)",
+      "target": "Target: 31 (2026)",
+      "findings": "The Commitment has grown from 11 signatories at launch in June 2025 to 23 as of September 2026 — 22 national governments plus French Polynesia. Signatories span the Pacific, Caribbean, Western Indian Ocean, Latin America, Southeast Asia, Africa and Europe."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
+      "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
+      "indicator": "50 global organizations support the climate-resilient coral reefs commitment by end of 2026",
+      "value": "43",
+      "unit": "supporters",
+      "reported": "Reported 2026",
+      "progress": 85,
+      "baseline": "Baseline: 0 (2025)",
+      "target": "Target: 50 (2026)",
+      "findings": "43 organizations now formally support the Commitment, against a target of 50 by December 2026. Supporters span development finance, philanthropy, scientific institutions, regional intergovernmental bodies and implementing organizations across every reef region."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "done",
+      "statusLabel": "Accomplished",
+      "name": "Global Fire Management Hub",
+      "description": "To reduce wildfire emissions and strengthen climate resilience by advancing integrated fire management that combines science and Indigenous knowledge to promote sustainable fire use and lower destructive wildfire intensity globally.",
+      "indicator": "Reduction of destructive wildfire risk and emissions through integrated fire management",
+      "value": "30",
+      "unit": "countries",
+      "reported": "Reported 2026",
+      "progress": 100,
+      "baseline": "Baseline: 0 (2023)",
+      "target": "Target: 30 (2028)",
+      "findings": "Fire Hub and PAS partners supported integrated fire management approaches in more than 30 countries during the reporting period. Progress included capacity development, strengthened regional networks, improved knowledge and data sharing, fire risk reduction and early warning, community and Indigenous-led approaches, and support to IFM policy and governance."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Scaling implementation and capacity for integrated fire management (IFM)",
+      "initiative": "by the Global Fire Management Hub",
+      "target": "Related CCI target: Reduction of destructive wildfire risk and emissions through integrated fire management",
+      "contribution": "This action is reported as contributing to Objective 6. Efforts to conserve, protect and restore nature and ecosystems with solutions for climate, biodiversity and desertification.",
+      "body": [
+        "During September 2025–August 2026, the Global Fire Management Hub (Fire Hub) and partners supported implementation of integrated fire management (IFM) in more than 30 countries. Through the Plan to Accelerate Solutions (PAS), Fire Hub projects and related partner initiatives, governments, international and regional organizations, civil society and other partners worked to strengthen national and regional capacities to prevent, prepare for and manage wildfire risk.",
+        "Implementation covered multiple dimensions of IFM, including capacity development and training, fire risk reduction and early warning, improved access to fire knowledge and data, policy and governance support, and community-based and Indigenous-led approaches to fire management. Activities sought to support the transition from predominantly reactive fire suppression towards proactive, risk-informed approaches that place greater emphasis on prevention, preparedness and resilience while recognizing the appropriate use of beneficial fire. The action directly supports the Fire Hub's overarching NAZCA target of supporting partners in 30 countries to implement IFM approaches that reduce the rate and intensity of destructive wildfires, lower associated greenhouse-gas emissions and strengthen resilience.",
+        "The “Basic integrated fire management tools for early warning and decision-making” online course, launched in April 2026, had been accessed by more than 1,000 learners by September. In addition, the working groups (with PAS partners as participants) have produced concrete tools to support fire practitioners and land managers. The Fire Hub Working Group on Data, for example, has produced a catalogue of national, regional and global data sets and identified how each contributes to pre-fire risk mitigation, early warning and preparation, during fire operational response, and post-fire recovery and rehabilitation.",
+        "Together, these results demonstrate progress across the five strategic pillars of the Global Fire Management Hub: knowledge and data sharing; capacity building; wildfire-resilient communities; fire risk reduction and early warning; and IFM policy development and implementation."
+      ]
+    },
+    {
+      "title": "High-level signing of the Climate-Resilient Coral Reefs Commitment at five multilateral convenings",
+      "initiative": "by the Global Commitment to Protect Climate-Resilient Coral Reefs",
+      "target": "Related CCI targets: 80 per cent of global coral reefs under political commitment; 31 signatory governments by COP 31; 50 global organizations support the climate-resilient coral reefs commitment by end of 2026",
+      "contribution": "",
+      "body": [
+        "The Commitment has organized or co-organized high-level events at five major multilateral convenings since its launch (Third UN Ocean Conference, COP 30, UNEA-7, 11th Our Ocean Conference, and 55th Pacific Islands Forum Leaders Meeting), each designed to provide a formal moment for governments to accede and to raise the political visibility of climate-resilient coral reef protection.",
+        "Ahead of and during each event, new supporting organizations were welcomed to the Coral Commitment. Each event was designed to match the key priorities of each conference and to include interventions from signatories highlighting initiatives they are leading to implement the Commitment. The goal was also, each time, to rally all the actors working towards coral reef restoration.",
+        "Structured signing moments at multilateral convenings have proven the most effective mechanism for government accession. They give ministers and heads of delegation a defined, low-burden opportunity to join, with visibility and peer recognition attached. The events also bring signatory governments, scientific institutions, financing mechanisms, frontline community representatives and implementing organizations into the same room, enabling the practical conversations about implementation that follow signature.",
+        "These five convenings have delivered the majority of the Commitment's accessions to date, growing the coalition from eleven signatories at launch to 23, and rallying a total of 45 global organizations.",
+        "The UNEA-7 event coincided with the adoption of UNEA Resolution 1 on accelerating global action to promote the climate resilience of coral reefs, linking the Commitment's non-state ambition to a Member State mandate."
+      ]
+    }
+  ],
+  "pas": {
+    "5": [
+      "TFFF, PES and forests conservation",
+      "REDD+ and combating deforestation",
+      "Integrating Deforestation Into Financial Decision-Making"
+    ],
+    "6": [
+      "Synergistic implementation across the Rio Conventions",
+      "Sustainable Fire Management",
+      "Land tenure for Afro-descendant communities",
+      "Plan to Accelerate an InterGovernmental Land Tenure Commitment for Indigenous Peoples",
+      "Tackling Environmental Crime to Achieve Zero Deforestation",
+      "Synergistic landscapes for the Rio Conventions",
+      "Global Partnership for Enhanced Climate Action in Tourism",
+      "Power of Nature"
+    ],
+    "7": [
+      "Blue Package: Ocean-Based Solutions for the Climate Crisis"
+    ]
+  }
+}

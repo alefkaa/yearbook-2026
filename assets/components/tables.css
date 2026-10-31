@@ -85,3 +85,7 @@
   border-right: 1px solid var(--color-border-default);
 }
 .pas-table td.pas-table__no { color: var(--color-text-muted); }
+
+/* AXIS2-ADDED */
+/* Insufficient data: neutral grey (Figma status/neutral) */
+.trend--insufficient-data { color: var(--color-text-muted); }

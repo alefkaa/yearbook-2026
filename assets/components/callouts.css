@@ -24,3 +24,8 @@
   padding: var(--spacing-16);
   font: 600 var(--font-size-20)/var(--line-height-32) var(--font-family-heading);
 }
+
+/* AXIS2-ADDED */
+/* White version (on a blue band, e.g. "Explainer — Rio Conventions synergies") */
+.callout--white { background: var(--color-bg-surface); }
+.callout--white .callout__inner { gap: 0; }

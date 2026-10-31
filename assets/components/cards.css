@@ -324,3 +324,11 @@
   color: var(--color-text-inverse); text-align: center;
 }
 @media (max-width: 700px) { .photo-banner__text { font-size: 22px; line-height: 32px; } }
+
+/* AXIS2-ADDED */
+/* Tracking card – "Accomplished" status */
+.card-tracking--done { --status: var(--color-accent-teal); }
+
+/* Card / Accent without rounded corners (Section IV cards) */
+.card-accent--square { border-radius: 0; }
+.card-accent--square .card-accent__title { letter-spacing: .1em; line-height: var(--line-height-26); }

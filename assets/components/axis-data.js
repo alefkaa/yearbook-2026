@@ -30,7 +30,7 @@ const trackingCard = c => `
     <div class="card-tracking__progress">
       <div class="card-tracking__value-row">
         <span class="card-tracking__value">${c.value}</span>
-        <span class="card-tracking__unit">${c.unit}</span>
+        <span class="card-tracking__unit">${c.unit || ''}</span>
         <span class="card-tracking__reported">${c.reported}</span>
       </div>
       <div class="progress-bar" role="img" aria-label="${c.progress}% of the target">
@@ -54,8 +54,8 @@ const caseCard = c => `
     <h4 class="card-case__title">${c.title}</h4>
     <p class="card-case__by">${c.initiative}</p>
     <div class="card-case__meta">
-      <p class="card-case__target">${c.target}</p>
-      <p class="card-case__contribution">${c.contribution}</p>
+      ${c.target ? `<p class="card-case__target">${c.target}</p>` : ''}
+      ${c.contribution ? `<p class="card-case__contribution">${c.contribution}</p>` : ''}
     </div>
     <div class="card-case__body prose">${c.body.map(p => `<p>${p}</p>`).join('')}</div>
     <!-- CHECK: link to the initiative on NAZCA -->
