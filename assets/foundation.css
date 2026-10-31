@@ -131,7 +131,7 @@ a { color: var(--color-text-link); }
 .t-body-s       { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
 .t-body-s-bold  { font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
 .t-caption      { font: 400 var(--font-size-12)/var(--line-height-18) var(--font-family-body); }
-.t-disclaimer   { font: italic 400 14px/20px var(--font-family-body); color: var(--color-text-muted); }
+.t-disclaimer   { font: italic 400 14px/20px var(--font-family-body); color: var(--color-text-secondary); }
 .t-nav          { font: 700 var(--font-size-11)/var(--line-height-24) var(--font-family-body); color: var(--color-text-nav); }
 
 /* =========================================================

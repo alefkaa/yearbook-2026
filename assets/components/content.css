@@ -113,3 +113,54 @@
 @media (max-width: 900px) {
   .objective-groups, .objective-list--2col { grid-template-columns: 1fr; }
 }
+
+/* --- Callout extras: eyebrow, body text, white focus box --- */
+.callout { display: flex; flex-direction: column; gap: var(--spacing-8); }
+.callout__eyebrow {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.callout__focus {
+  background: var(--color-bg-surface);
+  border-radius: 6px;
+  padding: var(--spacing-16);
+  font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading);
+}
+
+/* --- Sub-heading inside a section (Heading/H3) --- */
+.subheading { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
+
+/* --- Stat row: stat card + paragraph side by side --- */
+.stat-row { display: flex; align-items: center; gap: var(--spacing-24); }
+.stat-row .card-accent { flex: 0 0 288px; }
+@media (max-width: 900px) {
+  .stat-row { flex-direction: column; align-items: stretch; }
+  .stat-row .card-accent { flex-basis: auto; }
+}
+
+/* --- Chart box (Power BI goes inside .chart__embed) --- */
+.chart {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-24);
+  display: flex; flex-direction: column; gap: var(--spacing-16);
+}
+.chart__title    { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
+.chart__subtitle { font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body); color: var(--color-text-muted); }
+.chart__caption  { font: 400 var(--font-size-12)/var(--line-height-18) var(--font-family-body); color: var(--color-text-secondary); }
+.chart__embed {
+  min-height: var(--chart-h, 320px);
+  display: flex; align-items: center; justify-content: center;
+  border: 1px dashed var(--color-border-default);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body);
+}
+.chart__embed iframe { width: 100%; height: var(--chart-h, 320px); border: 0; }
+/* once a Power BI iframe is inside, remove the dashed placeholder look */
+.chart__embed:has(iframe) { border: 0; display: block; }
+
+/* --- Chart note (text under a chart) --- */
+.chart-note { font: 400 var(--font-size-16)/var(--line-height-24) var(--font-family-body); }
