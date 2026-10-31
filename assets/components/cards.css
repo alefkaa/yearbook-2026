@@ -332,3 +332,7 @@
 /* Card / Accent without rounded corners (Section IV cards) */
 .card-accent--square { border-radius: 0; }
 .card-accent--square .card-accent__title { letter-spacing: .1em; line-height: var(--line-height-26); }
+
+/* AXIS4-ADDED */
+/* Self-tracking card without a status tag (grey progress bar) */
+.card-tracking--neutral { --status: var(--color-gray-400, #9a9a9a); }

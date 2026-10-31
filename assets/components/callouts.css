@@ -29,3 +29,44 @@
 /* White version (on a blue band, e.g. "Explainer — Rio Conventions synergies") */
 .callout--white { background: var(--color-bg-surface); }
 .callout--white .callout__inner { gap: 0; }
+
+/* AXIS4-ADDED */
+/* ---------------------------------------------------------
+   NPS SNAPSHOT – Figma: NPS snapshot
+   Grey box with teal left bar, title link and two white lists
+   --------------------------------------------------------- */
+.nps-snapshot {
+  display: flex; flex-direction: column; gap: var(--spacing-24);
+  padding: var(--spacing-32) 40px;
+  background: #f5f7f6;
+  border-left: 6px solid var(--color-accent-teal);
+  border-radius: var(--radius-md);
+}
+.nps-snapshot__eyebrow {
+  margin-bottom: calc(var(--spacing-16) * -1);   /* 8px gap to the title, like Figma */
+  font: 700 var(--font-size-12)/var(--line-height-18) var(--font-family-body);
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--color-tag-green-text);
+}
+.nps-snapshot__title { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
+.nps-snapshot__title a {
+  display: inline-flex; align-items: center; gap: var(--spacing-8);
+  color: inherit; text-decoration: none;
+  transition: color var(--duration-base) var(--ease);
+}
+.nps-snapshot__title a:hover { color: var(--color-accent-teal); }
+.nps-snapshot__icon { width: 20px; height: 20px; }
+.nps-snapshot__text { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+.nps-snapshot__lists { display: flex; gap: var(--spacing-24); align-items: stretch; }
+.nps-snapshot__list {
+  flex: 1 1 0;
+  display: flex; flex-direction: column; gap: var(--spacing-12);
+  padding: var(--spacing-24);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+}
+.nps-snapshot__list-title { font: 700 var(--font-size-16)/var(--line-height-32) var(--font-family-body); }
+@media (max-width: 900px) {
+  .nps-snapshot { padding: var(--spacing-24); }
+  .nps-snapshot__lists { flex-direction: column; }
+}

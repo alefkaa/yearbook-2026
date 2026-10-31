@@ -17,7 +17,7 @@ const trackingCard = c => `
   <article class="card-tracking card-tracking--${c.status}">
     <div class="card-tracking__header">
       <p class="card-tracking__category">${c.category}</p>
-      <span class="card-tracking__status">${c.statusLabel}</span>
+      ${c.statusLabel ? `<span class="card-tracking__status">${c.statusLabel}</span>` : ''}
     </div>
     <div>
       <h4 class="card-tracking__name">${c.name}</h4>

@@ -94,3 +94,19 @@
 
 .nazca-charts { display: flex; flex-direction: column; gap: var(--spacing-16); align-items: flex-start; }
 .nazca-charts .tabs { align-self: stretch; }
+
+/* AXIS4-ADDED */
+/* ---------------------------------------------------------
+   STACKED OBJECTIVE TABS (4+ objectives, e.g. Axis 4)
+   Icon on top, text centred underneath
+   --------------------------------------------------------- */
+.tabs--stacked .tabs__tab {
+  flex-direction: column; align-items: center; justify-content: flex-start;
+  gap: var(--spacing-12);
+  min-height: 0; padding: var(--spacing-24) var(--spacing-16);
+  text-align: center;
+}
+.tabs--stacked .tabs__text { align-items: center; }
+@media (max-width: 900px) {
+  .tabs--stacked .tabs__tab { flex: 0 0 200px; }
+}

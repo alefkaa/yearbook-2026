@@ -1,0 +1,453 @@
+{
+  "_about": "Axis 4 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less | done",
+  "gsi": {
+    "11": [
+      {
+        "indicator": "NDCs with strong urban/subnational content",
+        "trend": "progress",
+        "baseline": {
+          "value": "52 NDCs",
+          "year": "2024",
+          "source": "<a href=\"https://unhabitat.org/sites/default/files/2024/06/ndc_global_report_2023_v4_watermark.pdf\" target=\"_blank\" rel=\"noopener\">UN-Habitat</a>"
+        },
+        "latest": {
+          "value": "104 NDCs",
+          "year": "2026",
+          "source": "<a href=\"https://unhabitat.org/urban-content-in-ndc-30-a-snapshot-of-128-ndcs\" target=\"_blank\" rel=\"noopener\">UN-Habitat</a>"
+        }
+      }
+    ],
+    "12": [
+      {
+        "indicator": "Building sector emissions for global urban areas",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "335.37 MtCO₂e",
+          "year": "2022",
+          "source": "<a href=\"https://uesi.datadrivenlab.org/\" target=\"_blank\" rel=\"noopener\">UESI (Data-Driven EnviroLab</a>"
+        }
+      },
+      {
+        "indicator": "Countries that mention resilience-building measures in relation to WASH infrastructure and operations in their national climate commitments",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "16% of countries",
+          "year": "2024",
+          "source": "<a href=\"https://www.climatewatchdata.org/data-explorer/ndc-content?ndc-content-categories=ndc_enhancement_tracker&amp;ndc-content-indicators=All%20Selected&amp;ndc-content-locations=All%20Selected&amp;ndc-content-sectors=All%20Selected&amp;page=1\" target=\"_blank\" rel=\"noopener\">Climate Watch</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Countries with measures supporting efficiency retrofits in low-income households",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "13 countries",
+          "year": "2025",
+          "source": "<a href=\"https://www.iea.org/policies?__cf_chl_f_tk=US6TW8sxVX3IvLEuDd8nMnafySu6DA3HTyjnkDu4tIQ-1782927819-1.0.1.1-i6.4BpoHjDEJxItMu84CmYtgniqD8o8RZmNlrZyodNQ\" target=\"_blank\" rel=\"noopener\">IEA</a>, SCL"
+        }
+      }
+    ],
+    "13": [
+      {
+        "indicator": "Number of cities reporting climate adaptation actions",
+        "trend": "no-progress",
+        "baseline": {
+          "value": "910 cities",
+          "year": "2023",
+          "source": "<a href=\"https://data.cdp.net/\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
+        },
+        "latest": {
+          "value": "910 cities",
+          "year": "2025",
+          "source": "<a href=\"https://cdp-action-explorer.net/\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
+        }
+      },
+      {
+        "indicator": "Number of cities including at least one people-centred measure for climate adaptation",
+        "trend": "progress",
+        "baseline": {
+          "value": "308 cities",
+          "year": "2024",
+          "source": "<a href=\"https://data.cdp.net/Full-cities-public-datasets/2024-Full-Cities-Public-Data-Separated-by-Question/jqpb-9fqz/about_data\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
+        },
+        "latest": {
+          "value": "392 cities",
+          "year": "2025",
+          "source": "<a href=\"https://data.cdp.net/Full-cities-public-datasets/2024-Full-Cities-Public-Data-Separated-by-Question/jqpb-9fqz/about_data\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
+        }
+      },
+      {
+        "indicator": "Access to early warning systems, as measured by the population living in countries with early warning systems",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "58% of global population",
+          "year": "2022",
+          "source": "<a href=\"https://www.undrr.org/reports/global-status-MHEWS-2024%20https://www.undrr.org/reports/global-status-MHEWS-2024\" target=\"_blank\" rel=\"noopener\">UNDRR</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Countries with multi-hazard early warning systems (MHEWS)",
+        "trend": "progress",
+        "baseline": {
+          "value": "108 countries",
+          "year": "2024",
+          "source": "<a href=\"https://wmo.int/publication-series/global-status-of-multi-hazard-early-warning-systems-2024\" target=\"_blank\" rel=\"noopener\">WMO/UNDRR</a>, New indicator"
+        },
+        "latest": {
+          "value": "128 countries",
+          "year": "2026",
+          "source": "<a href=\"https://wmo.int/publication-series/global-status-of-multi-hazard-early-warning-systems-2025\" target=\"_blank\" rel=\"noopener\">WMO/UNDRR</a>"
+        }
+      }
+    ],
+    "14": [
+      {
+        "indicator": "Peatland degradation (annual) · methodology changed",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "0.06 Mha/yr",
+          "year": "1993–2018",
+          "source": "<a href=\"https://essd.copernicus.org/articles/12/3113/2020/essd-12-3113-2020.pdf\" target=\"_blank\" rel=\"noopener\">Conchedda, G. and F.N. Tubiello</a>, SCL"
+        },
+        "latest": {
+          "value": "0.035 Mha/yr",
+          "year": "2015–2024",
+          "source": "<a href=\"https://www.fao.org/faostat/en/#data/GV\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
+        }
+      },
+      {
+        "indicator": "Population threatened by flood risk, as measured by the number of people living in a flood zone",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "1.4 billion people",
+          "year": "2025",
+          "source": "<a href=\"https://www.wri.org/data/aqueduct-floods-hazard-maps\" target=\"_blank\" rel=\"noopener\">WRI and JRC</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Urban population growth in water-stressed basins",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "2.9 billion people",
+          "year": "2025",
+          "source": "<a href=\"https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&amp;basemap=hydro&amp;indicator=bws_cat&amp;lat=-14.445396942837744&amp;lng=-142.85354599620152&amp;mapMode=view&amp;month=1&amp;opacity=0.5&amp;ponderation=DEF&amp;predefined=false&amp;projection=absolute&amp;scenario=optimistic&amp;scope=baseline&amp;timeScale=annual&amp;year=baseline&amp;zoom=2%20https://ghsl.jrc.ec.europa.eu/datasets.php\" target=\"_blank\" rel=\"noopener\">European Commission and WRI</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Population experiencing water stress (medium, high or critical levels), as measured by the percent of population living in water-stressed countries",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "31% of population",
+          "year": "2021",
+          "source": "<a href=\"https://www.unwater.org/sites/default/files/2024-12/SDG6_Indicator_Report_642_Progress-of-water-stress_2024_EN.pdf\" target=\"_blank\" rel=\"noopener\">UN Water</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Agricultural production in water-stressed and water-variable basins",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "25% of crops grown where water supply is either highly stressed or highly variable",
+          "year": "2023",
+          "source": "<a href=\"https://www.wri.org/insights/growing-water-risks-food-crops\" target=\"_blank\" rel=\"noopener\">WRI</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Countries with national flood risk management strategies aligned with climate projections",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "28 countries",
+          "year": "2025",
+          "source": "<a href=\"https://data.jrc.ec.europa.eu/dataset/1019a72f-7b98-4318-8baf-fd9e2c00a92c?utm\" target=\"_blank\" rel=\"noopener\">JRC</a> and <a href=\"https://www.gov.uk/government/publications/national-flood-and-coastal-erosion-risk-management-strategy-for-england--2\" target=\"_blank\" rel=\"noopener\">UK Government</a> SCL"
+        }
+      },
+      {
+        "indicator": "Water use efficiency",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "21 value added (USD)/volume of water used (m³)",
+          "year": "2023",
+          "source": "<a href=\"https://data.apps.fao.org/aquastat/?lang=en\" target=\"_blank\" rel=\"noopener\">FAO AQUASTAT</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Access to clean water, as measured by the share of the population using safely managed drinking water services",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "74% of population",
+          "year": "2024",
+          "source": "<a href=\"https://washdata.org/data/household#!/\" target=\"_blank\" rel=\"noopener\">WHO/UNICEF Joint Monitoring Programme (JMP</a>, SCL"
+        }
+      },
+      {
+        "indicator": "Population using safely managed sanitation services",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "58% of population",
+          "year": "2024",
+          "source": "<a href=\"https://data.unicef.org/resources/jmp-report-2025/?utm_source\" target=\"_blank\" rel=\"noopener\">WHO/UNICEF Joint Monitoring Programme (JMP)</a>"
+        }
+      }
+    ],
+    "15": [
+      {
+        "indicator": "Global circularity rate (secondary materials as share of total material inputs)",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "6.9%",
+          "year": "2025",
+          "source": "<a href=\"https://circulareconomy.europa.eu/platform/sites/default/files/2025-09/CGR%202025%20complete%20document.pdf\" target=\"_blank\" rel=\"noopener\">CGR</a>"
+        }
+      },
+      {
+        "indicator": "E-waste documented as formally collected and recycled",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "22.3% of e-waste generated",
+          "year": "2022",
+          "source": "<a href=\"https://www.unitar.org/about/news-stories/press/global-e-waste-monitor-2024-electronic-waste-rising-five-times-faster-documented-e-waste-recycling\" target=\"_blank\" rel=\"noopener\">UNITAR/ITU Global E-waste Monitor</a>"
+        }
+      },
+      {
+        "indicator": "E-waste generated",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "62 Million tonnes",
+          "year": "2022",
+          "source": "<a href=\"https://www.unitar.org/about/news-stories/press/global-e-waste-monitor-2024-electronic-waste-rising-five-times-faster-documented-e-waste-recycling\" target=\"_blank\" rel=\"noopener\">UNITAR/ITU Global E-waste Monitor 2024</a>"
+        }
+      },
+      {
+        "indicator": "Plastic waste generated",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "353 Million tonnes",
+          "year": "2019",
+          "source": "<a href=\"https://www.unitar.org/about/news-stories/press/global-e-waste-monitor-2024-electronic-waste-rising-five-times-faster-documented-e-waste-recycling\" target=\"_blank\" rel=\"noopener\">OECD Global Plastics Outlook</a>"
+        }
+      }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Fair-Ton / Tonelada Justa",
+      "description": "Fair-Ton quantifies and scales GHG avoided emissions from waste pickers' inclusive recycling across Latin America, Asia, and Africa, producing high-quality MRV data to advance Paris-aligned climate action, climate justice, and waste sector mitigation.",
+      "indicator": "Adoption of the Fair-Ton Measurement, Reporting and Verification (MRV) methodology by 100 waste picker organizations",
+      "value": "34",
+      "unit": "waste picker organizations",
+      "reported": "Reported 2026",
+      "progress": 0,
+      "baseline": "Baseline: 34 (2025)",
+      "target": "Target: 100 (2028)",
+      "findings": "The published 2025 baseline of 34 is retained provisionally, pending validation of adoption criteria and the final calculator inventory. The inventory has 40 organization IDs for 2024 and 23 for 2025 (22 Brazil, 1 Bolivia). Twenty-two IDs recur, leaving 41 distinct IDs across both years; only one ID is new in 2025."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Alliance of Subnational Development Banks",
+      "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
+      "indicator": "100% of member SDBs/NDBs aligning strategies with the climate SDGs and/or Paris Agreement by 2028",
+      "value": "58%",
+      "unit": "of members",
+      "reported": "Reported 2026",
+      "progress": 60,
+      "baseline": "Baseline: 0% (2025)",
+      "target": "Target: 100% (2028)",
+      "findings": "Based on available data from 41 of the Alliance’s 57 member SDBs/NDBs, 33 institutions (58% of members of the Global Alliance) reported partial or full alignment with the Paris Agreement and/or climate-related SDGs. Other responses indicated indirect or no alignment, or that alignment had not yet been assessed. As not all the Alliance’s members reported or disclosed relevant information, this does not capture the full level of alignment across the Alliance."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Alliance of Subnational Development Banks",
+      "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
+      "indicator": "1000 identified Local and Regional Governments (LGRs) supported by member SDBs/NDBs on climate projects by 2028",
+      "value": "563",
+      "unit": "local governments",
+      "reported": "Reported 2026",
+      "progress": 55,
+      "baseline": "Baseline: 0 (2025)",
+      "target": "Target: 1000 (2028)",
+      "findings": "Based on available data from 17 of the Alliance’s 57 member SDBs/NDBs that responded to this reporting question or publicly disclosed relevant information, 563 Local and Regional Governments were supported on climate-related projects in the 2025 fiscal year. This figure reflects reported support from participating members in Africa and LAC. As the Alliance represents only part of the global SDB landscape, it does not capture the full scale of LRGs supported by SDBs on climate projects worldwide."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "neutral",
+      "statusLabel": "",
+      "name": "Global Alliance of Subnational Development Banks",
+      "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
+      "indicator": "500 million USD of urban climate finance mobilized through member SDBs/NDBs and tracked by Alliance",
+      "value": "308",
+      "unit": "million US dollars",
+      "reported": "Reported 2026",
+      "progress": 60,
+      "baseline": "Baseline: 0 (2025)",
+      "target": "Target: 500 (2028)",
+      "findings": "Based on responses from 5 —ADM, BDMG, BRDE, FINDETER, and INFIVALLE— of the Alliance’s 57 member SDBs/NDBs to this reporting question, USD 308 million in urban climate finance was mobilized over the 2025 fiscal year. This figure reflects reported financing from participating members in Africa and Latin America and the Caribbean. As the Alliance represents only part of the global SDB landscape, it does not capture the full scale of urban climate finance mobilized by SDBs worldwide."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "RegionsAdapt",
+      "description": "Subnational governments are better equipped to lead ambitious climate adaptation, strengthening resilience and protecting vulnerable communities, while regional leadership, experiences and lessons shape and advance the Global Climate Action Agenda.",
+      "indicator": "Supporting subnational governments assess, plan, act and report on climate adaptation.",
+      "value": "59",
+      "unit": "states and regions",
+      "reported": "Reported 2026",
+      "progress": 55,
+      "baseline": "Baseline: 12 (2015)",
+      "target": "Target: 100 (2030)",
+      "findings": "Since 2015, RegionsAdapt has grown from just 13 states and regions with adaptation plans or strategies to 59 today. While some members are only beginning their journey, others are already advancing into second and third iterations of their plans. Accountability is also a defining feature of the initiative: since RegionsAdapt joined the Race to Resilience, 46 members have been regularly reporting their progress, showing both ambition and delivery on the path towards our target of 100 regions."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Strengthen Subnational Development Banks’ (SDB) access to Global Climate Fund (GCF) Locally Led Climate Action and Readiness",
+      "initiative": "by the Global Alliance of Subnational Development Banks",
+      "target": "Related CCI targets: 100 per cent of member SDBs/NDBs aligning strategies with the climate SDGs and/or PA by 2028; 1000 identified LGRs supported by member SDBs/NDBs on climate projects by 2028; USD 500 Million of urban climate finance mobilized through member SDBs/NDBs and tracked by Alliance",
+      "contribution": "This action is reported as contributing to Objective 13. Resilient urban development, mobility, and infrastructure, and Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance (under Axis 6).",
+      "body": [
+        "In May 2026, the Global Fund for Cities Development (FMDV) hosted a technical dialogue in collaboration with the GCF through the Global Alliance of SDBs (African Chapter) and the Alliance of African Ministers for Urbanization Financing (AMUF) on the GCF Locally Led Climate Action framework. The session brought together 49 participants from 21 countries and 33 ministries, financial institutions and territorial organizations to discuss GCF Readiness, Financial Management Capacity Assessment (FMCA) requirements and national pathways for localizing climate finance.",
+        "The action contributed to building continental awareness and momentum around locally led climate finance, moving the discussion from general interest in accessing international climate finance toward a clearer understanding of the institutional arrangements required at national level. By connecting SDBs, ministries, National Designated Authorities (NDA) and GCF expertise, it strengthened the capacity of African institutions to explore Readiness support and develop more coherent national frameworks linking international climate finance with territorial implementation.  In the longer term, this supports the Alliance’s objective of positioning SDBs as key intermediaries able to connect global climate-finance mechanisms with local and regional governments, investment pipelines and climate-resilient territorial development. Importantly, the meeting established a direct channel for continued technical dialogue between GCF experts, African SDBs and national institutions."
+      ]
+    },
+    {
+      "title": "Opening a Fair Ton workstream in Mesoamerica with AECID",
+      "initiative": "by Tonelada Justa (Fair-ton)",
+      "target": "",
+      "contribution": "",
+      "body": [
+        "During September 2025 – August 2026, Fair Ton opened a Mesoamerican workstream with the Spanish Agency for International Development Cooperation (AECID) and regional partners. Its purpose is to adapt the initiative’s waste-picker data and MRV approach beyond the countries where it was first developed, while preserving the role of local organizations in producing and governing their information.",
+        "In June 2026 the team established coordination and defined a sequence: characterize participating organizations and their existing records, adapt diagnostic instruments, and identify the support needed for reliable data collection. In July it prepared assessment tools designed for replication across countries, drawing on lessons from Brazil and Chile. Toward the end of the period, a first regional meeting brought together participants from four Mesoamerican countries to discuss starting conditions and a common path for data governance. This work links Fair Ton’s objective of territorial scale to a practical process for understanding each local context before applying the MRV method.",
+        "This action tests whether a waste-picker-led measurement approach can scale through a network of local organizations rather than a single centralized data source. Standardized diagnostic tools and shared data-governance principles can help future cohorts enter the system with comparable information and control over their own records. The immediate contribution is institutional reach and readiness, measurable MRV adoption, material recovery and climate outcomes depend on subsequent documented reporting."
+      ]
+    },
+    {
+      "title": "RegionsAdapt Communities of Practice",
+      "initiative": "by RegionsAdapt",
+      "target": "",
+      "contribution": "",
+      "body": [
+        "RegionsAdapt advanced trilingual peer learning and capacity-building through two Communities of Practice sessions: one on Subnational Adaptation Finance, (April 2025) and another Strengthening Municipal Climate Adaptation through Regional Action (June 2026). In addition, a dedicated preparation webinar in September 2025 equipped members with insights and strategies ahead of COP 30.",
+        "Subnational governments are better equipped to accelerate and scale climate resilience by improving access to finance, strengthening multilevel governance, and sharing effective adaptation approaches across regions and municipalities.",
+        "Through this action, regional governments increased their capacity to identify and mobilize adaptation finance, strengthen collaboration with municipalities, and translate international climate discussions into practical subnational adaptation action.",
+        "The RegionsAdapt Communities of Practice contributes to the UNFCCC multilateral process by capturing how regional governments support the implementation of both the Paris Agreement, in alignment with the Global Goal on Adaptation."
+      ]
+    }
+  ],
+  "pas": {
+    "11": [
+      "Multilevel, multisectoral and participatory governance model for implementing the Paris Agreement (MMA &amp; MCid)"
+    ],
+    "12": [
+      "Decarbonisation and resilience roadmaps for buildings and construction",
+      "Plan to Accelerate Near-Zero Emission and Resilient Buildings (Buildings Breakthrough)",
+      "Plan to Accelerate the Global Property Linked Finance Initiative (GPFLI)",
+      "Building for Forests: Accelerating Wood-Based Construction for Climate, Forests and Livelihoods",
+      "Scaling Finance for Energy-Efficient, Resilient Buildings: Empowering Public Development Banks",
+      "Circular Built Environment"
+    ],
+    "13": [
+      "Greening Cities to Beat the Heat: Harnessing nature-based, passive and efficiency solutions for sustainable cooling and energy demand reduction",
+      "Resilient and Adaptive Transport Infrastructure",
+      "Adequate, Sustainable and Resilient Informal Settlements and Urban Peripheries against Environmental Racism",
+      "Resilient urban infrastructure",
+      "Acceleration Plan – Rebuilding with Resilience and Justice",
+      "Beat the Heat: strengthening national to local collaboration for sustainable cooling"
+    ],
+    "14": [
+      "Just Water Partnerships",
+      "Ensuring Access to Safe Water for Communities in Vulnerable Situation",
+      "Water Management and Participatory Governance"
+    ],
+    "15": [
+      "No Organic Waste (NOW): Prevention, Diversion, and Management to Turn Waste into a Resource for Climate, Livelihoods, and Food Security",
+      "Upstream Circularity (Reuse Systems and Repair &amp; Product Longevity)",
+      "Zero Waste Districts: preparing and financing neighbourhood-scale zero waste systems",
+      "Transformative Actions to End Open Waste Burning and Open Dumping (Beyond Burning Alliance)"
+    ]
+  }
+}
