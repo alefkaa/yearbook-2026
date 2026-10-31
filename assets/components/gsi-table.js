@@ -6,7 +6,8 @@
    JSON: { "gsi": { "1": [ { indicator, trend, baseline{value,year,source}, latest{…} } ] } }
    ========================================================= */
 
-const ICONS = new URL('../img/icons/', import.meta.url).href;
+const ROOT  = new URL('../../', import.meta.url).href;   // site root, same as navbar.js
+const ICONS = ROOT + 'assets/img/icons/';
 
 const TRENDS = {
   'progress':          { label: 'Progress',          icon: 'trend-progress.svg' },

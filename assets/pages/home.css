@@ -9,7 +9,7 @@
    --------------------------------------------------------- */
 .home-hero {
   position: relative;
-  min-height: 800px;
+  min-height: 860px;
   display: flex; align-items: center;
   overflow: hidden;
   color: var(--color-text-inverse);
