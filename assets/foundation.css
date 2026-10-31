@@ -41,15 +41,19 @@
 
   --font-size-11: 11px; --font-size-12: 12px; --font-size-14: 14px;
   --font-size-16: 16px; --font-size-18: 18px; --font-size-20: 20px;
-  --font-size-24: 24px; --font-size-32: 32px; --font-size-64: 64px;
+  --font-size-24: 24px; --font-size-32: 32px; --font-size-48: 48px; 
+  --font-size-64: 64px;
 
   --line-height-18: 18px; --line-height-22: 22px; --line-height-24: 24px;
   --line-height-26: 26px; --line-height-28: 28px; --line-height-32: 32px;
-  --line-height-36: 36px; --line-height-48: 48px; --line-height-74: 74px;
+  --line-height-36: 36px; --line-height-48: 48px; --line-height-60: 60px;
+  --line-height-64: 64px; --line-height-74: 74px;
 
   --color-brand-navy: #191970;
+  --color-blue-grayish: #7ba8bf;
   --color-text-primary: #1c1c1c;
   --color-text-secondary: #778099;
+  --color-text-brand: #5e5e9b;
   --color-text-muted: #636365;
   --color-text-link: #1e8bc3;
   --color-text-inverse: #ffffff;
@@ -57,6 +61,7 @@
   --color-icon-default: #778099;
   --color-icon-neutral: #9a9a9a;
   --color-bg-surface: #ffffff;
+  --color-bg-subtle: #fcfcfc;
   --color-bg-section-blue: #e3edf2;
   --color-bg-tab-active: #e9f1ef;
   --color-bg-table-header-green: #dbebe8;
@@ -178,3 +183,6 @@ a { color: var(--color-text-link); }
     animation-duration: 0.01ms !important;
   }
 }
+
+/* When jumping to a section (#nazca etc.), stop below the sticky navbar */
+[id] { scroll-margin-top: 180px; }

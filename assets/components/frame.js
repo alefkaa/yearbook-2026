@@ -28,7 +28,7 @@
       ).join('');
 
       this.innerHTML = `
-        <nav class="navbar" aria-label="Yearbook">
+                <nav class="navbar${this.getAttribute('variant') === 'transparent' ? ' navbar--transparent' : ''}" aria-label="Yearbook">
           <div class="container navbar__inner">
             <div class="navbar__top">
               <a href="https://unfccc.int">
@@ -103,5 +103,15 @@
   customElements.define('yb-navbar', YbNavbar);
   customElements.define('yb-header', YbHeader);
   customElements.define('yb-footer', YbFooter);
+
+  
+  /* --- STICKY NAVBAR: mark it once the page has scrolled --- */
+  function onScroll() {
+    document.querySelectorAll('yb-navbar').forEach(nav => {
+      nav.classList.toggle('is-scrolled', window.scrollY > 10);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 
 })();
