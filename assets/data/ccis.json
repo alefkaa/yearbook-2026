@@ -1,0 +1,464 @@
+[
+  {
+    "name": "One Planet Business for Biodiversity (OP2B)",
+    "axes": [],
+    "logo": "op2b.png"
+  },
+  {
+    "name": "Ocean Risk and Resilience Action Alliance (ORRAA)",
+    "axes": [],
+    "logo": "orraa.png"
+  },
+  {
+    "name": "Leadership for Urban Climate Investment (LUCI)",
+    "axes": [],
+    "logo": "luci.png"
+  },
+  {
+    "name": "Renewables in Latin America and The Caribbean (RELAC)",
+    "axes": [],
+    "logo": "relac.png"
+  },
+  {
+    "name": "UN-Convened Net-Zero Asset Owner Alliance",
+    "axes": [],
+    "logo": "un-convened-net-zero-asset-owner-allianc.png"
+  },
+  {
+    "name": "4/1000 Initiative - Soils for Food Security and Climate",
+    "axes": [],
+    "logo": "4per1000-initiative-soils-for-food-secur.png"
+  },
+  {
+    "name": "Global Alliance for Buildings and Construction (GlobalABC)",
+    "axes": [],
+    "logo": "globalabc.png"
+  },
+  {
+    "name": "Global Resilience Partnership (GRP)",
+    "axes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "logo": "grp.png"
+  },
+  {
+    "name": "Airport Carbon Accreditation",
+    "axes": [],
+    "logo": "airport-carbon-accreditation.png"
+  },
+  {
+    "name": "Public Transport Declaration on Climate Leadership (UITP)",
+    "axes": [
+      4
+    ],
+    "logo": "uitp.png"
+  },
+  {
+    "name": "Under2 Coalition",
+    "axes": [],
+    "logo": "under2-coalition.png"
+  },
+  {
+    "name": "Fashion Industry Charter for Climate Action",
+    "axes": [
+      1,
+      6
+    ],
+    "logo": "fashion-industry-charter-for-climate-act.png"
+  },
+  {
+    "name": "RegionsAdapt",
+    "axes": [
+      4,
+      6
+    ],
+    "logo": "regionsadapt.png"
+  },
+  {
+    "name": "Sports for Climate Action",
+    "axes": [
+      1,
+      4
+    ],
+    "logo": "sports-for-climate-action.png"
+  },
+  {
+    "name": "Mainstreaming Climate in Financial Institutions",
+    "axes": [
+      6
+    ],
+    "logo": "mainstreaming-climate-in-financial-insti.png"
+  },
+  {
+    "name": "Governors' Climate and Forests Task Force (GCF)",
+    "axes": [],
+    "logo": "gcf.png"
+  },
+  {
+    "name": "Accelerate Climate Transition Initiative",
+    "axes": [],
+    "logo": "accelerate-climate-transition-initiative.png"
+  },
+  {
+    "name": "Glasgow Declaration on Climate Action in Tourism",
+    "axes": [],
+    "logo": "glasgow-declaration-on-climate-action-in.png"
+  },
+  {
+    "name": "Japan Climate Initiative",
+    "axes": [],
+    "logo": "japan-climate-initiative.png"
+  },
+  {
+    "name": "International Wineries for Climate Action (IWCA)",
+    "axes": [],
+    "logo": "iwca.png"
+  },
+  {
+    "name": "Exponential Roadmap Initiative (ERI)",
+    "axes": [],
+    "logo": "eri.png"
+  },
+  {
+    "name": "Global Shield against Climate Risks",
+    "axes": [
+      6
+    ],
+    "logo": "global-shield-against-climate-risks.png"
+  },
+  {
+    "name": "Improved and Efficient Cooking Energy Solution for Nigeria",
+    "axes": [],
+    "logo": "improved-and-efficient-cooking-energy-so.png"
+  },
+  {
+    "name": "Industrial Deep Decarbonisation Initiative (IDDI)",
+    "axes": [
+      1,
+      6
+    ],
+    "logo": "iddi.png"
+  },
+  {
+    "name": "Climate Club",
+    "axes": [
+      1,
+      6
+    ],
+    "logo": "climate-club.png"
+  },
+  {
+    "name": "Pledge to Net Zero",
+    "axes": [],
+    "logo": "pledge-to-net-zero.png"
+  },
+  {
+    "name": "Planet Mark Net Zero Certification",
+    "axes": [],
+    "logo": "planet-mark-net-zero-certification.png"
+  },
+  {
+    "name": "Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
+    "axes": [
+      1
+    ],
+    "logo": "memorandum-of-understanding-on-zero-emis.png"
+  },
+  {
+    "name": "Sustainable Business COP",
+    "axes": [],
+    "logo": "sustainable-business-cop.png"
+  },
+  {
+    "name": "Green Digital Action",
+    "axes": [
+      6
+    ],
+    "logo": "green-digital-action.png"
+  },
+  {
+    "name": "IEA Bioenergy Task 39 - Biofuels for Decarbonization of Transportation",
+    "axes": [],
+    "logo": "iea-bioenergy-task-39-biofuels-for-decar.png"
+  },
+  {
+    "name": "Climate and Clean Air Coalition",
+    "axes": [
+      1,
+      3,
+      4
+    ],
+    "logo": "climate-and-clean-air-coalition.png"
+  },
+  {
+    "name": "Forest and Farm Facility (FFF)",
+    "axes": [],
+    "logo": "fff.png"
+  },
+  {
+    "name": "WorldGBC Building the Transition (BtT)",
+    "axes": [],
+    "logo": "btt.png"
+  },
+  {
+    "name": "Coalition of Action 4 Soil Health (CA4SH)",
+    "axes": [
+      3
+    ],
+    "logo": "ca4sh.png"
+  },
+  {
+    "name": "LUPPA - Laboratory on Urban Food Policies",
+    "axes": [],
+    "logo": "luppa-laboratory-on-urban-food-policies.png"
+  },
+  {
+    "name": "National Adaptation Plan Global Network (NAP GN)",
+    "axes": [],
+    "logo": "nap-gn.png"
+  },
+  {
+    "name": "Paris Agreement Article 6 Implementation Partnership (A6IP)",
+    "axes": [],
+    "logo": "a6ip.png"
+  },
+  {
+    "name": "Global Offshore Wind Alliance (GOWA)",
+    "axes": [
+      1
+    ],
+    "logo": "gowa.png"
+  },
+  {
+    "name": "The Coalition to Grow Carbon Markets",
+    "axes": [
+      6
+    ],
+    "logo": "the-coalition-to-grow-carbon-markets.png"
+  },
+  {
+    "name": "SME Climate Hub",
+    "axes": [],
+    "logo": "sme-climate-hub.png"
+  },
+  {
+    "name": "Investment Mobilisation Collaboration Alliance (IMCA)",
+    "axes": [],
+    "logo": "imca.png"
+  },
+  {
+    "name": "Forest Declaration Assessment",
+    "axes": [],
+    "logo": "forest-declaration-assessment.png"
+  },
+  {
+    "name": "Children and Climate Initiative",
+    "axes": [
+      5
+    ],
+    "logo": "children-and-climate-initiative.png"
+  },
+  {
+    "name": "The Lancet Countdown on Health and Climate Change",
+    "axes": [],
+    "logo": "the-lancet-countdown-on-health-and-clima.png"
+  },
+  {
+    "name": "Net Zero Partnership for Industrial Decarbonization",
+    "axes": [
+      1
+    ],
+    "logo": "net-zero-partnership-for-industrial-deca.png"
+  },
+  {
+    "name": "Food Waste Breakthrough",
+    "axes": [
+      3,
+      4
+    ],
+    "logo": "food-waste-breakthrough.png"
+  },
+  {
+    "name": "Narratives of Urban Resilience: A Cultural Approach to Climate Transitions",
+    "axes": [
+      4,
+      5,
+      6
+    ],
+    "logo": "narratives-of-urban-resilience-a-cultura.png"
+  },
+  {
+    "name": "Coalition for Sustainable Urban Development of the Amazon (DUSA)",
+    "axes": [],
+    "logo": "dusa.png"
+  },
+  {
+    "name": "Global Alliance of Subnational Development Bank",
+    "axes": [],
+    "logo": "global-alliance-of-subnational-developme.png"
+  },
+  {
+    "name": "Finance Your Cities – Country Platforms for Localizing Finance",
+    "axes": [
+      4
+    ],
+    "logo": "finance-your-cities-country-platforms-fo.png"
+  },
+  {
+    "name": "Deep Decarbonization Pathways (DDP) initiative",
+    "axes": [
+      1,
+      5,
+      6
+    ],
+    "logo": "deep-decarbonization-pathways-ddp-initia.png"
+  },
+  {
+    "name": "GSMA Climate Action Taskforce",
+    "axes": [
+      1,
+      4,
+      6
+    ],
+    "logo": "gsma-climate-action-taskforce.png"
+  },
+  {
+    "name": "Efficiency for Access",
+    "axes": [
+      1,
+      3
+    ],
+    "logo": "efficiency-for-access.png"
+  },
+  {
+    "name": "Green Hydrogen Catapult",
+    "axes": [
+      1,
+      3,
+      6
+    ],
+    "logo": "green-hydrogen-catapult.png"
+  },
+  {
+    "name": "Fair-Ton / Tonelada Justa",
+    "axes": [
+      4,
+      5,
+      6
+    ],
+    "logo": "fair-ton-tonelada-justa.png"
+  },
+  {
+    "name": "International Coalition for Sustainable Infrastructure (ICSI)",
+    "axes": [
+      1,
+      4
+    ],
+    "logo": "icsi.png"
+  },
+  {
+    "name": "The Doers Club",
+    "axes": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "logo": "the-doers-club.png"
+  },
+  {
+    "name": "Group of Friends for Culture-based Climate Action (GFCBCA)",
+    "axes": [
+      5
+    ],
+    "logo": "gfcbca.png"
+  },
+  {
+    "name": "Gender & Energy Compact",
+    "axes": [
+      6
+    ],
+    "logo": "gender-and-energy-compact.png"
+  },
+  {
+    "name": "Alliance of Champions for Food Systems Transformation",
+    "axes": [],
+    "logo": "alliance-of-champions-for-food-systems-t.png"
+  },
+  {
+    "name": "Accelerating to Zero Coalition",
+    "axes": [
+      5
+    ],
+    "logo": "accelerating-to-zero-coalition.png"
+  },
+  {
+    "name": "Preserving Legacies",
+    "axes": [
+      5
+    ],
+    "logo": "preserving-legacies.png"
+  },
+  {
+    "name": "Rede Clima Municipal",
+    "axes": [],
+    "logo": "rede-clima-municipal.png"
+  },
+  {
+    "name": "SUNx Malta Climate Friendly Travel Registry",
+    "axes": [],
+    "logo": "sunx-malta-climate-friendly-travel-regis.png"
+  },
+  {
+    "name": "International Partnership for Hydrogen and fuel cells in the Economy (IPHE)",
+    "axes": [
+      1,
+      6
+    ],
+    "logo": "iphe.png"
+  },
+  {
+    "name": "Road Transport Breakthrough",
+    "axes": [
+      1
+    ],
+    "logo": "road-transport-breakthrough.png"
+  },
+  {
+    "name": "Agricultural Innovation Mechanism for Scale (AIM for Scale)",
+    "axes": [
+      3
+    ],
+    "logo": "aim-for-scale.png"
+  },
+  {
+    "name": "Industrial Transition Accelerator (ITA)",
+    "axes": [
+      1,
+      6
+    ],
+    "logo": "ita.png"
+  },
+  {
+    "name": "Business Declares",
+    "axes": [],
+    "logo": "business-declares.png"
+  },
+  {
+    "name": "Health Care Climate Challenge",
+    "axes": [],
+    "logo": "health-care-climate-challenge.png"
+  },
+  {
+    "name": "Seaweed Breakthrough",
+    "axes": [
+      2
+    ],
+    "logo": "seaweed-breakthrough.png"
+  }
+]

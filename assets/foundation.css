@@ -26,6 +26,11 @@
   src: url('fonts/merriweather-sans-700.woff2') format('woff2');
   font-weight: 700; font-style: normal; font-display: swap;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/roboto-500.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
 
 /* =========================================================
    VARIABLES (from Figma)
@@ -96,6 +101,17 @@
   --duration-fast: 150ms;
   --duration-base: 250ms;
   --ease: cubic-bezier(0.2, 0, 0, 1);
+
+    /* UI font (tags) */
+  --font-family-ui: 'Roboto', sans-serif;
+  --line-height-16: 16px;
+  --line-height-20: 20px;
+
+  /* Neutral + tags (from Figma) */
+  --color-gray-50: #f5f7f6;
+  --color-tag-green-bg: #dbebe8;
+  --color-tag-green-border: #95cace;
+  --color-tag-green-text: #007f89;
 }
 
 /* =========================================================
@@ -111,9 +127,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1, h2, h3, h4, p, ul { margin: 0; }
+h1, h2, h3, h4, p, ul, figure  { margin: 0; }
 img { max-width: 100%; display: block; }
 a { color: var(--color-text-link); }
+
+/* Anything with the "hidden" attribute is always hidden, whatever its display style */
+[hidden] { display: none !important; }
 
 /* =========================================================
    TEXT STYLES (Figma text styles)

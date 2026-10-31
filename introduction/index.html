@@ -359,7 +359,51 @@
 
         <p class="t-disclaimer">Data on CCI contribution to GCAA, functions, climate focuses, action types and links to multilateral environmental agreements described in these charts are based on information self-reported through NAZCA. They should be presented as reported information, not as independently verified by the UNFCCC secretariat. Counts across axes, functions, climate focuses and agreements may overlap because an initiative or reported action can be associated with more than one category.</p>
 
-        <!-- ACCORDION: List of CCIs – added in Part B -->
+        <!-- ACCORDION: List of CCIs -->
+        <div class="accordion" data-accordion>
+          <button class="accordion__header" aria-expanded="false" aria-controls="cci-panel">
+            <span class="accordion__title">List of CCIs participating in the 2026 NAZCA CCI Annual Progress Reporting</span>
+            <span class="accordion__meta"><span data-cci-count>83</span> initiatives</span>
+            <img class="accordion__chevron" src="../assets/img/icons/chevron-down.svg" width="24" height="24" alt="">
+          </button>
+
+          <div class="accordion__panel" id="cci-panel">
+            <div class="accordion__clip">
+              <div class="accordion__body" data-cci-list data-limit="12">
+                <p class="t-body-m">The <span data-cci-count>83</span> Cooperative Climate Initiatives (CCIs) below
+
+                <div class="toolbar">
+                  <label class="search-field">
+                    <img src="../assets/img/icons/search.svg" width="20" height="20" alt="">
+                    <input type="search" placeholder="Search initiatives" aria-label="Search initiatives" data-cci-search>
+                  </label>
+                  <div class="chips" role="group" aria-label="Filter by thematic axis">
+                    <button class="chip" data-cci-filter="all" aria-pressed="true">All</button>
+                    <button class="chip" data-cci-filter="1" aria-pressed="false">Axis 1</button>
+                    <button class="chip" data-cci-filter="2" aria-pressed="false">Axis 2</button>
+                    <button class="chip" data-cci-filter="3" aria-pressed="false">Axis 3</button>
+                    <button class="chip" data-cci-filter="4" aria-pressed="false">Axis 4</button>
+                    <button class="chip" data-cci-filter="5" aria-pressed="false">Axis 5</button>
+                    <button class="chip" data-cci-filter="6" aria-pressed="false">Axis 6</button>
+                    <button class="chip" data-cci-filter="none" aria-pressed="false">No axis specified</button>
+                  </div>
+                </div>
+
+                <!-- CCI rows are built from assets/data/ccis.json -->
+                <ul class="cci-list" data-cci-source="../assets/data/ccis.json"></ul>
+
+                <p class="cci-empty" data-cci-empty hidden>No initiatives match your search.</p>
+
+                <div class="cci-actions">
+                  <button class="btn btn--secondary btn--medium" data-cci-more aria-expanded="false">
+                    <span>Show all 83 initiatives</span>
+                    <img src="../assets/img/icons/arrow-down-small.svg" width="19" height="19" alt="">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="callout">
           <p class="callout__eyebrow">The NAZCA portal: from showcasing global climate action to providing evidence of progress</p>
