@@ -53,3 +53,10 @@
 .carousel__page:focus-visible, .carousel__arrow:focus-visible {
   outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: 2px;
 }
+
+/* Small phones: page numbers move under the "1 of 5" text so 5+ pages still fit */
+@media (max-width: 420px) {
+  .carousel__controls { flex-wrap: wrap; justify-content: flex-end; gap: var(--spacing-8); }
+  .carousel__pager, .carousel__pages { gap: var(--spacing-4); }
+  .carousel__page { padding-inline: var(--spacing-12); }
+}

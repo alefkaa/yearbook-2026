@@ -20,3 +20,14 @@ yb-header { display: block; }
 /* AXIS-PAGES-ADDED */
 /* Large version (axis pages): bigger eyebrow */
 .page-header--large .page-header__eyebrow { font-size: var(--font-size-32); letter-spacing: .2em; }
+
+/* Small screens: smaller title, and the header grows with the title instead of cutting it off */
+@media (max-width: 900px) {
+  .page-header { height: auto; min-height: 480px; padding-block: var(--spacing-48); }
+  .page-header .t-display { font-size: var(--font-size-48, 48px); line-height: 56px; }
+}
+@media (max-width: 600px) {
+  .page-header { min-height: 360px; }
+  .page-header .t-display { font-size: 36px; line-height: 44px; }
+  .page-header--large .page-header__eyebrow { font-size: var(--font-size-24); }
+}

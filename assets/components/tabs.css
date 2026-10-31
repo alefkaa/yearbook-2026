@@ -91,6 +91,9 @@
 .tabs--text .tabs__tab[aria-selected="true"] { border-bottom-color: #859f6b; }
 .tabs--text .tabs__tab[aria-selected="true"] .tabs__label { font-weight: 700; }
 .tabs--text .tabs__panels { background: var(--color-bg-surface); }
+@media (max-width: 900px) {
+  .tabs--text .tabs__tab { flex: 1 0 220px; }   /* fill the width instead of fixed 160px tabs */
+}
 
 .nazca-charts { display: flex; flex-direction: column; gap: var(--spacing-16); align-items: flex-start; }
 .nazca-charts .tabs { align-self: stretch; }

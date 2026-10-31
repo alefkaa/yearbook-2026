@@ -26,6 +26,12 @@ yb-navbar.is-scrolled .navbar { box-shadow: 0 2px 8px rgba(25, 25, 112, 0.08); }
 .navbar__link:hover { border-bottom-color: var(--color-text-nav); }
 .navbar__link[aria-current="page"] { color: var(--color-accent-purple); border-bottom-color: var(--color-accent-purple); }
 
+/* Phones: logo on top, download button full width underneath */
+@media (max-width: 600px) {
+  .navbar__top { flex-wrap: wrap; gap: var(--spacing-8); }
+  .navbar__top .btn { flex: 1 1 100%; white-space: normal; text-align: center; }
+}
+
 /* Transparent version (homepage): on top of the hero, white once scrolled */
 yb-navbar[variant="transparent"] { position: fixed; left: 0; right: 0; }
 yb-navbar[variant="transparent"]:not(.is-scrolled) .navbar { background: transparent; }
