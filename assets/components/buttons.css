@@ -54,3 +54,13 @@
   background: #ebf3fc; border-color: var(--color-accent-blue); color: var(--color-accent-blue);
   font-size: 13px; line-height: var(--line-height-16);
 }
+
+/* AXIS-PART2-ADDED */
+/* --- Text link with an arrow ("Explore the full overview on NAZCA →") --- */
+.link-arrow {
+  display: inline-flex; align-items: center; gap: var(--spacing-8);
+  font: 700 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  color: var(--color-text-link);
+}
+.link-arrow__icon { width: 20px; height: 20px; transform: rotate(-90deg); transition: transform var(--duration-base) var(--ease); }
+.link-arrow:hover .link-arrow__icon { transform: rotate(-90deg) translateY(4px); }

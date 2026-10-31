@@ -30,4 +30,6 @@
 @import './components/tables.css';
 @import './components/sidebar.css';
 
+@import './components/carousel.css';
+
 @import './components/print.css';

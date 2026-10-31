@@ -218,3 +218,10 @@ a { color: var(--color-text-link); }
 
 /* Paragraphs with a smaller gap (16px instead of a blank line) */
 .prose--tight p + p { margin-top: var(--spacing-16); }
+
+/* AXIS-PART2-ADDED */
+/* Bigger gap between the parts of a long section (Section III) */
+.section__content--spacious { gap: var(--spacing-48); }
+.subsection { display: flex; flex-direction: column; gap: var(--spacing-16); }
+.grid-3--wide { gap: var(--spacing-24); }
+.t-body-l-bold { font: 700 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }

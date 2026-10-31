@@ -75,3 +75,22 @@
 @media (max-width: 900px) {
   .tabs--objectives .tabs__tab { flex: 0 0 260px; }
 }
+
+/* AXIS-PART2-ADDED */
+/* ---------------------------------------------------------
+   TEXT TABS (switch between charts) – Figma: Tab / Text
+   Title + italic subtitle, active = bold + olive bottom line
+   --------------------------------------------------------- */
+.tabs--text .tabs__tab {
+  align-items: flex-start; gap: var(--spacing-4);
+  padding: var(--spacing-16);
+  text-align: left;
+}
+.tabs--text .tabs__label { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+.tabs--text .tabs__sub { font: italic 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); color: var(--color-text-secondary); }
+.tabs--text .tabs__tab[aria-selected="true"] { border-bottom-color: #859f6b; }
+.tabs--text .tabs__tab[aria-selected="true"] .tabs__label { font-weight: 700; }
+.tabs--text .tabs__panels { background: var(--color-bg-surface); }
+
+.nazca-charts { display: flex; flex-direction: column; gap: var(--spacing-16); align-items: flex-start; }
+.nazca-charts .tabs { align-self: stretch; }

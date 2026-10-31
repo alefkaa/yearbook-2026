@@ -1,5 +1,5 @@
 {
-  "_about": "Axis 1 data. gsi = Section II tables, one list per key objective. trend: progress | no-progress | insufficient-data",
+  "_about": "Axis 1 data. gsi = Section II indicator tables (per key objective). tracking = Section III self-tracking cards. cases = Section III case studies. pas = Section III PAS list (per key objective). trend: progress | no-progress | insufficient-data. tracking status: more | less",
   "gsi": {
     "1": [
       {
@@ -372,6 +372,148 @@
           "source": "<a href=\"https://www.imf.org/en/publications/wp/issues/2025/12/20/underpriced-and-overused-fossil-fuel-subsidies-data-2025-update-572729\" target=\"_blank\" rel=\"noopener\">IMF</a>"
         }
       }
+    ]
+  },
+  "tracking": [
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Offshore Wind Alliance (GOWA)",
+      "description": "The Global Offshore Wind Alliance (GOWA) is a diplomatic-led multi stakeholder alliance working towards achieving an ambitious uptake of offshore wind through, knowledge sharing, capacity building and strengthening regional collaboration.",
+      "indicator": "Policy inputs and briefings",
+      "value": "7",
+      "unit": "policy inputs and briefings",
+      "reported": "Reported 2026",
+      "progress": 45,
+      "baseline": "Baseline: 0 (2022)",
+      "target": "Target: 16 (2030)",
+      "findings": "GOWA has strengthened its policy engagement through targeted briefings to members on the fossil fuel crisis, ahead of COP 30, and on floating offshore wind, alongside official submissions to the COP 30 Presidency on the TAFF, to the COP 31 Presidency on barriers and finance for offshore wind, and to the Standing Committee on Finance on ocean finance."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Global Offshore Wind Alliance (GOWA)",
+      "description": "The Global Offshore Wind Alliance (GOWA) is a diplomatic-led multi stakeholder alliance working towards achieving an ambitious uptake of offshore wind through, knowledge sharing, capacity building and strengthening regional collaboration.",
+      "indicator": "Member commitments",
+      "value": "41",
+      "unit": "members",
+      "reported": "Reported 2026",
+      "progress": 70,
+      "baseline": "Baseline: 16 (2022)",
+      "target": "Target: 53 (2030)",
+      "findings": "GOWA has seen strong growth in its membership, including the welcome addition of its first African government member, as well as a new development bank and civil society organization, further expanding the Alliance’s global reach and strengthening its representation across continents and key stakeholder groups."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "more",
+      "statusLabel": "More than halfway",
+      "name": "Industrial Transition Accelerator (ITA)",
+      "description": "The ITA aims to accelerate the number of clean industrial projects reaching final investment decision (FID) across the energy-intensive sectors to build a critical mass of clean industrial plants reaching FID by 2030.",
+      "indicator": "Accelerate the pace at which clean industrial projects are financed and built, year-on-year",
+      "value": "41",
+      "unit": "FIDs",
+      "reported": "Reported 2026",
+      "progress": 80,
+      "baseline": "Baseline: 0 (2024)",
+      "target": "Target: 50 (2026)",
+      "findings": "19 Final Investment Decisions (FIDs) were recorded between November 2025 and April 2026, meaning that 2026 is set to be a record year for clean industry investments (a final progress value is to be published on 4 November 2026)."
+    },
+    {
+      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "statusLabel": "Less than halfway",
+      "name": "Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
+      "description": "Countries committing to working together to enable 100% zero-emission new truck and bus sales by 2040.",
+      "indicator": "100% Zero-Emission Medium- and Heavy-Duty Vehicles (Ze-MHDV) sales by 2040",
+      "value": "5%",
+      "unit": "",
+      "reported": "Reported 2026",
+      "progress": 5,
+      "baseline": "Baseline: 0% (2021)",
+      "target": "Target: 100% (2040)",
+      "findings": "Together, Global MOU countries have thus far achieved approximately 5% ZE-MHDV sales annually. This figure has increased each year for the past decade and more than doubled between 2024 to 2025."
+    }
+  ],
+  "cases": [
+    {
+      "title": "Solutions Bank",
+      "initiative": "by the Global Offshore Wind Alliance (GOWA)",
+      "target": "Related CCI target: Policy inputs and briefings",
+      "contribution": "This action is reported as contributing to Objective 1. Tripling renewables and doubling energy efficiency.",
+      "body": [
+        "As part of its contribution to the Global Climate Action Agenda, GOWA developed and published an openly accessible Solutions Bank, bringing together examples and case studies of best-practice innovation in offshore wind from around the world. The Solutions Bank demonstrates how common challenges to offshore wind development have been overcome and benefits realized, including in relation to energy security, job creation, climate action, nature-positive development and clean energy exports.",
+        "By translating experience from offshore wind markets into accessible and replicable lessons, the Solutions Bank strengthens knowledge-sharing and supports countries in moving from ambition towards implementation. In particular, it can help emerging markets identify practical approaches to overcoming barriers, avoid reinventing solutions to common challenges, and accelerate the development of offshore wind in support of shared climate, energy and sustainable development goals.",
+        "The Solutions Bank makes practical experience and replicable best practices from offshore wind development freely accessible to governments, policymakers and other stakeholders globally, providing concrete examples of solutions that can be adapted to different national and market contexts. Through its contribution to GCAA, it also strengthens the visibility of offshore wind as a proven and scalable solution for delivering the global energy transition."
+      ]
+    },
+    {
+      "title": "Mobilizing efforts to accelerate the number of clean industry projects reaching FID year-on-year",
+      "initiative": "by the Industrial Transition Accelerator (ITA)",
+      "target": "Related CCI target: Accelerate the pace at which clean industrial projects are financed and built, year-on-year",
+      "contribution": "This action is reported as contributing to Objective 2. Accelerating zero and low emission technologies in hard-to-abate sectors, and Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance (under Axis 6).",
+      "body": [
+        "At the local level, the ITA and its partners run country programmes focused on one outcome: final investment decisions (FIDs) on commercial-scale, deep decarbonization projects in energy-intensive sectors. ITA partners with local government, industry and finance players to address the binding constraints that hold projects back, from offtake and power access to infrastructure and financing. At the global level, it works to turn lessons from individual projects into system-level change.",
+        "Country work points to six acceleration levers: dependable demand; abundant renewable power; coordinated supply chains; clean trade flows; community support; and catalytic capital. These are taken to decision-makers on the global stage through Build Clean Now - a global collaborative campaign developed by ITA, Mission Possible Partnership and a wide ecosystem of partners that seeks to accelerate the number of clean industry projects reaching FID every year with an initial target of 50 FIDs in 2025-2026.",
+        "Globally, clean industrial investment is accelerating: 19 FIDs were recorded between November 2025 and April 2026, as the strategic case for clean industry is getting stronger: clean fuels, chemicals and materials reduce exposure to fossil fuel price shocks and supply disruption. The ITA has supported more than 35 projects in critical sunbelt economies representing USD 80 billion of investment potential.",
+        "On global acceleration, Build Clean Now has convened governments, industry and finance through country workshops in Australia, India, Canada, Mexico, Spain; identified and published six acceleration levers (markets, energy, supply chains, trade, communities and finance) drawn from work with project developers worldwide and showcased “Bright Spot” projects to share learnings from operational projects and enable successful approaches to be adopted by others."
+      ]
+    },
+    {
+      "title": "Expanding network of the Global MOU",
+      "initiative": "by the Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
+      "target": "Related CCI target: 100% ZE-MHDV Sales by 2040",
+      "contribution": "This action is reported as contributing to Objective 2. Accelerating zero and low emission technologies in hard-to-abate sectors.",
+      "body": [
+        "Over the past year, the Global MOU has expanded its reach by recruiting new national government signatories alongside subnational and private sector partners, raising ambition for zero-emission medium- and heavy-duty vehicles and accelerating implementation.",
+        "The additions of Mexico and Brazil have facilitated connections with key ministries responsible for driving policy forward in two target geographies identified as high priority. Recognizing policy and the implementation of a robust ecosystem of supporting measures to enable the 2030 and 2040 targets of the Global MOU, these connections have been crucial to advocating for the right policy path to ensure fulfillment of these goals. Since the signing, both Brazil and Mexico have been actively engaged in advancing policy and identifying the right windows of opportunity for action. Meetings were held with agencies from the governments and lessons learned from other geographies were brought as part of knowledge exchange.",
+        "Over the past year, Mexico, Togo, and Brazil joined the Global MOU, bringing the total number of signatory nations to 43. Alongside this growth in the government network, more than 50 new endorsers from NGOs, the private sector, and subnational governments have signed on."
+      ]
+    }
+  ],
+  "pas": {
+    "1": [
+      "Building Efficiency, Electrification, and Renewable Integration (BEERI)",
+      "Plan to Accelerate Electrification Solutions (AFID, UNEZA)",
+      "Mission Efficiency Plan to Accelerate Doubling Energy Efficiency",
+      "Minerals for the Transition and Circularity",
+      "Expansion and Resilience of Power Grids",
+      "Offshore wind as a reliable, scalable, and clean energy solution",
+      "Harnessing AI & Digitalisation for a Smart, Resilient, and Efficient Energy Infrastructure",
+      "Accelerate Grid Flexibility for High VRE Integration in RELAC Countries (AGF-RELAC)"
+    ],
+    "2": [
+      "Cement & Concrete Breakthrough",
+      "Plan to Accelerate Road Transport Decarbonisation",
+      "Green Industrial Hubs / Corridors",
+      "Decarbonization of the commercial road transport industry",
+      "Steel",
+      "The expansion and acceleration of Carbon Dioxide Removal (CDR)",
+      "Decarbonization of the maritime sector",
+      "Green Industry Support for Emerging Markets and Developing Economies",
+      "Decarbonization of the aviation sector",
+      "Green Transport Corridors",
+      "Chemicals",
+      "CEM Future Fuels Action Plan",
+      "Scaling up public and sustainable transport in cities (Avoid and shift breakthrough)",
+      "\"Avoid & Shift\" transformations in freight transport"
+    ],
+    "3": [
+      "Platform for Clean Cooking in Schools",
+      "Universal access to clean cooking",
+      "Plan to Accelerate Universal Access to Electricity"
+    ],
+    "4": [
+      "Renewable and Low-Emissions Hydrogen",
+      "Accelerating Coal Transitions",
+      "Plan to coordinate efforts to end expansion of fossil fuels",
+      "Just and inclusive planning of the energy transition",
+      "Plan to Accelerate the Phase-Out of Fossil Fuel Incentives Including Subsidies",
+      "High-level, global dialogue on economic enablers and aligning financial flows to accelerate the transition away from fossil fuels",
+      "Collaborative Exporter-Importer Governance for Shared Prosperity Post-Fossil Fuels",
+      "Accelerating the Global Transition Away from Oil and Gas",
+      "Offshore Transition Initiative"
     ]
   }
 }

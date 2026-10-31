@@ -56,3 +56,32 @@
 @media (max-width: 900px) {
   .gsi-table { min-width: 720px; }
 }
+
+/* AXIS-PART2-ADDED */
+/* ---------------------------------------------------------
+   PAS TABLE: No. | Plan to Accelerate Solutions
+   --------------------------------------------------------- */
+.pas-table {
+  width: 100%;
+  border-collapse: separate; border-spacing: 0;
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.pas-table th {
+  padding: var(--spacing-8) var(--spacing-16);
+  background: var(--color-border-tab-active);
+  font: 700 var(--font-size-16)/var(--line-height-28) var(--font-family-body);
+  text-align: left;
+}
+.pas-table td {
+  padding: var(--spacing-8) var(--spacing-16);
+  border-top: 1px solid var(--color-border-default);
+  font: 400 var(--font-size-14)/var(--line-height-28) var(--font-family-body);
+}
+.pas-table .pas-table__no {
+  width: 88px; text-align: center;
+  border-right: 1px solid var(--color-border-default);
+}
+.pas-table td.pas-table__no { color: var(--color-text-muted); }
