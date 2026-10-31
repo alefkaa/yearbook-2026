@@ -1,0 +1,26 @@
+/* =========================================================
+   CHARTS
+   Chart box with a static SVG chart exported from Figma
+   (assets/img/charts/)
+   ========================================================= */
+
+.chart {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-24);
+  display: flex; flex-direction: column; gap: var(--spacing-16);
+}
+.chart__title   { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
+.chart__caption { font: 400 var(--font-size-12)/var(--line-height-18) var(--font-family-body); color: var(--color-text-secondary); }
+.chart__image   { width: 100%; height: auto; }
+
+/* Text under a chart */
+.chart-note { font: 400 var(--font-size-16)/var(--line-height-24) var(--font-family-body); }
+
+/* Small screens: wide charts scroll sideways instead of shrinking */
+@media (max-width: 700px) {
+  .chart__scroll { overflow-x: auto; }
+  .chart__scroll .chart__image { min-width: 700px; }
+}

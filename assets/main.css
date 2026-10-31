@@ -1,0 +1,26 @@
+/* =========================================================
+   MAIN.CSS – the only stylesheet the pages load.
+   It loads everything below, in this order.
+   ========================================================= */
+
+/* 1. Foundations: fonts, Figma variables, text styles, layout */
+@import './base.css';
+
+/* 2. Small building blocks */
+@import './components/buttons.css';
+@import './components/headings.css';
+@import './components/callouts.css';
+@import './components/cards.css';
+@import './components/charts.css';
+
+/* 3. Site frame (same on every page) */
+@import './components/navbar.css';
+@import './components/header.css';
+@import './components/footer.css';
+
+/* 4. Interactive components */
+@import './components/tabs.css';
+@import './components/accordion.css';
+
+/* 5. Page-specific styles */
+@import './pages/home.css';

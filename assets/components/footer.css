@@ -1,0 +1,29 @@
+/* =========================================================
+   FOOTER – UNFCCC footer (from the UNFCCC library)
+   ========================================================= */
+
+yb-footer { display: block; }
+
+.footer {
+  background: var(--color-brand-navy); color: var(--color-text-inverse);
+  display: flex; justify-content: space-between; align-items: flex-start;
+  padding: 80px 68px;
+}
+.footer__title { margin-bottom: var(--spacing-16); font-size: 20px; line-height: 24px; }
+.footer__columns { display: flex; gap: var(--spacing-24); }
+.footer__columns ul { list-style: none; padding: 0; width: 302px; display: flex; flex-direction: column; gap: var(--spacing-12); }
+.footer a { color: inherit; font-size: 16px; line-height: 24px; }
+.footer a:focus-visible { outline: var(--border-width-focus) solid var(--color-text-inverse); outline-offset: 2px; }
+
+.footer__social { list-style: none; padding: 0; display: flex; gap: var(--spacing-16); }
+.footer__social a {
+  display: flex; padding: var(--spacing-8);
+  border: 1px solid var(--color-text-inverse); border-radius: var(--radius-full);
+  transition: background-color var(--duration-fast) var(--ease);
+}
+.footer__social a:hover { background: rgba(255, 255, 255, 0.15); }
+
+@media (max-width: 900px) {
+  .footer { flex-direction: column; gap: var(--spacing-32); padding: 48px 16px; }
+  .footer__columns ul { width: auto; }
+}

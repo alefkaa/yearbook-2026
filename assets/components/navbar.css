@@ -1,0 +1,31 @@
+/* =========================================================
+   NAVBAR – sticky on every page
+   Homepage uses the transparent version on top of the hero:
+   <yb-navbar variant="transparent">
+   ========================================================= */
+
+yb-navbar { display: block; position: sticky; top: 0; z-index: 100; }
+
+.navbar {
+  background: var(--color-bg-surface);
+  transition: background-color var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
+}
+yb-navbar.is-scrolled .navbar { box-shadow: 0 2px 8px rgba(25, 25, 112, 0.08); }
+
+.navbar__inner { display: flex; flex-direction: column; gap: var(--spacing-8); padding-block: var(--spacing-8); }
+.navbar__top {
+  display: flex; align-items: center; justify-content: space-between;
+  padding-block: var(--spacing-8);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+.navbar__links { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; list-style: none; padding: 0; }
+.navbar__link {
+  display: block; padding: 6px 0 4px; border-bottom: 2px solid transparent; text-decoration: none;
+  transition: color var(--duration-fast) var(--ease), border-color var(--duration-base) var(--ease);
+}
+.navbar__link:hover { border-bottom-color: var(--color-text-nav); }
+.navbar__link[aria-current="page"] { color: var(--color-accent-purple); border-bottom-color: var(--color-accent-purple); }
+
+/* Transparent version (homepage): on top of the hero, white once scrolled */
+yb-navbar[variant="transparent"] { position: fixed; left: 0; right: 0; }
+yb-navbar[variant="transparent"]:not(.is-scrolled) .navbar { background: transparent; }

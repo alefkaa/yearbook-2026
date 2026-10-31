@@ -1,0 +1,179 @@
+/* =========================================================
+   CARDS
+   1. Card / Accent        4. Card / Axis (homepage)
+   2. Card / Snapshot      5. Card / Key Objective + COP 31 Priority
+   3. Card / Link          6. Key numbers (Stat / Number, stat row)
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   1. CARD / ACCENT – coloured left border
+      Default: 18px caps title   |   --stat: 24px caps title
+   --------------------------------------------------------- */
+.card-accent {
+  --accent: var(--color-accent-indigo);
+  background: var(--color-bg-surface);
+  border-left: var(--border-width-accent) solid var(--accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-24);
+  display: flex; flex-direction: column; gap: var(--spacing-8);
+}
+.card-accent__title {
+  font: 700 var(--font-size-18)/var(--line-height-24) var(--font-family-body);
+  text-transform: uppercase; color: var(--accent);
+}
+.card-accent__text { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+
+.card-accent--stat { gap: var(--spacing-4); }
+.card-accent--stat .card-accent__title { font-size: var(--font-size-24); line-height: var(--line-height-32); }
+
+.card-accent--indigo { --accent: var(--color-accent-indigo); }
+.card-accent--teal   { --accent: var(--color-accent-teal); }
+.card-accent--blue   { --accent: var(--color-accent-blue); }
+.card-accent--orange { --accent: var(--color-accent-orange); }
+.card-accent--purple { --accent: var(--color-accent-purple); }
+
+/* ---------------------------------------------------------
+   2. CARD / SNAPSHOT – bordered card, title + short text
+   --------------------------------------------------------- */
+.card-snapshot {
+  display: flex; flex-direction: column; justify-content: center; gap: var(--spacing-8);
+  padding: var(--spacing-24) var(--spacing-32);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+}
+.card-snapshot__title { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
+.card-snapshot__text {
+  font: 400 var(--font-size-16)/var(--line-height-24) var(--font-family-body);
+  letter-spacing: .04em; color: var(--color-text-secondary);
+}
+
+/* ---------------------------------------------------------
+   3. CARD / LINK – "next chapter" cards
+   --------------------------------------------------------- */
+.card-link {
+  display: flex; align-items: center; gap: var(--spacing-10);
+  min-height: 120px;
+  padding: var(--spacing-24) 40px;
+  border: 1px solid var(--color-border-strong);
+  color: inherit; text-decoration: none;
+  transition: background-color var(--duration-base) var(--ease), border-color var(--duration-base) var(--ease);
+}
+.card-link:hover { background: var(--color-button-secondary-bg-hover); border-color: var(--color-accent-indigo); }
+.card-link:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: 2px; }
+.card-link__text { flex: 1; display: flex; flex-direction: column; gap: var(--spacing-2); }
+.card-link__title { font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body); }
+.card-link__meta {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .1em; color: var(--color-text-secondary);
+}
+.card-link__icon { flex-shrink: 0; transition: transform var(--duration-base) var(--ease); }
+.card-link:hover .card-link__icon { transform: translateX(4px); }
+
+/* ---------------------------------------------------------
+   4. CARD / AXIS – homepage photo cards
+   --------------------------------------------------------- */
+.card-axis {
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+  height: 400px;
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-text-inverse); text-decoration: none;
+}
+.card-axis__bg {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  transition: transform 600ms var(--ease);
+}
+.card-axis__bg--bottom { object-position: bottom; }
+.card-axis__shade { position: absolute; inset: 0; background: rgba(0, 0, 0, var(--shade, 0)); }
+.card-axis__text { position: relative; flex: 1; display: flex; flex-direction: column; gap: var(--spacing-10); padding: var(--spacing-32); }
+.card-axis__number { font: 400 var(--font-size-48)/var(--line-height-60) var(--font-family-heading); }
+.card-axis__title { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
+.card-axis__footer {
+  position: relative;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--spacing-8) var(--spacing-32);
+  background: var(--color-bg-surface);
+}
+.card-axis__link {
+  display: flex; align-items: center; gap: var(--spacing-4);
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-brand);
+}
+.card-axis__link img { transition: transform var(--duration-base) var(--ease); }
+.card-axis:hover .card-axis__bg { transform: scale(1.04); }
+.card-axis:hover .card-axis__link img { transform: translateX(4px); }
+.card-axis:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: 2px; }
+
+/* ---------------------------------------------------------
+   5. CARD / KEY OBJECTIVE + COP 31 PRIORITY (inside the axis tabs)
+   --------------------------------------------------------- */
+.priority {
+  display: flex; align-items: center; gap: var(--spacing-12);
+  padding: var(--spacing-12) 20px;
+  background: var(--color-bg-table-header-green);
+  border-left: 4px solid var(--color-border-strong);
+  border-radius: 6px;
+}
+.priority__title { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
+
+/* Icons: COP 31 priority (header) + key objectives (list) – same size */
+.priority__icon,
+.objective-card__icon {
+  width: 40px; height: 40px;
+  flex-shrink: 0;
+}
+
+.objective-card {
+  display: flex; align-items: center; gap: var(--spacing-16);
+  padding: var(--spacing-12) var(--spacing-16);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+.objective-card img { flex-shrink: 0; }
+.objective-card__label {
+  font: 400 var(--font-size-14)/var(--line-height-24) var(--font-family-body);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.objective-card__text { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
+
+/* Groups of objectives */
+.objective-groups { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-24); align-items: start; }
+.objective-groups--single { grid-template-columns: 1fr; }
+.objective-group { display: flex; flex-direction: column; gap: var(--spacing-12); }
+.objective-list { display: flex; flex-direction: column; gap: var(--spacing-16); }
+.objective-list--2col { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-16); align-items: start; }
+
+/* ---------------------------------------------------------
+   6. KEY NUMBERS
+   --------------------------------------------------------- */
+/* Stat row: a stat card next to a paragraph */
+.stat-row { display: flex; align-items: center; gap: var(--spacing-24); }
+.stat-row .card-accent { flex: 0 0 288px; }
+
+/* Stat / Number: big Lora figures with dividers (homepage) */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); }
+.stat {
+  display: flex; flex-direction: column; gap: var(--spacing-8);
+  min-height: 140px; padding: var(--spacing-16) var(--spacing-32);
+}
+.stat:first-child { padding-left: var(--spacing-16); }
+.stat + .stat { border-left: 1px solid var(--color-border-default); }
+.stat__value { font: 400 var(--font-size-48)/var(--line-height-64) var(--font-family-heading); }
+.stat__label {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  text-transform: uppercase; color: var(--color-text-secondary);
+}
+
+/* ---------------------------------------------------------
+   SMALL SCREENS
+   --------------------------------------------------------- */
+@media (max-width: 900px) {
+  .objective-groups, .objective-list--2col { grid-template-columns: 1fr; }
+  .stat-row { flex-direction: column; align-items: stretch; }
+  .stat-row .card-accent { flex-basis: auto; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stat:nth-child(3) { border-left: 0; padding-left: var(--spacing-16); }
+}

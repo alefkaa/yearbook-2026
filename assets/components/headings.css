@@ -1,0 +1,26 @@
+/* =========================================================
+   HEADINGS
+   Figma: Section Heading (Medium = inner pages, Large = homepage), Heading/H3
+   ========================================================= */
+
+/* --- Section Heading --- */
+.section-heading { display: flex; flex-direction: column; gap: var(--spacing-10); }
+.section-heading__eyebrow {
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.section-heading__title {
+  font: 400 var(--font-size-32)/var(--line-height-48) var(--font-family-heading);
+  color: var(--color-text-primary);
+}
+.section-heading__text { font: 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+
+/* Large version (homepage) */
+.section-heading--large .section-heading__title { font-size: var(--font-size-48); line-height: var(--line-height-60); }
+
+/* --- Sub-heading inside a section --- */
+.subheading { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
+
+@media (max-width: 600px) {
+  .section-heading--large .section-heading__title { font-size: 36px; line-height: 44px; }
+}

@@ -1,0 +1,59 @@
+/* =========================================================
+   TABS
+   Figma: Tab / Key Objective + panels (Introduction, axis tabs)
+   ========================================================= */
+
+.tabs {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+.tabs__list { display: flex; }
+
+.tabs__tab {
+  flex: 1 1 0;
+  display: flex; flex-direction: column; align-items: center; gap: var(--spacing-12);
+  padding: var(--spacing-16) var(--spacing-16);
+  background: var(--color-bg-surface);
+  border: 0;
+  border-left: 1px solid var(--color-border-default);
+  border-bottom: var(--border-width-accent) solid var(--color-border-default);
+  text-align: center;
+  font: inherit; color: inherit;
+  cursor: pointer;
+  transition: background-color var(--duration-base) var(--ease), border-color var(--duration-base) var(--ease);
+}
+.tabs__tab:first-child { border-left: 0; }
+.tabs__tab:hover { background: var(--color-button-secondary-bg-hover); }
+.tabs__tab img { transition: transform var(--duration-base) var(--ease); }
+.tabs__tab:hover img { transform: scale(1.06); }
+.tabs__tab[aria-selected="true"] {
+  background: var(--color-bg-tab-active);
+  border-bottom-color: var(--color-border-tab-active);
+}
+.tabs__tab:focus-visible { outline: 2px solid var(--color-accent-indigo); outline-offset: -4px; }
+.tabs__icon { width: 60px; height: 60px; }
+.tabs__eyebrow {
+  display: block;
+  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-secondary);
+}
+.tabs__label {
+  display: block;
+  font: 700 var(--font-size-12)/var(--line-height-22) var(--font-family-body);
+}
+
+.tabs__panels { background: var(--color-bg-tab-active); padding: var(--spacing-24); }
+.tabs__panel {
+  display: flex; flex-direction: column; gap: var(--spacing-24);
+  animation: panel-in var(--duration-base) var(--ease);
+}
+.tabs__panel-title { font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body); }
+
+/* Small screens: tabs scroll sideways */
+@media (max-width: 900px) {
+  .tabs__list { overflow-x: auto; }
+  .tabs__tab { flex: 0 0 160px; }
+}

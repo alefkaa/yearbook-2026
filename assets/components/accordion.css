@@ -1,66 +1,13 @@
 /* =========================================================
-   INTERACTIVE COMPONENTS
+   ACCORDION + CCI LIST
+   1. Accordion (foldable box)
+   2. Search field + filter chips
+   3. CCI list (rows built from assets/data/ccis.json)
    ========================================================= */
 
-/* --- Tabs / Key Objective (axis tabs) --- */
-.tabs {
-  background: var(--color-bg-surface);
-  border: 1px solid var(--color-border-default);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-card);
-  overflow: hidden;
-}
-.tabs__list { display: flex; }
-
-.tabs__tab {
-  flex: 1 1 0;
-  display: flex; flex-direction: column; align-items: center; gap: var(--spacing-12);
-  padding: var(--spacing-24) var(--spacing-16);
-  background: var(--color-bg-surface);
-  border: 0;
-  border-left: 1px solid var(--color-border-default);
-  border-bottom: var(--border-width-accent) solid var(--color-border-default);
-  text-align: center;
-  font: inherit; color: inherit;
-  cursor: pointer;
-  transition: background-color var(--duration-base) var(--ease),
-              border-color var(--duration-base) var(--ease);
-}
-.tabs__tab:first-child { border-left: 0; }
-.tabs__tab:hover { background: var(--color-button-secondary-bg-hover); }
-.tabs__tab img { transition: transform var(--duration-base) var(--ease); }
-.tabs__tab:hover img { transform: scale(1.06); }
-.tabs__tab[aria-selected="true"] {
-  background: var(--color-bg-tab-active);
-  border-bottom-color: var(--color-border-tab-active);
-}
-.tabs__tab:focus-visible { outline: 2px solid var(--color-accent-indigo); outline-offset: -4px; }
-
-.tabs__eyebrow {
-  font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
-  letter-spacing: .1em; text-transform: uppercase; color: var(--color-text-secondary);
-}
-.tabs__label { font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
-
-.tabs__panels { background: var(--color-bg-tab-active); padding: var(--spacing-24); }
-.tabs__panel {
-  display: flex; flex-direction: column; gap: var(--spacing-24);
-  animation: panel-in var(--duration-base) var(--ease);
-}
-@keyframes panel-in {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: none; }
-}
-.tabs__panel[hidden] { display: none; }
-.tabs__panel-title { font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body); }
-
-/* Small screens: tabs scroll sideways */
-@media (max-width: 900px) {
-  .tabs__list { overflow-x: auto; }
-  .tabs__tab { flex: 0 0 160px; }
-}
-
-/* --- Accordion --- */
+/* ---------------------------------------------------------
+   1. ACCORDION
+   --------------------------------------------------------- */
 .accordion {
   margin-block: var(--spacing-24);
   background: var(--color-bg-surface);
@@ -86,7 +33,7 @@
 .accordion__chevron { transition: transform var(--duration-base) var(--ease); }
 .accordion.is-open .accordion__chevron { transform: rotate(180deg); }
 
-/* smooth open / close */
+/* Smooth open / close */
 .accordion__panel {
   display: grid; grid-template-rows: 0fr;
   transition: grid-template-rows var(--duration-base) var(--ease);
@@ -99,7 +46,11 @@
   display: flex; flex-direction: column; gap: var(--spacing-24);
 }
 
-/* --- Search field --- */
+/* ---------------------------------------------------------
+   2. SEARCH FIELD + FILTER CHIPS
+   --------------------------------------------------------- */
+.toolbar { display: flex; align-items: center; gap: var(--spacing-16); flex-wrap: wrap; }
+
 .search-field {
   display: flex; align-items: center; gap: var(--spacing-8);
   width: 320px; flex-shrink: 0;
@@ -117,8 +68,6 @@
 }
 .search-field input::placeholder { color: var(--color-text-secondary); }
 
-/* --- Filter chips --- */
-.toolbar { display: flex; align-items: center; gap: var(--spacing-16); flex-wrap: wrap; }
 .chips { display: flex; flex-wrap: wrap; gap: var(--spacing-8); }
 .chip {
   padding: var(--spacing-6) var(--spacing-16);
@@ -136,7 +85,9 @@
 }
 .chip:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: 2px; }
 
-/* --- CCI list --- */
+/* ---------------------------------------------------------
+   3. CCI LIST
+   --------------------------------------------------------- */
 .cci-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: var(--spacing-32); }
 .cci-row {
   display: flex; align-items: flex-start; gap: var(--spacing-10);
@@ -144,7 +95,6 @@
   border-bottom: 1px solid var(--color-border-default);
   animation: panel-in var(--duration-base) var(--ease);
 }
-.cci-row[hidden] { display: none; }
 .cci-row__logo {
   width: 48px; height: 48px; flex-shrink: 0;
   border: 1px solid var(--color-border-default); border-radius: var(--radius-full);
@@ -154,11 +104,15 @@
 .cci-row__text { display: flex; flex-direction: column; gap: var(--spacing-4); }
 .cci-row__name { font: 400 var(--font-size-12)/var(--line-height-22) var(--font-family-body); }
 .cci-row__tags { display: flex; flex-wrap: wrap; gap: var(--spacing-8); }
+
 .cci-empty { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); color: var(--color-text-secondary); }
 .cci-actions { display: flex; justify-content: center; }
 .cci-actions .btn img { transition: transform var(--duration-base) var(--ease); }
 .cci-actions .btn[aria-expanded="true"] img { transform: rotate(180deg); }
 
+/* ---------------------------------------------------------
+   SMALL SCREENS
+   --------------------------------------------------------- */
 @media (max-width: 700px) {
   .accordion__header, .accordion__body { padding-inline: var(--spacing-16); }
   .search-field { width: 100%; }
