@@ -3,11 +3,13 @@
    Figma: carousel – CCI self-tracking, pagination-controls
    ========================================================= */
 
-.carousel { display: flex; flex-direction: column; gap: var(--spacing-16); }
+.carousel {
+  --per-page: 1;   /* updated by carousel.js */
+  display: flex; flex-direction: column; gap: var(--spacing-16); }
 
 .carousel__track {
   display: grid;
-  grid-template-columns: repeat(var(--per-page, 1), 1fr);
+  grid-template-columns: repeat(var(--per-page), 1fr);
   gap: var(--spacing-16);
   align-items: stretch;
 }

@@ -2,37 +2,44 @@
   {
     "name": "One Planet Business for Biodiversity (OP2B)",
     "axes": [],
-    "logo": "op2b.png"
+    "logo": "op2b.png",
+    "url": "https://nazca.unfccc.int/CCI/177"
   },
   {
     "name": "Ocean Risk and Resilience Action Alliance (ORRAA)",
     "axes": [],
-    "logo": "orraa.png"
+    "logo": "orraa.png",
+    "url": "https://nazca.unfccc.int/CCI/221"
   },
   {
     "name": "Leadership for Urban Climate Investment (LUCI)",
     "axes": [],
-    "logo": "luci.png"
+    "logo": "luci.png",
+    "url": "https://nazca.unfccc.int/CCI/234"
   },
   {
     "name": "Renewables in Latin America and The Caribbean (RELAC)",
     "axes": [],
-    "logo": "relac.png"
+    "logo": "relac.png",
+    "url": "https://nazca.unfccc.int/CCI/249"
   },
   {
     "name": "UN-Convened Net-Zero Asset Owner Alliance",
     "axes": [],
-    "logo": "un-convened-net-zero-asset-owner-allianc.png"
+    "logo": "un-convened-net-zero-asset-owner-allianc.png",
+    "url": "https://nazca.unfccc.int/CCI/197"
   },
   {
     "name": "4/1000 Initiative - Soils for Food Security and Climate",
     "axes": [],
-    "logo": "4per1000-initiative-soils-for-food-secur.png"
+    "logo": "4per1000-initiative-soils-for-food-secur.png",
+    "url": "https://nazca.unfccc.int/CCI/210"
   },
   {
     "name": "Global Alliance for Buildings and Construction (GlobalABC)",
     "axes": [],
-    "logo": "globalabc.png"
+    "logo": "globalabc.png",
+    "url": "https://nazca.unfccc.int/CCI/4"
   },
   {
     "name": "Global Resilience Partnership (GRP)",
@@ -43,24 +50,28 @@
       5,
       6
     ],
-    "logo": "grp.png"
+    "logo": "grp.png",
+    "url": "https://nazca.unfccc.int/CCI/214"
   },
   {
     "name": "Airport Carbon Accreditation",
     "axes": [],
-    "logo": "airport-carbon-accreditation.png"
+    "logo": "airport-carbon-accreditation.png",
+    "url": "https://nazca.unfccc.int/CCI/29"
   },
   {
     "name": "Public Transport Declaration on Climate Leadership (UITP)",
     "axes": [
       4
     ],
-    "logo": "uitp.png"
+    "logo": "uitp.png",
+    "url": "https://nazca.unfccc.int/CCI/192"
   },
   {
     "name": "Under2 Coalition",
     "axes": [],
-    "logo": "under2-coalition.png"
+    "logo": "under2-coalition.png",
+    "url": "https://nazca.unfccc.int/CCI/198"
   },
   {
     "name": "Fashion Industry Charter for Climate Action",
@@ -68,7 +79,8 @@
       1,
       6
     ],
-    "logo": "fashion-industry-charter-for-climate-act.png"
+    "logo": "fashion-industry-charter-for-climate-act.png",
+    "url": "https://nazca.unfccc.int/CCI/193"
   },
   {
     "name": "RegionsAdapt",
@@ -76,7 +88,8 @@
       4,
       6
     ],
-    "logo": "regionsadapt.png"
+    "logo": "regionsadapt.png",
+    "url": "https://nazca.unfccc.int/CCI/180"
   },
   {
     "name": "Sports for Climate Action",
@@ -84,56 +97,66 @@
       1,
       4
     ],
-    "logo": "sports-for-climate-action.png"
+    "logo": "sports-for-climate-action.png",
+    "url": "https://nazca.unfccc.int/CCI/207"
   },
   {
     "name": "Mainstreaming Climate in Financial Institutions",
     "axes": [
       6
     ],
-    "logo": "mainstreaming-climate-in-financial-insti.png"
+    "logo": "mainstreaming-climate-in-financial-insti.png",
+    "url": "https://nazca.unfccc.int/CCI/309"
   },
   {
     "name": "Governors' Climate and Forests Task Force (GCF)",
     "axes": [],
-    "logo": "gcf.png"
+    "logo": "gcf.png",
+    "url": "https://nazca.unfccc.int/CCI/216"
   },
   {
     "name": "Accelerate Climate Transition Initiative",
     "axes": [],
-    "logo": "accelerate-climate-transition-initiative.png"
+    "logo": "accelerate-climate-transition-initiative.png",
+    "url": "https://nazca.unfccc.int/CCI/211"
   },
   {
     "name": "Glasgow Declaration on Climate Action in Tourism",
     "axes": [],
-    "logo": "glasgow-declaration-on-climate-action-in.png"
+    "logo": "glasgow-declaration-on-climate-action-in.png",
+    "url": "https://nazca.unfccc.int/CCI/308"
   },
   {
     "name": "Japan Climate Initiative",
     "axes": [],
-    "logo": "japan-climate-initiative.png"
+    "logo": "japan-climate-initiative.png",
+    "url": "https://nazca.unfccc.int/CCI/194"
   },
   {
     "name": "International Wineries for Climate Action (IWCA)",
     "axes": [],
-    "logo": "iwca.png"
+    "logo": "iwca.png",
+    "url": "https://nazca.unfccc.int/CCI/195"
   },
   {
     "name": "Exponential Roadmap Initiative (ERI)",
     "axes": [],
-    "logo": "eri.png"
+    "logo": "eri.png",
+    "url": "https://nazca.unfccc.int/CCI/196"
   },
   {
     "name": "Global Shield against Climate Risks",
     "axes": [
       6
     ],
-    "logo": "global-shield-against-climate-risks.png"
+    "logo": "global-shield-against-climate-risks.png",
+    "url": "https://nazca.unfccc.int/CCI/215"
   },
   {
     "name": "Improved and Efficient Cooking Energy Solution for Nigeria",
     "axes": [],
-    "logo": "improved-and-efficient-cooking-energy-so.png"
+    "logo": "improved-and-efficient-cooking-energy-so.png",
+    "url": "https://nazca.unfccc.int/CCI/218"
   },
   {
     "name": "Industrial Deep Decarbonisation Initiative (IDDI)",
@@ -141,7 +164,8 @@
       1,
       6
     ],
-    "logo": "iddi.png"
+    "logo": "iddi.png",
+    "url": "https://nazca.unfccc.int/CCI/219"
   },
   {
     "name": "Climate Club",
@@ -149,41 +173,48 @@
       1,
       6
     ],
-    "logo": "climate-club.png"
+    "logo": "climate-club.png",
+    "url": "https://nazca.unfccc.int/CCI/213"
   },
   {
     "name": "Pledge to Net Zero",
     "axes": [],
-    "logo": "pledge-to-net-zero.png"
+    "logo": "pledge-to-net-zero.png",
+    "url": "https://nazca.unfccc.int/CCI/199"
   },
   {
     "name": "Planet Mark Net Zero Certification",
     "axes": [],
-    "logo": "planet-mark-net-zero-certification.png"
+    "logo": "planet-mark-net-zero-certification.png",
+    "url": "https://nazca.unfccc.int/CCI/200"
   },
   {
     "name": "Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
     "axes": [
       1
     ],
-    "logo": "memorandum-of-understanding-on-zero-emis.png"
+    "logo": "memorandum-of-understanding-on-zero-emis.png",
+    "url": "https://nazca.unfccc.int/CCI/181"
   },
   {
     "name": "Sustainable Business COP",
     "axes": [],
-    "logo": "sustainable-business-cop.png"
+    "logo": "sustainable-business-cop.png",
+    "url": "https://nazca.unfccc.int/CCI/89"
   },
   {
     "name": "Green Digital Action",
     "axes": [
       6
     ],
-    "logo": "green-digital-action.png"
+    "logo": "green-digital-action.png",
+    "url": "https://nazca.unfccc.int/CCI/94"
   },
   {
     "name": "IEA Bioenergy Task 39 - Biofuels for Decarbonization of Transportation",
     "axes": [],
-    "logo": "iea-bioenergy-task-39-biofuels-for-decar.png"
+    "logo": "iea-bioenergy-task-39-biofuels-for-decar.png",
+    "url": "https://nazca.unfccc.int/CCI/183"
   },
   {
     "name": "Climate and Clean Air Coalition",
@@ -192,87 +223,102 @@
       3,
       4
     ],
-    "logo": "climate-and-clean-air-coalition.png"
+    "logo": "climate-and-clean-air-coalition.png",
+    "url": "https://nazca.unfccc.int/CCI/307"
   },
   {
     "name": "Forest and Farm Facility (FFF)",
     "axes": [],
-    "logo": "fff.png"
+    "logo": "fff.png",
+    "url": "https://nazca.unfccc.int/CCI/185"
   },
   {
     "name": "WorldGBC Building the Transition (BtT)",
     "axes": [],
-    "logo": "btt.png"
+    "logo": "btt.png",
+    "url": "https://nazca.unfccc.int/CCI/186"
   },
   {
     "name": "Coalition of Action 4 Soil Health (CA4SH)",
     "axes": [
       3
     ],
-    "logo": "ca4sh.png"
+    "logo": "ca4sh.png",
+    "url": "https://nazca.unfccc.int/CCI/99"
   },
   {
     "name": "LUPPA - Laboratory on Urban Food Policies",
     "axes": [],
-    "logo": "luppa-laboratory-on-urban-food-policies.png"
+    "logo": "luppa-laboratory-on-urban-food-policies.png",
+    "url": "https://nazca.unfccc.int/CCI/188"
   },
   {
     "name": "National Adaptation Plan Global Network (NAP GN)",
     "axes": [],
-    "logo": "nap-gn.png"
+    "logo": "nap-gn.png",
+    "url": "https://nazca.unfccc.int/CCI/266"
   },
   {
     "name": "Paris Agreement Article 6 Implementation Partnership (A6IP)",
     "axes": [],
-    "logo": "a6ip.png"
+    "logo": "a6ip.png",
+    "url": "https://nazca.unfccc.int/CCI/190"
   },
   {
     "name": "Global Offshore Wind Alliance (GOWA)",
     "axes": [
       1
     ],
-    "logo": "gowa.png"
+    "logo": "gowa.png",
+    "url": "https://nazca.unfccc.int/CCI/275"
   },
   {
     "name": "The Coalition to Grow Carbon Markets",
     "axes": [
       6
     ],
-    "logo": "the-coalition-to-grow-carbon-markets.png"
+    "logo": "the-coalition-to-grow-carbon-markets.png",
+    "url": "https://nazca.unfccc.int/CCI/122"
   },
   {
     "name": "SME Climate Hub",
     "axes": [],
-    "logo": "sme-climate-hub.png"
+    "logo": "sme-climate-hub.png",
+    "url": "https://nazca.unfccc.int/CCI/202"
   },
   {
     "name": "Investment Mobilisation Collaboration Alliance (IMCA)",
     "axes": [],
-    "logo": "imca.png"
+    "logo": "imca.png",
+    "url": "https://nazca.unfccc.int/CCI/129"
   },
   {
     "name": "Forest Declaration Assessment",
     "axes": [],
-    "logo": "forest-declaration-assessment.png"
+    "logo": "forest-declaration-assessment.png",
+    "url": "https://nazca.unfccc.int/CCI/132"
   },
   {
     "name": "Children and Climate Initiative",
     "axes": [
       5
     ],
-    "logo": "children-and-climate-initiative.png"
+    "logo": "children-and-climate-initiative.png",
+    "url": "https://nazca.unfccc.int/CCI/111"
   },
   {
     "name": "The Lancet Countdown on Health and Climate Change",
     "axes": [],
-    "logo": "the-lancet-countdown-on-health-and-clima.png"
+    "logo": "the-lancet-countdown-on-health-and-clima.png",
+    "url": "https://nazca.unfccc.int/CCI/203"
   },
   {
     "name": "Net Zero Partnership for Industrial Decarbonization",
     "axes": [
       1
     ],
-    "logo": "net-zero-partnership-for-industrial-deca.png"
+    "logo": "net-zero-partnership-for-industrial-deca.png",
+    "url": "https://nazca.unfccc.int/CCI/116"
   },
   {
     "name": "Food Waste Breakthrough",
@@ -280,7 +326,8 @@
       3,
       4
     ],
-    "logo": "food-waste-breakthrough.png"
+    "logo": "food-waste-breakthrough.png",
+    "url": "https://nazca.unfccc.int/CCI/117"
   },
   {
     "name": "Narratives of Urban Resilience: A Cultural Approach to Climate Transitions",
@@ -289,24 +336,28 @@
       5,
       6
     ],
-    "logo": "narratives-of-urban-resilience-a-cultura.png"
+    "logo": "narratives-of-urban-resilience-a-cultura.png",
+    "url": "https://nazca.unfccc.int/CCI/154"
   },
   {
     "name": "Coalition for Sustainable Urban Development of the Amazon (DUSA)",
     "axes": [],
-    "logo": "dusa.png"
+    "logo": "dusa.png",
+    "url": "https://nazca.unfccc.int/CCI/156"
   },
   {
     "name": "Global Alliance of Subnational Development Bank",
     "axes": [],
-    "logo": "global-alliance-of-subnational-developme.png"
+    "logo": "global-alliance-of-subnational-developme.png",
+    "url": "https://nazca.unfccc.int/CCI/157"
   },
   {
     "name": "Finance Your Cities – Country Platforms for Localizing Finance",
     "axes": [
       4
     ],
-    "logo": "finance-your-cities-country-platforms-fo.png"
+    "logo": "finance-your-cities-country-platforms-fo.png",
+    "url": "https://nazca.unfccc.int/CCI/163"
   },
   {
     "name": "Deep Decarbonization Pathways (DDP) initiative",
@@ -315,7 +366,8 @@
       5,
       6
     ],
-    "logo": "deep-decarbonization-pathways-ddp-initia.png"
+    "logo": "deep-decarbonization-pathways-ddp-initia.png",
+    "url": "https://nazca.unfccc.int/CCI/164"
   },
   {
     "name": "GSMA Climate Action Taskforce",
@@ -324,7 +376,8 @@
       4,
       6
     ],
-    "logo": "gsma-climate-action-taskforce.png"
+    "logo": "gsma-climate-action-taskforce.png",
+    "url": "https://nazca.unfccc.int/CCI/166"
   },
   {
     "name": "Efficiency for Access",
@@ -332,7 +385,8 @@
       1,
       3
     ],
-    "logo": "efficiency-for-access.png"
+    "logo": "efficiency-for-access.png",
+    "url": "https://nazca.unfccc.int/CCI/167"
   },
   {
     "name": "Green Hydrogen Catapult",
@@ -341,7 +395,8 @@
       3,
       6
     ],
-    "logo": "green-hydrogen-catapult.png"
+    "logo": "green-hydrogen-catapult.png",
+    "url": "https://nazca.unfccc.int/CCI/292"
   },
   {
     "name": "Fair-Ton / Tonelada Justa",
@@ -350,7 +405,8 @@
       5,
       6
     ],
-    "logo": "fair-ton-tonelada-justa.png"
+    "logo": "fair-ton-tonelada-justa.png",
+    "url": "https://nazca.unfccc.int/CCI/168"
   },
   {
     "name": "International Coalition for Sustainable Infrastructure (ICSI)",
@@ -358,7 +414,8 @@
       1,
       4
     ],
-    "logo": "icsi.png"
+    "logo": "icsi.png",
+    "url": "https://nazca.unfccc.int/CCI/169"
   },
   {
     "name": "The Doers Club",
@@ -369,50 +426,58 @@
       4,
       6
     ],
-    "logo": "the-doers-club.png"
+    "logo": "the-doers-club.png",
+    "url": "https://nazca.unfccc.int/CCI/170"
   },
   {
     "name": "Group of Friends for Culture-based Climate Action (GFCBCA)",
     "axes": [
       5
     ],
-    "logo": "gfcbca.png"
+    "logo": "gfcbca.png",
+    "url": "https://nazca.unfccc.int/CCI/294"
   },
   {
     "name": "Gender & Energy Compact",
     "axes": [
       6
     ],
-    "logo": "gender-and-energy-compact.png"
+    "logo": "gender-and-energy-compact.png",
+    "url": "https://nazca.unfccc.int/CCI/172"
   },
   {
     "name": "Alliance of Champions for Food Systems Transformation",
     "axes": [],
-    "logo": "alliance-of-champions-for-food-systems-t.png"
+    "logo": "alliance-of-champions-for-food-systems-t.png",
+    "url": "https://nazca.unfccc.int/CCI/310"
   },
   {
     "name": "Accelerating to Zero Coalition",
     "axes": [
       5
     ],
-    "logo": "accelerating-to-zero-coalition.png"
+    "logo": "accelerating-to-zero-coalition.png",
+    "url": "https://nazca.unfccc.int/CCI/225"
   },
   {
     "name": "Preserving Legacies",
     "axes": [
       5
     ],
-    "logo": "preserving-legacies.png"
+    "logo": "preserving-legacies.png",
+    "url": "https://nazca.unfccc.int/CCI/228"
   },
   {
     "name": "Rede Clima Municipal",
     "axes": [],
-    "logo": "rede-clima-municipal.png"
+    "logo": "rede-clima-municipal.png",
+    "url": "https://nazca.unfccc.int/CCI/312"
   },
   {
     "name": "SUNx Malta Climate Friendly Travel Registry",
     "axes": [],
-    "logo": "sunx-malta-climate-friendly-travel-regis.png"
+    "logo": "sunx-malta-climate-friendly-travel-regis.png",
+    "url": "https://nazca.unfccc.int/CCI/222"
   },
   {
     "name": "International Partnership for Hydrogen and fuel cells in the Economy (IPHE)",
@@ -420,21 +485,24 @@
       1,
       6
     ],
-    "logo": "iphe.png"
+    "logo": "iphe.png",
+    "url": "https://nazca.unfccc.int/CCI/189"
   },
   {
     "name": "Road Transport Breakthrough",
     "axes": [
       1
     ],
-    "logo": "road-transport-breakthrough.png"
+    "logo": "road-transport-breakthrough.png",
+    "url": "https://nazca.unfccc.int/CCI/182"
   },
   {
     "name": "Agricultural Innovation Mechanism for Scale (AIM for Scale)",
     "axes": [
       3
     ],
-    "logo": "aim-for-scale.png"
+    "logo": "aim-for-scale.png",
+    "url": "https://nazca.unfccc.int/CCI/187"
   },
   {
     "name": "Industrial Transition Accelerator (ITA)",
@@ -442,23 +510,27 @@
       1,
       6
     ],
-    "logo": "ita.png"
+    "logo": "ita.png",
+    "url": "https://nazca.unfccc.int/CCI/125"
   },
   {
     "name": "Business Declares",
     "axes": [],
-    "logo": "business-declares.png"
+    "logo": "business-declares.png",
+    "url": "https://nazca.unfccc.int/CCI/201"
   },
   {
     "name": "Health Care Climate Challenge",
     "axes": [],
-    "logo": "health-care-climate-challenge.png"
+    "logo": "health-care-climate-challenge.png",
+    "url": "https://nazca.unfccc.int/CCI/305"
   },
   {
     "name": "Seaweed Breakthrough",
     "axes": [
       2
     ],
-    "logo": "seaweed-breakthrough.png"
+    "logo": "seaweed-breakthrough.png",
+    "url": "https://nazca.unfccc.int/CCI/174"
   }
 ]

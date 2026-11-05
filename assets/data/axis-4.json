@@ -63,20 +63,6 @@
     ],
     "13": [
       {
-        "indicator": "Number of cities reporting climate adaptation actions",
-        "trend": "no-progress",
-        "baseline": {
-          "value": "910 cities",
-          "year": "2023",
-          "source": "<a href=\"https://data.cdp.net/\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
-        },
-        "latest": {
-          "value": "910 cities",
-          "year": "2025",
-          "source": "<a href=\"https://cdp-action-explorer.net/\" target=\"_blank\" rel=\"noopener\">CDP-ICLEI</a>"
-        }
-      },
-      {
         "indicator": "Number of cities including at least one people-centred measure for climate adaptation",
         "trend": "progress",
         "baseline": {
@@ -110,19 +96,20 @@
         "baseline": {
           "value": "108 countries",
           "year": "2024",
-          "source": "<a href=\"https://wmo.int/publication-series/global-status-of-multi-hazard-early-warning-systems-2024\" target=\"_blank\" rel=\"noopener\">WMO/UNDRR</a>, New indicator"
+          "source": "<a href=\"https://wmo.int/publication-series/global-status-of-multi-hazard-early-warning-systems-2024\" target=\"_blank\" rel=\"noopener\">WMO/UNDRR</a>,<br/> New indicator"
         },
         "latest": {
-          "value": "128 countries",
-          "year": "2026",
+          "value": "119 countries",
+          "year": "2025",
           "source": "<a href=\"https://wmo.int/publication-series/global-status-of-multi-hazard-early-warning-systems-2025\" target=\"_blank\" rel=\"noopener\">WMO/UNDRR</a>"
         }
       }
     ],
     "14": [
       {
-        "indicator": "Peatland degradation (annual) · methodology changed",
+        "indicator": "Peatland degradation (annual)",
         "trend": "insufficient-data",
+        "trendNote": "Methodology changed",
         "baseline": {
           "value": "0.06 Mha/yr",
           "year": "1993–2018",
@@ -132,20 +119,6 @@
           "value": "0.035 Mha/yr",
           "year": "2015–2024",
           "source": "<a href=\"https://www.fao.org/faostat/en/#data/GV\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
-        }
-      },
-      {
-        "indicator": "Population threatened by flood risk, as measured by the number of people living in a flood zone",
-        "trend": "insufficient-data",
-        "baseline": {
-          "value": "N/A",
-          "year": "New indicator",
-          "source": ""
-        },
-        "latest": {
-          "value": "1.4 billion people",
-          "year": "2025",
-          "source": "<a href=\"https://www.wri.org/data/aqueduct-floods-hazard-maps\" target=\"_blank\" rel=\"noopener\">WRI and JRC</a>, SCL"
         }
       },
       {
@@ -258,7 +231,7 @@
         },
         "latest": {
           "value": "6.9%",
-          "year": "2025",
+          "year": "2021",
           "source": "<a href=\"https://circulareconomy.europa.eu/platform/sites/default/files/2025-09/CGR%202025%20complete%20document.pdf\" target=\"_blank\" rel=\"noopener\">CGR</a>"
         }
       },
@@ -308,24 +281,7 @@
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
-      "status": "less",
-      "statusLabel": "Less than halfway",
-      "name": "Fair-Ton / Tonelada Justa",
-      "description": "Fair-Ton quantifies and scales GHG avoided emissions from waste pickers' inclusive recycling across Latin America, Asia, and Africa, producing high-quality MRV data to advance Paris-aligned climate action, climate justice, and waste sector mitigation.",
-      "indicator": "Adoption of the Fair-Ton Measurement, Reporting and Verification (MRV) methodology by 100 waste picker organizations",
-      "value": "34",
-      "unit": "waste picker organizations",
-      "reported": "Reported 2026",
-      "progress": 0,
-      "baseline": "Baseline: 34 (2025)",
-      "target": "Target: 100 (2028)",
-      "findings": "The published 2025 baseline of 34 is retained provisionally, pending validation of adoption criteria and the final calculator inventory. The inventory has 40 organization IDs for 2024 and 23 for 2025 (22 Brazil, 1 Bolivia). Twenty-two IDs recur, leaving 41 distinct IDs across both years; only one ID is new in 2025."
-    },
-    {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Alliance of Subnational Development Banks",
       "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
       "indicator": "100% of member SDBs/NDBs aligning strategies with the climate SDGs and/or Paris Agreement by 2028",
@@ -338,9 +294,7 @@
       "findings": "Based on available data from 41 of the Alliance’s 57 member SDBs/NDBs, 33 institutions (58% of members of the Global Alliance) reported partial or full alignment with the Paris Agreement and/or climate-related SDGs. Other responses indicated indirect or no alignment, or that alignment had not yet been assessed. As not all the Alliance’s members reported or disclosed relevant information, this does not capture the full level of alignment across the Alliance."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Alliance of Subnational Development Banks",
       "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
       "indicator": "1000 identified Local and Regional Governments (LGRs) supported by member SDBs/NDBs on climate projects by 2028",
@@ -353,9 +307,7 @@
       "findings": "Based on available data from 17 of the Alliance’s 57 member SDBs/NDBs that responded to this reporting question or publicly disclosed relevant information, 563 Local and Regional Governments were supported on climate-related projects in the 2025 fiscal year. This figure reflects reported support from participating members in Africa and LAC. As the Alliance represents only part of the global SDB landscape, it does not capture the full scale of LRGs supported by SDBs on climate projects worldwide."
     },
     {
-      "category": "Real-World Quantifiable Impact",
-      "status": "neutral",
-      "statusLabel": "",
+      "status": "more",
       "name": "Global Alliance of Subnational Development Banks",
       "description": "The Global Alliance of Subnational Development Banks is strengthening SDBs for localizing climate agendas by building institutional capacity, fostering cooperation between SDBs, NDBs, and MDBs, and enhancing SDBs’ recognition in international climate finance frameworks.",
       "indicator": "500 million USD of urban climate finance mobilized through member SDBs/NDBs and tracked by Alliance",
@@ -368,12 +320,23 @@
       "findings": "Based on responses from 5 —ADM, BDMG, BRDE, FINDETER, and INFIVALLE— of the Alliance’s 57 member SDBs/NDBs to this reporting question, USD 308 million in urban climate finance was mobilized over the 2025 fiscal year. This figure reflects reported financing from participating members in Africa and Latin America and the Caribbean. As the Alliance represents only part of the global SDB landscape, it does not capture the full scale of urban climate finance mobilized by SDBs worldwide."
     },
     {
-      "category": "Real-World Quantifiable Impact",
+      "status": "less",
+      "name": "Fair-Ton / Tonelada Justa",
+      "description": "Fair-Ton quantifies and scales GHG avoided emissions from waste pickers' inclusive recycling across Latin America, Asia, and Africa, producing high-quality MRV data to advance Paris-aligned climate action, climate justice, and waste sector mitigation.",
+      "indicator": "Adoption of the Fair-Ton Measurement, Reporting and Verification (MRV) methodology by 100 waste picker organizations",
+      "value": "34",
+      "unit": "waste picker organizations",
+      "reported": "Reported 2026",
+      "progress": null,
+      "baseline": "Baseline: 34 (2025)",
+      "target": "Target: 100 (2028)",
+      "findings": "The published 2025 baseline of 34 is retained provisionally, pending validation of adoption criteria and the final calculator inventory. The inventory has 40 organization IDs for 2024 and 23 for 2025 (22 Brazil, 1 Bolivia). Twenty-two IDs recur, leaving 41 distinct IDs across both years; only one ID is new in 2025."
+    },
+    {
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "RegionsAdapt",
       "description": "Subnational governments are better equipped to lead ambitious climate adaptation, strengthening resilience and protecting vulnerable communities, while regional leadership, experiences and lessons shape and advance the Global Climate Action Agenda.",
-      "indicator": "Supporting subnational governments assess, plan, act and report on climate adaptation.",
+      "indicator": "Supporting subnational governments assess, plan, act and report on climate adaptation",
       "value": "59",
       "unit": "states and regions",
       "reported": "Reported 2026",
@@ -387,6 +350,7 @@
     {
       "title": "Strengthen Subnational Development Banks’ (SDB) access to Global Climate Fund (GCF) Locally Led Climate Action and Readiness",
       "initiative": "by the Global Alliance of Subnational Development Banks",
+      "link": "https://nazca.unfccc.int/CCI/157/global-alliance-of-subnational-development-banks#progress",
       "target": "Related CCI targets: 100 per cent of member SDBs/NDBs aligning strategies with the climate SDGs and/or PA by 2028; 1000 identified LGRs supported by member SDBs/NDBs on climate projects by 2028; USD 500 Million of urban climate finance mobilized through member SDBs/NDBs and tracked by Alliance",
       "contribution": "This action is reported as contributing to Objective 13. Resilient urban development, mobility, and infrastructure, and Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance (under Axis 6).",
       "body": [
@@ -396,7 +360,8 @@
     },
     {
       "title": "Opening a Fair Ton workstream in Mesoamerica with AECID",
-      "initiative": "by Tonelada Justa (Fair-ton)",
+      "initiative": "by Fair-Ton / Tonelada Justa",
+      "link": "https://nazca.unfccc.int/CCI/168/fair-ton-tonelada-justa#progress",
       "target": "",
       "contribution": "",
       "body": [
@@ -408,13 +373,14 @@
     {
       "title": "RegionsAdapt Communities of Practice",
       "initiative": "by RegionsAdapt",
+      "link": "https://nazca.unfccc.int/CCI/180/regionsadapt#progress",
       "target": "",
       "contribution": "",
       "body": [
         "RegionsAdapt advanced trilingual peer learning and capacity-building through two Communities of Practice sessions: one on Subnational Adaptation Finance, (April 2025) and another Strengthening Municipal Climate Adaptation through Regional Action (June 2026). In addition, a dedicated preparation webinar in September 2025 equipped members with insights and strategies ahead of COP 30.",
         "Subnational governments are better equipped to accelerate and scale climate resilience by improving access to finance, strengthening multilevel governance, and sharing effective adaptation approaches across regions and municipalities.",
         "Through this action, regional governments increased their capacity to identify and mobilize adaptation finance, strengthen collaboration with municipalities, and translate international climate discussions into practical subnational adaptation action.",
-        "The RegionsAdapt Communities of Practice contributes to the UNFCCC multilateral process by capturing how regional governments support the implementation of both the Paris Agreement, in alignment with the Global Goal on Adaptation."
+        "The RegionsAdapt Communities of Practice contributes to the UNFCCC multilateral process by capturing how regional governments support the implementation of the Paris Agreement, in alignment with the Global Goal on Adaptation."
       ]
     }
   ],

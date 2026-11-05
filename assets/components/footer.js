@@ -6,20 +6,33 @@
 const ROOT  = new URL('../../', import.meta.url).href;
 const ICONS = ROOT + 'assets/img/icons/';
 
-// Social links: [name, icon file]  – CHECK: real URLs to come from UNFCCC
+// Social links: [name, icon file, url]  (same URLs as the UNFCCC site footer)
 const SOCIAL = [
-  ['X', 'social-x.svg'],
-  ['Facebook', 'social-facebook.svg'],
-  ['LinkedIn', 'social-linkedin.svg'],
-  ['Instagram', 'social-instagram.svg'],
-  ['Flickr', 'social-flickr.svg'],
-  ['YouTube', 'social-youtube.svg']
+  ['X', 'social-x.svg', 'https://twitter.com/unfccc'],
+  ['Facebook', 'social-facebook.svg', 'https://www.facebook.com/UNclimatechange'],
+  ['LinkedIn', 'social-linkedin.svg', 'https://www.linkedin.com/company/unfccc'],
+  ['Instagram', 'social-instagram.svg', 'https://www.instagram.com/unclimatechange'],
+  ['Flickr', 'social-flickr.svg', 'https://www.flickr.com/photos/unfccc/'],
+  ['YouTube', 'social-youtube.svg', 'https://www.youtube.com/user/climateconference']
 ];
+
+// "This site" links: [label, url]  (same URLs as the UNFCCC site footer)
+const UNFCCC = 'https://unfccc.int';
+const SITE_LINKS = [
+  [['Code of conduct', UNFCCC + '/about-us/code-of-conduct-for-unfccc-conferences-meetings-and-events'],
+   ['Terms of use', UNFCCC + '/this-site/terms-of-use'],
+   ['Calendar disclaimer', UNFCCC + '/this-site/calendar-disclaimer']],
+  [['Fraud alert', UNFCCC + '/this-site/fraud-alert'],
+   ['Contact', UNFCCC + '/about-us/contact-and-directions/find-contact-by-issue'],
+   ['Vacancies', UNFCCC + '/secretariat/employment/index.html']]
+];
+
+const link = (label, url) => `<li><a href="${url}" target="_blank" rel="noopener">${label}</a></li>`;
 
 class YbFooter extends HTMLElement {
   connectedCallback() {
-    const social = SOCIAL.map(([name, icon]) =>
-      `<li><a href="#" aria-label="${name}"><img src="${ICONS}${icon}" width="16" height="16" alt=""></a></li>`
+    const social = SOCIAL.map(([name, icon, url]) =>
+      `<li><a href="${url}" target="_blank" rel="noopener" aria-label="${name}"><img src="${ICONS}${icon}" width="16" height="16" alt=""></a></li>`
     ).join('');
 
     this.innerHTML = `
@@ -27,16 +40,7 @@ class YbFooter extends HTMLElement {
         <div>
           <p class="footer__title">THIS SITE</p>
           <div class="footer__columns">
-            <ul>
-              <li><a href="#">Code of conduct</a></li>
-              <li><a href="#">Terms of use</a></li>
-              <li><a href="#">Calendar disclaimer</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">Fraud alert</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Vacancies</a></li>
-            </ul>
+            ${SITE_LINKS.map(col => `<ul>${col.map(([l, u]) => link(l, u)).join('')}</ul>`).join('')}
           </div>
         </div>
         <ul class="footer__social">${social}</ul>

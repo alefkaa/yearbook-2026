@@ -7,12 +7,13 @@
 /* ---------------------------------------------------------
    1. FONTS (self-hosted in assets/fonts/)
    --------------------------------------------------------- */
-@font-face { font-family: 'Lora'; src: url('fonts/lora-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Lora'; src: url('fonts/lora-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-400-italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
-@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Roboto'; src: url('fonts/roboto-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Lora'; src: url('fonts/lora-400.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Lora'; src: url('fonts/lora-600.woff') format('woff'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-400.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-400-italic.woff') format('woff'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-700.woff') format('woff'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Merriweather Sans'; src: url('fonts/merriweather-sans-700-italic.woff') format('woff'); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Roboto'; src: url('fonts/roboto-500.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
 
 /* ---------------------------------------------------------
    2. VARIABLES (from Figma)
@@ -28,6 +29,8 @@
   --font-size-16: 16px; --font-size-18: 18px; --font-size-20: 20px;
   --font-size-24: 24px; --font-size-32: 32px; --font-size-48: 48px;
   --font-size-64: 64px;
+  --font-size-13: 13px; --font-size-22: 22px; --font-size-36: 36px;
+  --font-size-56: 56px; --font-size-100: 100px;
 
   /* Line heights */
   --line-height-12: 12px; --line-height-14: 14px; --line-height-16: 16px; 
@@ -35,6 +38,7 @@
   --line-height-24: 24px; --line-height-26: 26px; --line-height-28: 28px; 
   --line-height-32: 32px; --line-height-36: 36px; --line-height-48: 48px; 
   --line-height-60: 60px; --line-height-64: 64px; --line-height-74: 74px;
+  --line-height-19: 19px; --line-height-44: 44px; --line-height-56: 56px;
 
   /* Colour palette */
   --color-navy-900: #191970;
@@ -43,6 +47,10 @@
   --color-blue-grayish: #7ba8bf;
   --color-gray-50: #f5f7f6;
   --color-gray-100: #e8e8e9;
+  --color-gray-400: #9a9a9a;
+  --color-blue-50: #ebf3fc;
+  --color-olive-500: #859f6b;
+  --color-base-black: #000000;
   --color-gray-600: #636365;
   --color-base-white: #ffffff;
 
@@ -62,7 +70,9 @@
 
   /* Backgrounds */
   --color-bg-surface: #ffffff;
-  --color-bg-subtle: #fcfcfc;
+  --color-bg-subtle: #f5f7f6;
+  --color-bg-page: #fcfcfc;
+  --color-bg-hover: #dfe6ea;
   --color-bg-section-blue: #e3edf2;
   --color-bg-tab-active: #e9f1ef;
   --color-bg-table-header-green: #dbebe8;
@@ -99,18 +109,37 @@
   --color-tag-green-bg: #dbebe8;
   --color-tag-green-border: #95cace;
   --color-tag-green-text: #007f89;
+  --color-tag-blue-bg: var(--color-blue-50);
+  --color-tag-blue-border: var(--color-blue-500);
+  --color-tag-blue-text: var(--color-blue-500);
+
+  /* Overlays (black photo shading + white hover) */
+  --color-overlay-20: rgba(0, 0, 0, 0.2);
+  --color-overlay-30: rgba(0, 0, 0, 0.3);
+  --color-overlay-40: rgba(0, 0, 0, 0.4);
+  --color-overlay-white-15: rgba(255, 255, 255, 0.15);
+  --color-shadow-navy-8: rgba(25, 25, 112, 0.08);
+
+  /* Homepage hero (decorative gradient) */
+  --color-hero-mist: #d2dbe4;
+  --color-hero-light: #f8f7f7;
+
+  /* Border helpers */
+  --color-border-tab-active-alt: var(--color-olive-500);
 
   /* Spacing */
   --spacing-0: 0;
   --spacing-2: 2px;  --spacing-4: 4px;  --spacing-6: 6px;  --spacing-8: 8px;
   --spacing-10: 10px; --spacing-12: 12px; --spacing-16: 16px; --spacing-24: 24px;
-  --spacing-32: 32px; --spacing-48: 48px; --spacing-54: 64px; --spacing-92: 92px; 
+  --spacing-20: 20px; --spacing-32: 32px; --spacing-40: 40px; --spacing-48: 48px;
+  --spacing-64: 64px; --spacing-68: 68px; --spacing-80: 80px; --spacing-84: 84px; --spacing-92: 92px;
   --spacing-120: 120px;
 
   /* Radius, borders, shadow */
-  --radius-sm: 4px; --radius-md: 8px; --radius-full: 9999px;
-  --border-width-default: 1px; --border-width-accent: 3px; --border-width-focus: 2px;
-  --shadow-card: 0 4px 6px rgba(25, 25, 112, 0.08);
+  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 10px; --radius-xl: 16px; --radius-full: 9999px;
+  --border-width-default: 1px; --border-width-focus: 2px; --border-width-accent: 3px;
+  --border-width-bar: 4px; --border-width-callout: 6px;
+  --shadow-card: 0 4px 6px var(--color-shadow-navy-8);
 
   /* Motion */
   --duration-fast: 150ms;
@@ -145,8 +174,11 @@ a { color: var(--color-text-link); }
 /* Anything with the "hidden" attribute is always hidden */
 [hidden] { display: none !important; }
 
+/* Clicking a link to a section (sidebar, #nazca etc.) scrolls there smoothly */
+html { scroll-behavior: smooth; }
+
 /* When jumping to a section (#nazca etc.), stop below the sticky navbar */
-[id] { scroll-margin-top: 180px; }
+[id] { scroll-margin-top: 180px; }   /* navbar height + gap */
 
 /* ---------------------------------------------------------
    4. TEXT STYLES (Figma text styles)
@@ -154,8 +186,8 @@ a { color: var(--color-text-link); }
 .t-display      { font: 400 var(--font-size-64)/var(--line-height-74) var(--font-family-heading); }
 .t-h2           { font: 400 var(--font-size-32)/var(--line-height-48) var(--font-family-heading); }
 .t-h3           { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
-.t-eyebrow-hero { font: 700 var(--font-size-24)/var(--line-height-32) var(--font-family-body); letter-spacing: .2em; text-transform: uppercase; }
-.t-eyebrow      { font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body); letter-spacing: .2em; text-transform: uppercase; }
+.t-eyebrow-hero { font: 700 var(--font-size-24)/var(--line-height-32) var(--font-family-body); letter-spacing: .2em; }
+.t-eyebrow      { font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body); letter-spacing: .2em; }
 .t-title-l      { font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body); }
 .t-title-m      { font: 700 var(--font-size-18)/var(--line-height-26) var(--font-family-body); }
 .t-stat         { font: 700 var(--font-size-24)/var(--line-height-32) var(--font-family-body); }
@@ -164,7 +196,19 @@ a { color: var(--color-text-link); }
 .t-body-s       { font: 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
 .t-body-s-bold  { font: 700 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
 .t-caption      { font: 400 var(--font-size-12)/var(--line-height-18) var(--font-family-body); }
-.t-disclaimer   { font: italic 400 14px/20px var(--font-family-body); color: var(--color-text-secondary); }
+.t-disclaimer   { font: italic 400 var(--font-size-14)/var(--line-height-20) var(--font-family-body); color: var(--color-text-secondary); }
+/* Text styles added in Figma (Nov 2026) */
+.t-caption-bold        { font: 700 var(--font-size-12)/var(--line-height-18) var(--font-family-body); }
+.t-body-s-italic       { font: italic 400 var(--font-size-14)/var(--line-height-22) var(--font-family-body); }
+.t-body-l-italic       { font: italic 400 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+.t-body-l-bold-italic  { font: italic 700 var(--font-size-16)/var(--line-height-28) var(--font-family-body); }
+.t-body-list           { font: 400 var(--font-size-16)/var(--line-height-26) var(--font-family-body); }
+.t-body-l-relaxed      { font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body); }
+.t-eyebrow-card        { font: 700 var(--font-size-12)/var(--line-height-18) var(--font-family-body); letter-spacing: .06em; }
+.t-eyebrow-callout     { font: 700 var(--font-size-12)/var(--line-height-18) var(--font-family-body); letter-spacing: .08em; }
+.t-h1-semibold         { font: 600 var(--font-size-48)/var(--line-height-60) var(--font-family-heading); }
+.t-footer-heading      { font: 400 var(--font-size-20)/var(--line-height-24) var(--font-family-body); }
+.t-nav-sidebar         { font: 400 var(--font-size-14)/var(--line-height-18) var(--font-family-body); }
 .t-nav          { font: 700 var(--font-size-12)/var(--line-height-24) var(--font-family-body); color: var(--color-text-nav); }
 
 /* ---------------------------------------------------------
@@ -181,12 +225,12 @@ a { color: var(--color-text-link); }
 
 /* Grids */
 .grid-4, .grid-3, .grid-2 { display: grid; gap: var(--spacing-16); }
-.grid-4 { grid-template-columns: repeat(4, 1fr); }
-.grid-3 { grid-template-columns: repeat(3, 1fr); }
-.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .grid-2--wide { gap: var(--spacing-24); }
-@media (max-width: 900px) { .grid-4, .grid-3 { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .grid-4, .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .grid-4, .grid-3, .grid-2 { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------------------------------------------------------
    6. MOTION
@@ -199,6 +243,7 @@ a { color: var(--color-text-link); }
 
 /* Respect the "reduce motion" system setting */
 @media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }   /* jump instantly instead of scrolling */
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
@@ -210,6 +255,7 @@ a { color: var(--color-text-link); }
    BANDS – full-width coloured background behind a section
    <div class="band band--blue"><section class="section container">…
    --------------------------------------------------------- */
+.band { display: block; width: 100%; }
 .band--blue { background: var(--color-bg-section-blue); }
 .band--blue .section { padding-bottom: var(--spacing-92); }
 

@@ -7,7 +7,7 @@
 .section-heading { display: flex; flex-direction: column; gap: var(--spacing-10); }
 .section-heading__eyebrow {
   font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
-  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+  letter-spacing: .2em; color: var(--color-text-secondary);
 }
 .section-heading__title {
   font: 400 var(--font-size-32)/var(--line-height-48) var(--font-family-heading);
@@ -22,12 +22,12 @@
 .subheading { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }
 
 @media (max-width: 600px) {
-  .section-heading--large .section-heading__title { font-size: 36px; line-height: 44px; }
+  .section-heading--large .section-heading__title { font-size: var(--font-size-36); line-height: var(--line-height-44); }
 }
 
 /* AXIS-PAGES-ADDED */
 /* --- Small grey label above a group ("KEY OBJECTIVES", "INDICATORS AT A GLANCE") --- */
 .subheading-eyebrow {
   font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
-  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+  letter-spacing: .2em; color: var(--color-text-secondary);
 }

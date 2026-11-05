@@ -2,7 +2,7 @@
    ACCORDION + CCI LIST
    1. Accordion: any element with data-accordion
    2. CCI list: rows built from assets/data/ccis.json,
-      with search, axis filters and show all / show fewer
+      with search and axis filters (the full list is always shown)
    ========================================================= */
 
 const ROOT = new URL('../../', import.meta.url).href;
@@ -28,7 +28,7 @@ function initAccordion(acc) {
    2. CCI LIST
    --------------------------------------------------------- */
 
-// Build one row from a JSON entry: { name, axes: [1, 6], logo }
+// Build one row from a JSON entry: { name, axes: [1, 6], logo, url }
 function buildRow(cci) {
   const li = document.createElement('li');
   li.className = 'cci-row';
@@ -65,6 +65,24 @@ function buildRow(cci) {
 
   text.append(name, tags);
   li.append(logo, text);
+
+  // Link to the CCI's NAZCA profile (icon on the right)
+  if (cci.url) {
+    const link = document.createElement('a');
+    link.className = 'cci-row__link';
+    link.href = cci.url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.setAttribute('aria-label', cci.name + ' on NAZCA (opens in a new tab)');
+
+    const icon = document.createElement('img');
+    icon.className = 'cci-row__link-icon';
+    icon.src = ROOT + 'assets/img/icons/external-link-indigo.svg';
+    icon.alt = '';
+
+    link.append(icon);
+    li.append(link);
+  }
   return li;
 }
 
@@ -85,36 +103,26 @@ async function initCciList(root) {
   const search = root.querySelector('[data-cci-search]');
   const chips  = Array.from(root.querySelectorAll('[data-cci-filter]'));
   const rows   = Array.from(list.querySelectorAll('.cci-row'));
-  const more   = root.querySelector('[data-cci-more]');
   const empty  = root.querySelector('[data-cci-empty]');
-  const label  = more.querySelector('span');
-  const limit  = Number(root.dataset.limit) || 12;
 
   // Write the real number of CCIs everywhere it is shown (data-cci-count)
   document.querySelectorAll('[data-cci-count]').forEach(el => { el.textContent = rows.length; });
-  const showAllText = `Show all ${rows.length} initiatives`;
 
   let axis = 'all';
-  let expanded = false;
 
   function update() {
     const query = search.value.trim().toLowerCase();
-    const filtering = query !== '' || axis !== 'all';
     let matches = 0;
 
     rows.forEach(row => {
       const name = row.querySelector('.cci-row__name').textContent.toLowerCase();
       const axes = (row.dataset.axes || '').split(' ');
       const isMatch = name.includes(query) && (axis === 'all' || axes.includes(axis));
-      const allowed = filtering || expanded || matches < limit;   // first "limit" rows only, unless expanded or filtering
-      row.hidden = !(isMatch && allowed);
+      row.hidden = !isMatch;
       if (isMatch) matches++;
     });
 
     empty.hidden = matches > 0;
-    more.hidden = filtering || rows.length <= limit;
-    more.setAttribute('aria-expanded', expanded);
-    label.textContent = expanded ? 'Show fewer initiatives' : showAllText;
   }
 
   search.addEventListener('input', update);
@@ -125,12 +133,6 @@ async function initCciList(root) {
       chips.forEach(c => c.setAttribute('aria-pressed', c === chip));
       update();
     });
-  });
-
-  more.addEventListener('click', () => {
-    expanded = !expanded;
-    update();
-    if (!expanded) root.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
   update();

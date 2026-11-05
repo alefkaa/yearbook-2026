@@ -30,6 +30,7 @@
 .btn--tertiary:active { background: var(--color-button-secondary-bg-pressed); }
 
 .btn--medium { padding: var(--spacing-6) var(--spacing-12); font-size: var(--font-size-14); line-height: var(--line-height-20); }
+.btn--medium img { width: 20px; height: 20px; }   /* Figma: Button Size=Medium uses a 20px icon */
 
 .btn:disabled, .btn[aria-disabled="true"] {
   background: var(--color-button-disabled-bg); color: var(--color-button-disabled-text);
@@ -51,8 +52,8 @@
 /* --- Blue tag (e.g. "CW3" on Climate Week cards) --- */
 .tag--blue {
   min-height: 24px;
-  background: #ebf3fc; border-color: var(--color-accent-blue); color: var(--color-accent-blue);
-  font-size: 13px; line-height: var(--line-height-16);
+  background: var(--color-tag-blue-bg); border-color: var(--color-tag-blue-border); color: var(--color-tag-blue-text);
+  font-size: var(--font-size-13); line-height: var(--line-height-16);
 }
 
 /* AXIS-PART2-ADDED */

@@ -78,7 +78,7 @@
         "baseline": {
           "value": "21%",
           "year": "2022",
-          "source": "<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Oct/IRENA_COP30_GRA_Tracking_the_UAE_Consensus_2025.pdf\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
+          "source": "<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Oct/IRENA_COP30_GRA_Tracking_the_UAE_Consensus_2025.pdf\" target=\"_blank\" rel=\"noopener\">IRENA, COP30 and GRA</a>"
         },
         "latest": {
           "value": "23%",
@@ -108,7 +108,7 @@
         "baseline": {
           "value": "0 EJ",
           "year": "2024",
-          "source": "SCL,<a href=\"https://assets.ctfassets.net/gk3lrimlph5v/3InjQiz6GbF7LZQsWkvDTs/5822cca783cfb117a12b755b483eb4c7/Climate_action_in_Shipping_-_Progress_towards_shipping-s_2030_breakthrough_2025.pdf\" target=\"_blank\" rel=\"noopener\">UCL Energy Institute, Getting to Zero Coalition, CHCL</a>"
+          "source": "SCL, <a href=\"https://assets.ctfassets.net/gk3lrimlph5v/3InjQiz6GbF7LZQsWkvDTs/5822cca783cfb117a12b755b483eb4c7/Climate_action_in_Shipping_-_Progress_towards_shipping-s_2030_breakthrough_2025.pdf\" target=\"_blank\" rel=\"noopener\">UCL Energy Institute, Getting to Zero Coalition, CHLC</a>"
         },
         "latest": {
           "value": "0.005–0.016 EJ",
@@ -120,12 +120,12 @@
         "indicator": "Carbon intensity of global steel production",
         "trend": "no-progress",
         "baseline": {
-          "value": "1.92 tonnes CO2/ tonne of crude steel",
+          "value": "1.92 tonnes CO<sub>2</sub>/ tonne of crude steel",
           "year": "2023",
           "source": "<a href=\"https://worldsteel.org/wp-content/uploads/Sustainability-Indicators-publication-2025_Feb-2026-1.pdf\" target=\"_blank\" rel=\"noopener\">Worldsteel</a>"
         },
         "latest": {
-          "value": "1.92 tonnes CO2/ tonne of crude steel",
+          "value": "1.92 tonnes CO<sub>2</sub>/ tonne of crude steel",
           "year": "2024",
           "source": "<a href=\"https://worldsteel.org/wp-content/uploads/Sustainability-Indicators-publication-2025_Feb-2026-1.pdf\" target=\"_blank\" rel=\"noopener\">Worldsteel</a>"
         }
@@ -271,7 +271,7 @@
         "latest": {
           "value": "33%",
           "year": "2025",
-          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/?metric=pct_share\" target=\"_blank\" rel=\"noopener\">Ember</a>"
         }
       },
       {
@@ -285,7 +285,7 @@
         "latest": {
           "value": "21.8%",
           "year": "2025",
-          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/?metric=pct_share\" target=\"_blank\" rel=\"noopener\">Ember</a>"
         }
       },
       {
@@ -299,35 +299,21 @@
         "latest": {
           "value": "57.4%",
           "year": "2025",
-          "source": "<a href=\"https://ember-energy.org/data/electricity-data-explorer/%20https://ember-energy.org/app/uploads/2026/04/Global-Electricity-Review-2026.pdf\" target=\"_blank\" rel=\"noopener\">Ember</a>"
+          "source": "<a href=\"https://ember-energy.org/latest-insights/global-electricity-review-2026/\" target=\"_blank\" rel=\"noopener\">Ember</a>"
         }
       },
       {
         "indicator": "Oil & gas methane emissions",
         "trend": "no-progress",
         "baseline": {
-          "value": "71.5 Mt CH4/year",
+          "value": "71.5 Mt CH<sub>4</sub>/year",
           "year": "2024",
           "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         },
         "latest": {
-          "value": "72.3 Mt CH4/year",
+          "value": "72.3 Mt CH<sub>4</sub>/year",
           "year": "2025",
           "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
-        }
-      },
-      {
-        "indicator": "Energy sector methane emissions (total)",
-        "trend": "no-progress",
-        "baseline": {
-          "value": "144 Mt CH4/year",
-          "year": "2024",
-          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
-        },
-        "latest": {
-          "value": "144 Mt CH4/year",
-          "year": "2025",
-          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         }
       },
       {
@@ -376,9 +362,7 @@
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Offshore Wind Alliance (GOWA)",
       "description": "The Global Offshore Wind Alliance (GOWA) is a diplomatic-led multi stakeholder alliance working towards achieving an ambitious uptake of offshore wind through, knowledge sharing, capacity building and strengthening regional collaboration.",
       "indicator": "Policy inputs and briefings",
@@ -391,9 +375,7 @@
       "findings": "GOWA has strengthened its policy engagement through targeted briefings to members on the fossil fuel crisis, ahead of COP 30, and on floating offshore wind, alongside official submissions to the COP 30 Presidency on the TAFF, to the COP 31 Presidency on barriers and finance for offshore wind, and to the Standing Committee on Finance on ocean finance."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Offshore Wind Alliance (GOWA)",
       "description": "The Global Offshore Wind Alliance (GOWA) is a diplomatic-led multi stakeholder alliance working towards achieving an ambitious uptake of offshore wind through, knowledge sharing, capacity building and strengthening regional collaboration.",
       "indicator": "Member commitments",
@@ -406,9 +388,7 @@
       "findings": "GOWA has seen strong growth in its membership, including the welcome addition of its first African government member, as well as a new development bank and civil society organization, further expanding the Alliance’s global reach and strengthening its representation across continents and key stakeholder groups."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Industrial Transition Accelerator (ITA)",
       "description": "The ITA aims to accelerate the number of clean industrial projects reaching final investment decision (FID) across the energy-intensive sectors to build a critical mass of clean industrial plants reaching FID by 2030.",
       "indicator": "Accelerate the pace at which clean industrial projects are financed and built, year-on-year",
@@ -421,9 +401,7 @@
       "findings": "19 Final Investment Decisions (FIDs) were recorded between November 2025 and April 2026, meaning that 2026 is set to be a record year for clean industry investments (a final progress value is to be published on 4 November 2026)."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
       "description": "Countries committing to working together to enable 100% zero-emission new truck and bus sales by 2040.",
       "indicator": "100% Zero-Emission Medium- and Heavy-Duty Vehicles (Ze-MHDV) sales by 2040",
@@ -440,6 +418,7 @@
     {
       "title": "Solutions Bank",
       "initiative": "by the Global Offshore Wind Alliance (GOWA)",
+      "link": "",
       "target": "Related CCI target: Policy inputs and briefings",
       "contribution": "This action is reported as contributing to Objective 1. Tripling renewables and doubling energy efficiency.",
       "body": [
@@ -451,6 +430,7 @@
     {
       "title": "Mobilizing efforts to accelerate the number of clean industry projects reaching FID year-on-year",
       "initiative": "by the Industrial Transition Accelerator (ITA)",
+      "link": "",
       "target": "Related CCI target: Accelerate the pace at which clean industrial projects are financed and built, year-on-year",
       "contribution": "This action is reported as contributing to Objective 2. Accelerating zero and low emission technologies in hard-to-abate sectors, and Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance (under Axis 6).",
       "body": [
@@ -463,6 +443,7 @@
     {
       "title": "Expanding network of the Global MOU",
       "initiative": "by the Memorandum of Understanding on Zero-Emission Medium- and Heavy-Duty Vehicles",
+      "link": "",
       "target": "Related CCI target: 100% ZE-MHDV Sales by 2040",
       "contribution": "This action is reported as contributing to Objective 2. Accelerating zero and low emission technologies in hard-to-abate sectors.",
       "body": [

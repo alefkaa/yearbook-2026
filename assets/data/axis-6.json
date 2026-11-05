@@ -153,29 +153,15 @@
     ],
     "25": [
       {
-        "indicator": "Oil & gas methane emissions",
-        "trend": "insufficient-data",
-        "baseline": {
-          "value": "N/A",
-          "year": "New indicator",
-          "source": ""
-        },
-        "latest": {
-          "value": "72.3 Mt CH4/year",
-          "year": "2025",
-          "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
-        }
-      },
-      {
         "indicator": "Methane emissions from the fossil fuel supply chain",
         "trend": "no-progress",
         "baseline": {
-          "value": "124 Mt CH4/year",
+          "value": "124 Mt CH<sub>4</sub>/year",
           "year": "2024",
           "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/global-methane-emissions-from-fossil-fuels-by-fuel-and-segment-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         },
         "latest": {
-          "value": "124 Mt CH4/year",
+          "value": "124 Mt CH<sub>4</sub>/year",
           "year": "2025",
           "source": "<a href=\"https://www.iea.org/reports/global-methane-tracker-2026/key-findings\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         }
@@ -184,21 +170,21 @@
         "indicator": "Energy sector methane emissions (total)",
         "trend": "no-progress",
         "baseline": {
-          "value": "144 Mt CH4/year",
+          "value": "144 Mt CH<sub>4</sub>/year",
           "year": "2024",
           "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         },
         "latest": {
-          "value": "144 Mt CH4/year",
+          "value": "144 Mt CH<sub>4</sub>/year",
           "year": "2025",
           "source": "<a href=\"https://www.iea.org/data-and-statistics/charts/energy-related-methane-emissions-by-source-2000-2025\" target=\"_blank\" rel=\"noopener\">IEA</a>"
         }
       },
       {
-        "indicator": "Agricultural N₂O emissions",
+        "indicator": "Agricultural N<sub>2</sub>O emissions",
         "trend": "no-progress",
         "baseline": {
-          "value": "7.46 Mt N₂O/year",
+          "value": "7.46 Mt N<sub>2</sub>O/year",
           "year": "2022",
           "source": "<a href=\"https://www.fao.org/faostat/en/#data/GT\" target=\"_blank\" rel=\"noopener\">FAOSTAT</a>"
         },
@@ -214,7 +200,7 @@
         "indicator": "Developing countries receiving capacity building for NAP preparation and implementation",
         "trend": "progress",
         "baseline": {
-          "value": "89UNFCCC] countries",
+          "value": "89 countries",
           "year": "2024",
           "source": "<a href=\"https://unfccc.int/sites/default/files/resource/sbi2024_23.pdf\" target=\"_blank\" rel=\"noopener\">UNFCCC</a>"
         },
@@ -286,32 +272,32 @@
     "28": [
       {
         "indicator": "Government support for agricultural research, education and technical assistance",
-        "trend": "insufficient-data",
+        "trend": "—",
         "baseline": {
-          "value": "N/A",
-          "year": "New indicator",
+          "value": "—",
+          "year": "",
           "source": ""
         },
         "latest": {
-          "value": "35 billion USD",
-          "year": "2025",
-          "source": "<a href=\"https://www.oecd.org/agriculture/topics/agricultural-policy-monitoring-and-evaluation/\" target=\"_blank\" rel=\"noopener\">OECD</a>, <a href=\"https://openknowledge.worldbank.org/entities/publication/7eef73a7-c4f6-590b-8e31-3a4051d875a9\" target=\"_blank\" rel=\"noopener\">Malins; Searchinger. et al</a> , SCL"
+          "value": "—",
+          "year": "",
+          "source": ""
         }
       }
     ],
     "29": [
       {
         "indicator": "No global indicator currently tracks this objective",
-        "trend": "progress",
+        "trend": "—",
         "baseline": {
           "value": "—",
-          "year": "—",
-          "source": "IRENA, SCL"
+          "year": "",
+          "source": ""
         },
         "latest": {
           "value": "—",
-          "year": "—",
-          "source": "IRENA, SCL"
+          "year": "",
+          "source": ""
         }
       }
     ],
@@ -334,9 +320,7 @@
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Global Shield against Climate Risks",
       "description": "The Global Shield provides and facilitates more and better pre-arranged protection against climate- and disaster-related risks for vulnerable people and countries, enabling greater financial protection and faster, more reliable preparedness and response to loss and damage.",
       "indicator": "More Countries/Regions with Pre-Arranged Protection Against Climate and Disaster-Related Risks",
@@ -349,9 +333,7 @@
       "findings": "By the end of 2025, the Global Shield In-Country Process had been carried out in 14 countries. Through its financing vehicles, Global Shield Financing Facility enabled 17 countries to access financial protection, directly protecting 4.2 million people, including 2.3 million women, while Global Shield Solutions Platform reported 4.8 million vulnerable people protected under its global and regional thematic windows."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Net-Zero Export Credit Agencies Alliance (NZECA)",
       "description": "The member-led and UN-convened Net-Zero Export Credit Agencies Alliance (NZECA) unites leading public trade finance institutions committed to delivering net-zero economies by 2050 by supporting the decarbonisation of trade and facilitating joint action from public and private finance.",
       "indicator": "Number of members with publicly available intermediate and net-zero by 2050",
@@ -364,9 +346,7 @@
       "findings": "Five full members set and publicly disclosed an intermediate science-based target for 2030 or sooner, consistent with a pathway to net zero by 2050 at the latest."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "done",
-      "statusLabel": "Accomplished",
       "name": "Sustainable Business COP",
       "description": "A permanent business platform with representatives from more than 120 countries and territories, reaching over 55 million companies. It mobilizes the private sector to implement the Paris Agreement and deliver the 1.5°C goal across the six axes of the Global Climate Action Agenda.",
       "indicator": "Permanent business platform at UNFCCC COPs",
@@ -383,8 +363,9 @@
     {
       "title": "Strengthening institutional capacity for climate and disaster risk finance",
       "initiative": "by the Global Shield against Climate Risks",
+      "link": "https://nazca.unfccc.int/CCI/215/global-shield-against-climate-risks#progress",
       "target": "Related CCI target: More Countries/Regions with Pre-Arranged Protection Against Climate and Disaster-Related Risks",
-      "contribution": "This action is reported as contributing to Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance, and Objective 26. Governance, state capacities and institutional strengthening for climate action, planning and preparedness (under Axis 6).",
+      "contribution": "This action is reported as contributing to Objective 20. Climate, sustainable and adaptation finance, mainstreaming climate in investments and insurance, and Objective 26. Governance, state capacities and institutional strengthening for climate action, planning and preparedness.",
       "body": [
         "The Global Shield strengthens the technical and institutional capacity needed to develop and implement effective Climate and Disaster Risk Finance and Insurance (CDRFI) solutions. Through the Global Shield Solutions Platform (GSSP), partner countries and regional actors receive capacity-development support linked to climate risk analysis, research and education, and the design and implementation of financial protection solutions. GSSP also promotes knowledge exchange and collaboration among CDRFI practitioners and regional risk pools. The Global Shield Financing Facility (GSFF) complements this work through country and regional training, workshops and knowledge exchanges that strengthen government and stakeholder capabilities in areas including CDRFI analytics, risk modelling, financial protection and shock-responsive systems.",
         "These activities contribute to the Global Shield's goal of closing financial protection gaps by strengthening the knowledge, technical expertise and institutional capabilities required to make informed risk-financing decisions and implement CDRFI solutions. Building these capabilities supports more sustained country and regional ownership of financial protection approaches and strengthens the enabling conditions for CDRFI solutions to be designed, implemented and maintained over time.",
@@ -394,6 +375,7 @@
     {
       "title": "Systematizing Export Credit Agencies’ GHG Accounting Practices",
       "initiative": "by the Net-Zero Export Credit Agencies Alliance (NZECA)",
+      "link": "https://nazca.unfccc.int/CCI/288/net-zero-export-credit-agencies-alliance-nzeca#progress",
       "target": "Related CCI target: Number of members with publicly available intermediate and net-zero by 2050",
       "contribution": "",
       "body": [
@@ -404,6 +386,7 @@
     {
       "title": "Sustainable Business COP Awards",
       "initiative": "by Sustainable Business COP",
+      "link": "https://nazca.unfccc.int/CCI/89/sustainable-business-cop#progress",
       "target": "",
       "contribution": "",
       "body": [

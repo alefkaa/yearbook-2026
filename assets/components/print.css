@@ -1,6 +1,6 @@
 /* =========================================================
    PRINT.CSS – how pages look when printed / saved as PDF
-   (used by "Download the Executive Summary" in the navbar)
+   (used for the "Download the Executive Summary" PDF – scripts/summary-pdf.js)
    ========================================================= */
 
 @page { size: A4; margin: 14mm 12mm; }
@@ -16,15 +16,15 @@
   yb-navbar, yb-footer { display: none !important; }
 
   /* Slightly smaller text on paper */
-  body { font-size: 14px; line-height: 22px; }
-  .axis-summary__indicators { font-size: 14px; line-height: 22px; padding-block: var(--spacing-10); }
-  .axis-summary__list { font-size: 13px; line-height: 19px; }
+  body { font-size: var(--font-size-14); line-height: var(--line-height-22); }
+  .axis-summary__indicators { font-size: var(--font-size-14); line-height: var(--line-height-22); padding-block: var(--spacing-10); }
+  .axis-summary__list { font-size: var(--font-size-13); line-height: var(--line-height-19); }
   .axis-summary__header { padding-block: var(--spacing-12); }
   .axis-summary__cell { padding: var(--spacing-16) var(--spacing-24); gap: var(--spacing-8); }
 
   .t-eyebrow-hero {
-    font: 700 var(--font-size-20) / var(--line-height-24) }
-   .t-display {
+    font: 700 var(--font-size-20) / var(--line-height-24) var(--font-family-body); }
+  .t-display {
     font: 400 var(--font-size-48) / var(--line-height-64) var(--font-family-heading); }
 
   /* Full width of the paper */
@@ -47,6 +47,12 @@
   /* Never cut a card, figure or heading across two pages */
   .axis-summary, .figure, .chart, .callout, .card-accent { break-inside: avoid; }
   h2, h3, h4, .section-heading { break-after: avoid; }
+  /* Keep each section heading (eyebrow + title + intro) in one piece, and never
+     leave an eyebrow or heading alone at the bottom of a page */
+  .section-heading { display: block; break-inside: avoid; }
+  .section-heading > * + * { margin-top: var(--spacing-8); }
+  .section-heading__eyebrow, .subheading-eyebrow, .subheading { break-after: avoid; }
+  .card-tracking, .card-case, .card-objective, .card-link, tr { break-inside: avoid; }
   p, li { orphans: 3; widows: 3; }
 
   .figure { padding: var(--spacing-8 0); }
@@ -66,6 +72,6 @@
   /* Link boxes at the end of the PDF */
   .print-links { break-inside: avoid; padding: var(--spacing-32); }
   .print-links .card-link { min-height: 0; padding: var(--spacing-16) var(--spacing-24); }
-  .print-links .card-link__meta { font-size: 12px; line-height: 18px; letter-spacing: 0; }
+  .print-links .card-link__meta { font-size: var(--font-size-12); line-height: var(--line-height-18); letter-spacing: 0; }
   .print-links .card-link__title { font: 700 var(--font-size-16) / var(--line-height-24) var(--font-family-body); }
 }

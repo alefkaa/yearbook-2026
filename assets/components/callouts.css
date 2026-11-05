@@ -10,7 +10,7 @@
 }
 .callout__eyebrow {
   font: 400 var(--font-size-16)/var(--line-height-32) var(--font-family-body);
-  letter-spacing: .2em; text-transform: uppercase; color: var(--color-text-secondary);
+  letter-spacing: .2em; color: var(--color-text-secondary);
 }
 .callout__inner { display: flex; flex-direction: column; gap: var(--spacing-16); }
 
@@ -20,7 +20,7 @@
 /* White quote box inside a callout */
 .callout__focus {
   background: var(--color-bg-surface);
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   padding: var(--spacing-16);
   font: 600 var(--font-size-20)/var(--line-height-32) var(--font-family-heading);
 }
@@ -35,17 +35,20 @@
    NPS SNAPSHOT – Figma: NPS snapshot
    Grey box with teal left bar, title link and two white lists
    --------------------------------------------------------- */
+/* Own band between Section I (blue) and Section II, so it is clearly not part of Section I */
+.nps-band { padding-top: var(--spacing-64); }
+
 .nps-snapshot {
   display: flex; flex-direction: column; gap: var(--spacing-24);
-  padding: var(--spacing-32) 40px;
-  background: #f5f7f6;
-  border-left: 6px solid var(--color-accent-teal);
+  padding: var(--spacing-32) var(--spacing-40);
+  background: var(--color-bg-subtle);
+  border-left: var(--border-width-callout) solid var(--color-accent-teal);
   border-radius: var(--radius-md);
 }
 .nps-snapshot__eyebrow {
   margin-bottom: calc(var(--spacing-16) * -1);   /* 8px gap to the title, like Figma */
   font: 700 var(--font-size-12)/var(--line-height-18) var(--font-family-body);
-  letter-spacing: .08em; text-transform: uppercase;
+  letter-spacing: .08em;
   color: var(--color-tag-green-text);
 }
 .nps-snapshot__title { font: 600 var(--font-size-24)/var(--line-height-36) var(--font-family-heading); }

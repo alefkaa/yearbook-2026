@@ -3,7 +3,8 @@
    <table class="gsi-table"
           data-gsi-source="../assets/data/axis-1.json"
           data-objective="1"></table>
-   JSON: { "gsi": { "1": [ { indicator, trend, baseline{value,year,source}, latest{…} } ] } }
+   JSON: { "gsi": { "1": [ { indicator, trend, trendNote?, baseline{value,year,source}, latest{…} } ] } }
+   trendNote (optional): short note shown under the trend label, e.g. "methodology changed"
    ========================================================= */
 
 const ROOT  = new URL('../../', import.meta.url).href;   // site root, same as navbar.js
@@ -30,12 +31,12 @@ function valueCell(v) {
     </div>`;
 }
 
-function trendCell(key) {
+function trendCell(key, note) {
   const t = TRENDS[key] || { label: key, icon: '' };
   return `
     <div class="trend trend--${key}">
       ${t.icon ? `<img src="${ICONS}${t.icon}" alt="">` : ''}
-      <span>${t.label}</span>
+      <span>${t.label}${note ? `<span class="trend__note">${note}</span>` : ''}</span>
     </div>`;
 }
 
@@ -56,7 +57,7 @@ async function buildTable(table) {
         ${rows.map(r => `
           <tr>
             <td>${r.indicator}</td>
-            <td class="gsi-table__trend">${trendCell(r.trend)}</td>
+            <td class="gsi-table__trend">${trendCell(r.trend, r.trendNote)}</td>
             <td class="gsi-table__value">${valueCell(r.baseline)}</td>
             <td class="gsi-table__latest">${valueCell(r.latest)}</td>
           </tr>`).join('')}

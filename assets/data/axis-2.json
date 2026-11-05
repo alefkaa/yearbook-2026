@@ -66,7 +66,7 @@
         "baseline": {
           "value": "17.6% of land and inland waters",
           "year": "2024",
-          "source": "<a href=\"https://digitalreport.protectedplanet.net/\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC & IUCN</a>"
+          "source": "<a href=\"https://digitalreport.protectedplanet.net/\" target=\"_blank\" rel=\"noopener\">UNEP-WCMC & IUCN</a><br/>New Indicator"
         },
         "latest": {
           "value": "18.7% of land and inland waters",
@@ -133,8 +133,9 @@
         }
       },
       {
-        "indicator": "Global mangrove extent · methodology changed",
+        "indicator": "Global mangrove extent",
         "trend": "insufficient-data",
+        "trendNote": "Methodology changed",
         "baseline": {
           "value": "46,809 km²",
           "year": "2024",
@@ -164,9 +165,7 @@
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
       "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
       "indicator": "80% of global coral reefs under political commitment",
@@ -179,9 +178,7 @@
       "findings": "This figure is a provisional estimate based on the reef area within the exclusive economic zones of current signatories. The Commitment will conduct a detailed assessment of coral reef coverage across signatory jurisdictions ahead of COP 31, drawing on the best available reef extent data, and will report a verified figure at that point."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
       "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
       "indicator": "31 signatory governments by COP 31",
@@ -194,9 +191,7 @@
       "findings": "The Commitment has grown from 11 signatories at launch in June 2025 to 23 as of September 2026 — 22 national governments plus French Polynesia. Signatories span the Pacific, Caribbean, Western Indian Ocean, Latin America, Southeast Asia, Africa and Europe."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Global Commitment to Protect Climate-Resilient Coral Reefs",
       "description": "The Commitment mobilizes governments representing 80% of global coral reefs to protect climate-resilient reefs, integrating reef conservation into national climate and biodiversity plans as critical climate adaptation infrastructure.",
       "indicator": "50 global organizations support the climate-resilient coral reefs commitment by end of 2026",
@@ -209,9 +204,7 @@
       "findings": "43 organizations now formally support the Commitment, against a target of 50 by December 2026. Supporters span development finance, philanthropy, scientific institutions, regional intergovernmental bodies and implementing organizations across every reef region."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "done",
-      "statusLabel": "Accomplished",
       "name": "Global Fire Management Hub",
       "description": "To reduce wildfire emissions and strengthen climate resilience by advancing integrated fire management that combines science and Indigenous knowledge to promote sustainable fire use and lower destructive wildfire intensity globally.",
       "indicator": "Reduction of destructive wildfire risk and emissions through integrated fire management",
@@ -228,6 +221,7 @@
     {
       "title": "Scaling implementation and capacity for integrated fire management (IFM)",
       "initiative": "by the Global Fire Management Hub",
+      "link": "",
       "target": "Related CCI target: Reduction of destructive wildfire risk and emissions through integrated fire management",
       "contribution": "This action is reported as contributing to Objective 6. Efforts to conserve, protect and restore nature and ecosystems with solutions for climate, biodiversity and desertification.",
       "body": [
@@ -240,6 +234,7 @@
     {
       "title": "High-level signing of the Climate-Resilient Coral Reefs Commitment at five multilateral convenings",
       "initiative": "by the Global Commitment to Protect Climate-Resilient Coral Reefs",
+      "link": "",
       "target": "Related CCI targets: 80 per cent of global coral reefs under political commitment; 31 signatory governments by COP 31; 50 global organizations support the climate-resilient coral reefs commitment by end of 2026",
       "contribution": "",
       "body": [

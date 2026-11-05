@@ -2,6 +2,7 @@
    NAVBAR – sticky on every page
    Homepage uses the transparent version on top of the hero:
    <yb-navbar variant="transparent">
+   Desktop: 1240px and wider · Mobile (hamburger menu): below 1240px
    ========================================================= */
 
 yb-navbar { display: block; position: sticky; top: 0; z-index: 100; }
@@ -10,28 +11,88 @@ yb-navbar { display: block; position: sticky; top: 0; z-index: 100; }
   background: var(--color-bg-surface);
   transition: background-color var(--duration-base) var(--ease), box-shadow var(--duration-base) var(--ease);
 }
-yb-navbar.is-scrolled .navbar { box-shadow: 0 2px 8px rgba(25, 25, 112, 0.08); }
+yb-navbar.is-scrolled .navbar { box-shadow: 0 2px 8px var(--color-shadow-navy-8); }
 
 .navbar__inner { display: flex; flex-direction: column; gap: var(--spacing-8); padding-block: var(--spacing-8); }
 .navbar__top {
   display: flex; align-items: center; justify-content: space-between;
   padding-block: var(--spacing-8);
-  border-bottom: 1px solid var(--color-border-strong);
+  border-bottom: var(--border-width-default) solid var(--color-border-strong);
 }
+.navbar__logo { display: block; }
 .navbar__links { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; list-style: none; padding: 0; }
 .navbar__link {
-  display: block; padding: 6px 0 4px; border-bottom: 2px solid transparent; text-decoration: none;
+  display: block; padding: var(--spacing-6) 0 var(--spacing-4); border-bottom: var(--border-width-focus) solid transparent; text-decoration: none;
   transition: color var(--duration-fast) var(--ease), border-color var(--duration-base) var(--ease);
 }
 .navbar__link:hover { border-bottom-color: var(--color-text-nav); }
 .navbar__link[aria-current="page"] { color: var(--color-accent-purple); border-bottom-color: var(--color-accent-purple); }
+.navbar__link:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); outline-offset: var(--spacing-2); }
 
-/* Phones: logo on top, download button full width underneath */
-@media (max-width: 600px) {
-  .navbar__top { flex-wrap: wrap; gap: var(--spacing-8); }
-  .navbar__top .btn { flex: 1 1 100%; white-space: normal; text-align: center; }
+/* Hamburger / close button – only on smaller screens */
+.navbar__toggle {
+  display: none;
+  width: 44px; height: 44px;                 /* comfortable tap area */
+  align-items: center; justify-content: center;
+  margin-right: calc(var(--spacing-8) * -1);
+  padding: 0; border: 0; background: none; cursor: pointer;
+  color: var(--color-icon-default);
+  border-radius: var(--radius-sm);
 }
+.navbar__toggle:focus-visible { outline: var(--border-width-focus) solid var(--color-border-focus); }
+.navbar__toggle-icon { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: var(--border-width-focus); stroke-linecap: round; }
+.navbar__toggle-icon--close { display: none; }
+yb-navbar.is-open .navbar__toggle-icon--menu  { display: none; }
+yb-navbar.is-open .navbar__toggle-icon--close { display: block; }
+
+/* Full-screen menu (opened by the hamburger) */
+.navbar__menu { display: none; }
+
+@media (max-width: 1239px) {
+  .navbar__inner { padding-block: 0; gap: 0; }
+  .navbar { border-bottom: var(--border-width-default) solid var(--color-border-default); }   /* full-width line */
+  .navbar__top { padding-block: var(--spacing-10); border-bottom: 0; }
+  .navbar__logo img { width: 144px; height: 32px; }
+  .navbar__download, .navbar__links { display: none; }
+  .navbar__toggle { display: inline-flex; }
+
+  .navbar__menu:not([hidden]) {
+    display: flex; flex-direction: column;
+    position: fixed; left: 0; right: 0; bottom: 0;
+    top: var(--navbar-mobile-height);
+    background: var(--color-bg-surface);
+    animation: panel-in var(--duration-base) var(--ease);
+  }
+  .navbar__menu-links {
+    flex: 1; overflow-y: auto;
+    list-style: none; margin: 0;
+    padding: var(--spacing-16);
+    display: flex; flex-direction: column; gap: var(--spacing-4);
+  }
+  .navbar__menu-links__item { padding-block: var(--spacing-4); }
+  .navbar__menu-links__item .navbar__link { display: inline-block; }
+  /* divider between the main pages and the six axes */
+  .navbar__menu-links__item:nth-child(3) {
+    padding-bottom: var(--spacing-8);
+    border-bottom: var(--border-width-default) solid var(--color-border-default);
+  }
+  .navbar__menu-footer {
+    padding: var(--spacing-16) var(--spacing-16) var(--spacing-24);
+    border-top: var(--border-width-default) solid var(--color-border-default);
+  }
+  .navbar__menu-download { width: 100%; white-space: normal; text-align: center; }
+
+  /* The menu is open: the bar is always white and the page behind doesn't scroll */
+  yb-navbar.is-open .navbar { background: var(--color-bg-surface); }
+  html.has-open-menu { overflow: hidden; }
+}
+
+/* Height of the mobile bar (10px padding + 44px button + 10px padding + 1px line) */
+:root { --navbar-mobile-height: 65px; }
 
 /* Transparent version (homepage): on top of the hero, white once scrolled */
 yb-navbar[variant="transparent"] { position: fixed; left: 0; right: 0; }
-yb-navbar[variant="transparent"]:not(.is-scrolled) .navbar { background: transparent; }
+yb-navbar[variant="transparent"]:not(.is-scrolled):not(.is-open) .navbar { background: transparent; }
+@media (max-width: 1239px) {
+  yb-navbar[variant="transparent"]:not(.is-scrolled):not(.is-open) .navbar { border-bottom-color: transparent; }
+}

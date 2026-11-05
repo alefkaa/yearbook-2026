@@ -150,25 +150,8 @@
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
-      "name": "Food Waste Breakthrough",
-      "description": "Halving global food waste by 2030, in line with SDG 12.3, by keeping food out of landfills, and reducing consequent global methane emissions, supporting the achievement of the Global Methane Pledge.",
-      "indicator": "Halving global food waste per capita by 2030 and reducing consequent methane emissions",
-      "value": "79",
-      "unit": "kg/capita/year",
-      "reported": "Reported 2026",
-      "progress": 0,
-      "baseline": "Baseline: 79 (2025)",
-      "target": "Target: 39 (2030)",
-      "findings": "This value reflects findings from the latest Food Waste Index Report, published in 2024. Achievement of the target will be updated when the new Food Waste Index Report is published in 2027."
-    },
-    {
-      "category": "Real-World Quantifiable Impact",
-      "status": "less",
-      "statusLabel": "Less than halfway",
-      "name": "International '4per1000' Initiative - Soils for Food Security and Climate",
+      "name": "International \"4per1000\" Initiative - Soils for Food Security and Climate",
       "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
       "indicator": "Multi-stakeholder engagement",
       "value": "19",
@@ -180,9 +163,7 @@
       "findings": "The Initiative has organized or co-organized at least 19 documented multi-stakeholder events, including global, regional and thematic convenings on soil health, soil organic carbon and sustainable land management. Additional events, including virtual fairs, workshops and COP-related events, remain under review. Each qualifying event is counted once, with no automatic double counting of individual sessions within larger events."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "International \"4per1000\" Initiative - Soils for Food Security and Climate",
       "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
       "indicator": "Science-based knowledge and tools",
@@ -195,9 +176,7 @@
       "findings": "The Initiative has developed, co-developed or substantively supported 35 qualifying science-based knowledge products, tools and methodologies, including scientific publications, technical resources, MRV-related tools and STC scientific webinars. This represents a conservative documented minimum. Additional audiovisual resources remain under review and will only be included where they qualify as distinct, substantive knowledge products."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "International \"4per1000\" Initiative - Soils for Food Security and Climate",
       "description": "To contribute to climate change mitigation and adaptation by promoting soil health and increased soil organic carbon sequestration in agricultural and other land-use systems, while fostering collaboration among AFOLU stakeholders.",
       "indicator": "Scientific and technical support for soil-health initiatives",
@@ -208,12 +187,26 @@
       "baseline": "Baseline: 0 (2015)",
       "target": "Target: 65 (2030)",
       "findings": "The Initiative has documented support for 46 distinct projects or initiatives, including 45 completed formative scientific assessments by its Scientific and Technical Committee and one additional project-development initiative. Pending submissions and ongoing assessments are excluded. Each underlying project or initiative is counted only once, regardless of the number or type of support activities received. This represents the current documented working figure."
+    },
+    {
+      "status": "less",
+      "name": "Food Waste Breakthrough",
+      "description": "Halving global food waste by 2030, in line with SDG 12.3, by keeping food out of landfills, and reducing consequent global methane emissions, supporting the achievement of the Global Methane Pledge.",
+      "indicator": "Halving global food waste per capita by 2030 and reducing consequent methane emissions",
+      "value": "79",
+      "unit": "kg/capita/year",
+      "reported": "Reported 2026",
+      "progress": null,
+      "baseline": "Baseline: 79 (2025)",
+      "target": "Target: 39 (2030)",
+      "findings": "This value reflects findings from the latest Food Waste Index Report, published in 2024. Achievement of the target will be updated when the new Food Waste Index Report is published in 2027."
     }
   ],
   "cases": [
     {
       "title": "Convening global, regional and virtual multi-stakeholder events",
       "initiative": "by the 4per1000 Initiative - Soils for Food Security and Climate",
+      "link": "",
       "target": "Related CCI target: Multi-stakeholder engagement",
       "contribution": "This action is reported as contributing to Objective 8. Land restoration and sustainable agriculture, and Objective 9. More resilient, adaptive, sustainable, and circular food systems.",
       "body": [
@@ -226,6 +219,7 @@
     {
       "title": "Brazil–Japan Technical Exchange on SDG 12.3",
       "initiative": "by the Food Waste Breakthrough",
+      "link": "https://nazca.unfccc.int/CCI/117/food-waste-breakthrough#progress",
       "target": "",
       "contribution": "",
       "body": [

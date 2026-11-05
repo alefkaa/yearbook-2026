@@ -37,5 +37,5 @@
 .figure__image {
   width: 100%; max-width: 920px; height: auto;
   border-radius: var(--radius-md);
-  box-shadow: 0 4px 12px 4px rgba(25, 25, 112, 0.08);
+  box-shadow: 0 4px 12px 4px var(--color-shadow-navy-8);
 }

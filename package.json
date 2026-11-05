@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "pdf": "node scripts/summary-pdf.js",
+    "upload": "node scripts/upload.js",
+    "prebuild": "npm run pdf",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "playwright-core": "^1.56.0"
   }
 }

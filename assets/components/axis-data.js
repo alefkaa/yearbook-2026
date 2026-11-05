@@ -1,7 +1,8 @@
 /* =========================================================
    AXIS DATA – builds parts of the axis pages from the JSON file
    data-render="tracking"  self-tracking progress cards
-   data-render="cases"     case study cards
+                           ("progress": null hides the progress bar)
+   data-render="cases"     case study cards ("link": "" = NAZCA link still to come)
    data-render="pas"       PAS table (with data-objective="1")
    data-source="../assets/data/axis-1.json"
    ========================================================= */
@@ -15,16 +16,12 @@ const load = url => (cache[url] ||= fetch(url).then(r => r.json()));
 /* --- Self-tracking card --- */
 const trackingCard = c => `
   <article class="card-tracking card-tracking--${c.status}">
-    <div class="card-tracking__header">
-      <p class="card-tracking__category">${c.category}</p>
-      ${c.statusLabel ? `<span class="card-tracking__status">${c.statusLabel}</span>` : ''}
-    </div>
     <div>
       <h4 class="card-tracking__name">${c.name}</h4>
       <p class="card-tracking__description">${c.description}</p>
     </div>
     <div class="card-tracking__indicator">
-      <p class="card-tracking__label">Indicator</p>
+      <p class="card-tracking__label">INDICATOR</p>
       <p class="card-tracking__indicator-name">${c.indicator}</p>
     </div>
     <div class="card-tracking__progress">
@@ -33,9 +30,9 @@ const trackingCard = c => `
         <span class="card-tracking__unit">${c.unit || ''}</span>
         <span class="card-tracking__reported">${c.reported}</span>
       </div>
-      <div class="progress-bar" role="img" aria-label="${c.progress}% of the target">
+      ${c.progress == null ? '' : `<div class="progress-bar" role="img" aria-label="${c.progress}% of the target">
         <span class="progress-bar__fill" style="width: ${c.progress}%"></span>
-      </div>
+      </div>`}
       <div class="card-tracking__scale">
         <span>${c.baseline}</span>
         <strong>${c.target}</strong>
@@ -50,7 +47,7 @@ const trackingCard = c => `
 /* --- Case study card --- */
 const caseCard = c => `
   <article class="card-case">
-    <p class="card-case__eyebrow">Case study</p>
+    <p class="card-case__eyebrow">CASE STUDY</p>
     <h4 class="card-case__title">${c.title}</h4>
     <p class="card-case__by">${c.initiative}</p>
     <div class="card-case__meta">
@@ -58,8 +55,7 @@ const caseCard = c => `
       ${c.contribution ? `<p class="card-case__contribution">${c.contribution}</p>` : ''}
     </div>
     <div class="card-case__body prose">${c.body.map(p => `<p>${p}</p>`).join('')}</div>
-    <!-- CHECK: link to the initiative on NAZCA -->
-    <a class="link-arrow" href="${c.link || '#'}">View initiative on NAZCA <img class="link-arrow__icon" src="${ICONS}chevron-down.svg" alt=""></a>
+    <a class="link-arrow" href="${c.link || '#'}"${c.link ? ' target="_blank" rel="noopener"' : ''}>Read more on NAZCA <img class="link-arrow__icon" src="${ICONS}chevron-down.svg" alt=""></a>
   </article>`;
 
 /* --- PAS table: No. | Plan to Accelerate Solutions (count) --- */

@@ -18,9 +18,9 @@
 .home-hero::before {               /* the three light gradients at the top of the photo */
   content: ""; position: absolute; inset: 0;
   background:
-    linear-gradient(193.12deg, #f8f7f7 0.3%, rgba(248, 246, 245, .24) 30.3%, rgba(248, 246, 244, 0) 48.6%) top / 100% 536px no-repeat,
-    linear-gradient(157.32deg, #d2dbe4 0.9%, rgba(217, 223, 230, .19) 22.2%, rgba(219, 224, 230, 0) 41.7%) top / 100% 536px no-repeat,
-    linear-gradient(to bottom, #d2dbe4, rgba(219, 224, 230, 0)) top / 100% 420px no-repeat;
+    linear-gradient(193.12deg, var(--color-hero-light) 0.3%, color-mix(in srgb, var(--color-hero-light) 24%, transparent) 30.3%, transparent 48.6%) top / 100% 536px no-repeat,
+    linear-gradient(157.32deg, var(--color-hero-mist) 0.9%, color-mix(in srgb, var(--color-hero-mist) 19%, transparent) 22.2%, transparent 41.7%) top / 100% 536px no-repeat,
+    linear-gradient(to bottom, var(--color-hero-mist), transparent) top / 100% 420px no-repeat;
 }
 .home-hero__content {
   position: relative; z-index: 1; width: 100%;
@@ -29,14 +29,14 @@
 }
 .home-hero__title {
   display: flex; flex-direction: column; gap: var(--spacing-16);
-  font: 400 clamp(56px, 10vw, 100px)/1 var(--font-family-heading);
+  font: 400 clamp(var(--font-size-56), 10vw, var(--font-size-100))/1 var(--font-family-heading);
   text-transform: uppercase;
 }
 .home-hero__year { color: var(--color-blue-grayish); }
 .home-hero__subtitle { font: 700 var(--font-size-20)/var(--line-height-32) var(--font-family-body); }
 
 /* Page background below the hero */
-.home-main { background: var(--color-bg-subtle); }
+.home-main { background: var(--color-bg-page); }
 
 /* ---------------------------------------------------------
    2. SNAPSHOT INTRO – title left, text right
@@ -64,5 +64,5 @@
 }
 @media (max-width: 600px) {
   .axis-grid { grid-template-columns: 1fr; }
-  .home-intro__title { font-size: 36px; line-height: 44px; }
+  .home-intro__title { font-size: var(--font-size-36); line-height: var(--line-height-44); }
 }

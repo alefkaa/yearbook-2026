@@ -23,13 +23,13 @@
 @import './components/tabs.css';
 @import './components/accordion.css';
 
-/* 5. Page-specific styles */
-@import './pages/home.css';
-
-/* 6. Print / Save as PDF */
+/* 5. Content components */
 @import './components/tables.css';
 @import './components/sidebar.css';
-
 @import './components/carousel.css';
 
+/* 6. Page-specific styles */
+@import './pages/home.css';
+
+/* 7. Print / Save as PDF (always last) */
 @import './components/print.css';

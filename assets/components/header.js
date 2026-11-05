@@ -16,7 +16,7 @@ class YbHeader extends HTMLElement {
   connectedCallback() {
     const heading = (this.getAttribute('heading') || '').split('|').join('<br>');
     const image   = this.getAttribute('image') || 'header-yearbook.png';
-    const eyebrow = this.getAttribute('eyebrow') || 'Yearbook of Global Climate Action 2026';
+    const eyebrow = this.getAttribute('eyebrow') || 'YEARBOOK OF GLOBAL CLIMATE ACTION 2026';
     const large   = this.getAttribute('size') === 'large';
 
     this.innerHTML = `

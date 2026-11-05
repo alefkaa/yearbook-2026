@@ -11,7 +11,7 @@
           "source": "<a href=\"https://healthcareclimateaction.org/racetozero\" target=\"_blank\" rel=\"noopener\">Health Care Without Harm</a>"
         },
         "latest": {
-          "value": "100 institutions",
+          "value": ">100 institutions",
           "year": "2026",
           "source": "<a href=\"https://healthcareclimateaction.org/racetozero\" target=\"_blank\" rel=\"noopener\">Health Care Without Harm</a>"
         }
@@ -25,9 +25,9 @@
           "source": ""
         },
         "latest": {
-          "value": "54 countries",
-          "year": "2024",
-          "source": "<a href=\"https://www.atachcommunity.com/our-impact/progress-tracker/\" target=\"_blank\" rel=\"noopener\">ATACH</a>"
+          "value": "56 countries",
+          "year": "2025",
+          "source": "<a href=\"https://data.lancetcountdown.org/data-explorer/2.1.1-health-adaptation-planning#health-national-adaptation-plans)\" target=\"_blank\" rel=\"noopener\">Lancet</a>"
         }
       }
     ],
@@ -47,7 +47,7 @@
         }
       },
       {
-        "indicator": "Number of developing countries with updated NAPs",
+        "indicator": "Number of developing countries with submitted NAPs",
         "trend": "progress",
         "baseline": {
           "value": "59 developing countries",
@@ -64,7 +64,7 @@
         "indicator": "Number of people facing hunger",
         "trend": "progress",
         "baseline": {
-          "value": "673 Million people",
+          "value": "~659 Million people",
           "year": "2024",
           "source": "<a href=\"https://www.who.int/news/item/28-07-2025-global-hunger-declines-but-rises-in-africa-and-western-asia-un-report\" target=\"_blank\" rel=\"noopener\">FAO, IFAD, UNICEF, WFP and WHO</a>"
         },
@@ -127,7 +127,7 @@
           "source": ""
         },
         "latest": {
-          "value": "171 Million students",
+          "value": ">171 Million students",
           "year": "2025",
           "source": "<a href=\"https://www.unicef.org/press-releases/more-171-million-students-had-their-schooling-disrupted-climate-hazards-2025-unicef\" target=\"_blank\" rel=\"noopener\">UNICEF</a>"
         }
@@ -143,47 +143,58 @@
         "latest": {
           "value": "32%",
           "year": "2025",
-          "source": ""
+          "source": "<a href=\"https://www.irena.org/News/pressreleases/2025/Oct/Womens-Share-of-the-Renewable-Energy-Workforce-Remains-at-32-percent\" target=\"_blank\" rel=\"noopener\">IRENA</a>"
         }
       }
     ],
     "19": [
       {
         "indicator": "No global indicator currently tracks this objective",
-        "trend": "progress",
+        "trend": "—",
         "baseline": {
           "value": "—",
-          "year": "—",
-          "source": "IRENA, SCL"
+          "year": "",
+          "source": ""
         },
         "latest": {
           "value": "—",
-          "year": "—",
-          "source": "IRENA, SCL"
+          "year": "",
+          "source": ""
+        }
+      },
+      {
+        "indicator": "Natural World Heritage sites facing high or very high climate change threats",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "43% of sites (117 of 271)",
+          "year": "2025",
+          "source": "<a href=\"https://iucn.org/press-release/202510/escalating-climate-threats-invasive-alien-species-and-pathogens-leave-natural\" target=\"_blank\" rel=\"noopener\">IUCN</a>"
+        }
+      },
+      {
+        "indicator": "National climate plans that include UNESCO-designated sites",
+        "trend": "insufficient-data",
+        "baseline": {
+          "value": "N/A",
+          "year": "New indicator",
+          "source": ""
+        },
+        "latest": {
+          "value": "5% of national climate plans",
+          "year": "2026",
+          "source": "<a href=\"https://unesdoc.unesco.org/ark:/48223/pf0000397874\" target=\"_blank\" rel=\"noopener\">UNESCO</a>"
         }
       }
     ]
   },
   "tracking": [
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
-      "name": "Children and Climate Initiative",
-      "description": "The Children and Climate Initiative is working to protect and enhance the health and education of children and young people facing climate change, especially in vulnerable communities.",
-      "indicator": "Domestic policy development",
-      "value": "0",
-      "unit": "references in domestic policy",
-      "reported": "Reported 2026",
-      "progress": 0,
-      "baseline": "Baseline: 0 (2024)",
-      "target": "Target: 8 (2027)",
-      "findings": "Processes for influencing domestic policy are still underway, with the aim to have more significant progress by the end of 2027."
-    },
-    {
-      "category": "Real-World Quantifiable Impact",
-      "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Preserving Legacies",
       "description": "Preserving Legacies is on a mission to safeguard the world’s heritage places and practices from the impacts of climate change by supporting local change makers with training, tools, and connections to equitably adapt what their communities cherish most and build a more just and thriving future.",
       "indicator": "Risk Assessment and Adaptation Planing for Heritage Places",
@@ -196,9 +207,7 @@
       "findings": "Custodians of these heritage places have now mapped relevant rightsholders and stakeholders and engaged them in a locally led climate change risk assessment and adaptation planning process for their heritage place and are in the process of disseminating the results. These heritage places include Petra Archaeology Park (Jordan), the Historic Mosque City of Bagerhat (Bangladesh), Payo'n Binoltan - Ifugao Rice Terraces (Philippines) and Nelson’s Dockyard National Park (Antigua and Barbuda)."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "less",
-      "statusLabel": "Less than halfway",
       "name": "Preserving Legacies",
       "description": "Preserving Legacies is on a mission to safeguard the world’s heritage places and practices from the impacts of climate change by supporting local change makers with training, tools, and connections to equitably adapt what their communities cherish most and build a more just and thriving future.",
       "indicator": "Growing a Community of Action to Scale Locally Led Adaptation Action for Culture and Heritage",
@@ -211,9 +220,7 @@
       "findings": "11 global networks have been recruited to be leadership partners of Heritage Adapts! including Center for Indigenous Peoples' Research and Development (CIPRED), Climate Heritage Network, ICOMOS, Julie’s Bicycle, Heritage Management Organization, Europa Nostra, International Federation of Library Associations, National Geographic Society, Shadona, World Monuments Fund, and UNESCO ICH NGO Forum. Another 113 Supporting Partners and Services Providers have been recruited."
     },
     {
-      "category": "Real-World Quantifiable Impact",
       "status": "more",
-      "statusLabel": "More than halfway",
       "name": "Children and Climate Initiative",
       "description": "The Children and Climate Initiative is working to protect and enhance the health and education of children and young people facing climate change, especially in vulnerable communities.",
       "indicator": "International awareness raising",
@@ -230,17 +237,19 @@
     {
       "title": "Contribution to Belem Health Action Plan",
       "initiative": "by the Children and Climate Initiative",
+      "link": "https://nazca.unfccc.int/CCI/111/children-and-climate-initiative#progress",
       "target": "Related CCI targets: Domestic policy development; International awareness raising",
       "contribution": "This action is reported as contributing to Objective 16. Promoting resilient health systems.",
       "body": [
         "The Children and Climate Initiative collaborated with the Brazilian Health Ministry to provide evidence and refined wording to ensure children were identified as a uniquely vulnerable demographic in the Belem Health Action Plan (BHAP). The resulting document requires signatories to design adaptive health policy which accurately reflects their needs.",
-        "Subsequently, the CCI was invited to join Action Group 16 on resilient health systems and WHO's ATACH community. Signatory countries must now address children as a uniquely vulnerable group and shape their health sector adaptation plans to fit their needs.",
+        "Subsequently, the CCI was invited to join Activation Group 16 on resilient health systems and WHO's ATACH community. Signatory countries must now address children as a uniquely vulnerable group and shape their health sector adaptation plans to fit their needs.",
         "The Initiative’s overall goals include awareness raising and facilitating policy change to reflect the interests of children – this outcome is specifically related to achieving this goal."
       ]
     },
     {
       "title": "Onboarding 2026 Cohort of Heritage Custodians",
       "initiative": "by Preserving Legacies",
+      "link": "https://nazca.unfccc.int/CCI/228/preserving-legacies#progress",
       "target": "",
       "contribution": "",
       "body": [
